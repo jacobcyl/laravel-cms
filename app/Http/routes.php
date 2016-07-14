@@ -18,3 +18,10 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::group(['middleware'=>['web','auth'], 'prefix' => 'dashboard', 'namespace' => 'Dashboard', 'as' => 'dashboard.'], function (){
+    Route::get('/', [
+        'as'   => 'index',
+        'uses' => 'DashboardController@showDashboard',
+    ]);
+});
