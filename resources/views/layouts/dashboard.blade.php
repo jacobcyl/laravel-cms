@@ -162,14 +162,38 @@
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
-                <li class="active">
-                    <a href="{{ url('/dashboard') }}"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                <li>
+                    <a href="{{ url('/dashboard') }}"><i class="fa fa-fw fa-dashboard"></i>控制面板</a>
                 </li>
                 <li>
-                    <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#article">
+                        <i class="fa fa-fw fa-file-text"></i>
+                        文章管理
+                        <i class="fa fa-fw fa-caret-down"></i>
+                    </a>
+                    <ul id="article" class="collapse">
+                        <li>
+                            <a href="{{ url('dashboard/article') }}">文章列表</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('dashboard/article/create') }}">发布文章</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="tables.html"><i class="fa fa-fw fa-table"></i> Tables</a>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#page">
+                        <i class="fa fa-fw fa-file-text"></i>
+                        页面管理
+                        <i class="fa fa-fw fa-caret-down"></i>
+                    </a>
+                    <ul id="page" class="collapse">
+                        <li>
+                            <a href="{{ url('dashboard/page') }}">页面列表</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('dashboard/page/create') }}">新增页面</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>

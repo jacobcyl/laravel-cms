@@ -11,17 +11,26 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
-Route::auth();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/', 'HomeController@index');
 
 Route::group(['middleware'=>['web','auth'], 'prefix' => 'dashboard', 'namespace' => 'Dashboard', 'as' => 'dashboard.'], function (){
     Route::get('/', [
         'as'   => 'index',
         'uses' => 'DashboardController@showDashboard',
     ]);
+
+    Route::group(['prefix'=>'/article'], function(){
+        Route::get('/', 'PostController@index');
+        Route::get('/create', 'PostController@create');
+    });
+    
+    Route::group(['prefix'=>'/page'], function (){
+        Route::get('/', 'PageController@index');
+        Route::get('/create', 'PageController@create');
+    });
 });

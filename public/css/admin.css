@@ -2,7 +2,6 @@
 .morris-hover.morris-default-style .morris-hover-point{white-space:nowrap;margin:0.1em 0}
 
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Lato);
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -7915,10 +7914,10 @@ button.close {
  */
 
 /* Global Styles */
-
+html, body {margin:0;padding:0;height:100%;}
 body {
     margin-top: 100px;
-    background-color: #222;
+    /*background-color: #222;*/
 }
 
 @media(min-width:768px) {
@@ -7929,10 +7928,12 @@ body {
 
 #wrapper {
     padding-left: 0;
+    min-height:100%;
 }
 
 #page-wrapper {
     width: 100%;
+    min-height:100%;
     padding: 0;
     background-color: #fff;
 }
@@ -8040,6 +8041,7 @@ ul.alert-dropdown {
 
     .side-nav>li>a {
         width: 225px;
+        position: relative;
     }
 
     .side-nav li a:hover,
@@ -8051,6 +8053,7 @@ ul.alert-dropdown {
 
 .side-nav>li>ul {
     padding: 0;
+    background: #000;
 }
 
 .side-nav>li>ul>li>a {
@@ -8058,10 +8061,32 @@ ul.alert-dropdown {
     padding: 10px 15px 10px 38px;
     text-decoration: none;
     color: #999;
+    position: relative;
 }
 
 .side-nav>li>ul>li>a:hover {
     color: #fff;
+    background-color: inherit;
+}
+.side-nav>li>a.has-active-item{
+    background-color: #000;
+}
+.side-nav>li.active>a:after, .side-nav>li>ul>li.active>a:after{
+    right: 0;
+    border: 8px solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #fff;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.side-nav>li>ul>li.active>a{
+    background: #3a9c9a;
+    color:#fff;
 }
 
 /* Flot Chart Containers */

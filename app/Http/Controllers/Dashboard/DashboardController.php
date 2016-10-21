@@ -14,6 +14,6 @@ use App\Http\Controllers\Controller;
 class DashboardController extends Controller
 {
     public function showDashboard(){
-        return view('dashboard.index');
+        return view('dashboard.home.index');
     }
 }
