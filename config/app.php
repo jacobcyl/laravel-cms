@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'locale' => 'cn',
+    'locale' => 'zh',
 
     /*
     |--------------------------------------------------------------------------
@@ -157,6 +157,8 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         Dimsav\Translatable\TranslatableServiceProvider::class,
+        
+        Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
     ],
 
     /*
@@ -202,7 +204,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'LaravelLocalization' => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
     ],
 
 ];

@@ -58,7 +58,7 @@
 <!-- FullScreen -->
 <div class="intro-header">
     <div class="col-xs-12 text-center abcen1">
-        <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Flatfy</h1>
+        <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">PlurJan</h1>
         <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Clean & minimal Theme</h3>
         <ul class="list-inline intro-social-buttons">
             <li><a href="https://twitter.com/galantiandrea" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
@@ -96,7 +96,25 @@
                 <li class="menuItem"><a href="#screen">Screenshot</a></li>
                 <li class="menuItem"><a href="#credits">Credits</a></li>
                 <li class="menuItem"><a href="#contact">Contact</a></li>
+                <li class="menuItem">
+                    <div class="dropdown">
+                        <div class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                            {{ LaravelLocalization::getCurrentLocaleNativeReading() }}
+                            <span class="caret"></span>
+                        </div>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                                <li role="presentation">
+                                    <a role="menuitem" rel="alternate" hreflang="{{$localeCode}}" href="{{LaravelLocalization::getLocalizedURL($localeCode) }}">
+                                        {{ $properties['native'] }}
+                                    </a>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </li>
             </ul>
+
         </div>
 
     </div>

@@ -16,7 +16,10 @@
 });*/
 
 
-Route::get('/', 'HomeController@index');
+
+Route::group(['prefix'=>LaravelLocalization::setLocale()], function(){
+    Route::get('/', 'HomeController@index');
+});
 
 Route::group(['middleware'=>['web','auth'], 'prefix' => 'dashboard', 'namespace' => 'Dashboard', 'as' => 'dashboard.'], function (){
     Route::get('/', [

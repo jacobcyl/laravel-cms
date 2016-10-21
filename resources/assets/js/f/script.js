@@ -6,15 +6,21 @@ Build: 1.0
 http://www.andreagalanti.it
 */
 
-$(window).load(function() { 
-	//Preloader 
-	$('#status').delay(300).fadeOut(); 
+$(window).on('load', function() {
+	//Preloader
+	$('#status').delay(300).fadeOut();
 	$('#preloader').delay(300).fadeOut('slow');
 	$('body').delay(550).css({'overflow':'visible'});
 })
 
+new WOW().init();
+
 $(document).ready(function() {
-		//animated logo
+
+	$('.navbar-default').stickUp();
+
+	
+	//animated logo
 		$(".navbar-brand").hover(function () {
 			$(this).toggleClass("animated shake");
 		});
@@ -52,7 +58,7 @@ $(document).ready(function() {
 		});
 
 		//SmothScroll
-		$('a[href*=#]').click(function() {
+		$('a[href*=\\#]').click(function() {
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 			&& location.hostname == this.hostname) {
 					var $target = $(this.hash);

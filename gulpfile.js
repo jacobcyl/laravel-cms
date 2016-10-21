@@ -38,13 +38,13 @@ elixir(function(mix) {
             './public/js/app.js',
             'f/modernizr-2.8.3.min.js',
             'f/owl.carousel.js',
-            'f/script.js',
-            'f/stickUp.min.js',
             'f/jquery.corner.js',
             'f/wow.min.js',
             'f/classie.js',
             'f/uiMorphingButton_inflow.js',
             'f/jquery.magnific-popup.js',
+            'f/stickUp.min.js',
+            'f/script.js',
             'front.js'
         ], 'public/js/front.js')
         .scripts([//backend javascript files

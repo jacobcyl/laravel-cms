@@ -11,7 +11,7 @@
     "laravel-elixir-vue-2":"^0.2.0",
     "laravel-elixir-webpack-official":"^1.0.2",
     "lodash":"^4.16.2",
-    "bootstrap": "3.3.6",
+    "bootstrap-sass": "3.3.7",
     "jquery": "^3.1.0",
     "awesome-bootstrap-checkbox":"0.3.7",
     "font-awesome":"^4.6.3"
