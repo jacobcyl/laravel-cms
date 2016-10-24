@@ -93,8 +93,8 @@
 
                 <li class="menuItem"><a href="#whatis">@lang('page.About')</a></li>
                 <li class="menuItem"><a href="#useit">@lang('page.Prospects')</a></li>
-                <li class="menuItem"><a href="#screen">Screenshot</a></li>
-                <li class="menuItem"><a href="#credits">Credits</a></li>
+                <li class="menuItem"><a href="#screen">@lang('page.Item Gallery')</a></li>
+                <li class="menuItem"><a href="#credits">@lang('page.Honor')</a></li>
                 <li class="menuItem"><a href="#contact">Contact</a></li>
                 <li class="menuItem">
                     <div class="dropdown">
@@ -195,21 +195,18 @@
         <div class="row">
 
             <div class="col-sm-6 pull-right wow fadeInRightBig">
-                <img class="img-responsive " src="img/ipad.png" alt="">
+                <img class="img-responsive " src="img/item5.png" alt="">
             </div>
 
             <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
-                <h3 class="section-heading">Full Responsive</h3>
-                <div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+                <h3 class="section-heading">@lang('page.Turbine power generation system')</h3>
+                <div class="sub-title lead3">@lang('page.Prospects_title_one')</div>
                 <p class="lead">
-                    In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret.
-                    Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur,
-                    uam non erat mirum sapientiae lorem cupido
-                    patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
+                    @lang('page.Prospects_desc_one')
                 </p>
 
-                <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
-                    <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
+                {{--<p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>--}}
+                    {{--<a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>--}}
             </div>
         </div>
     </div>
@@ -222,36 +219,28 @@
         <div class="row">
             <div class="col-sm-6 wow fadeInLeftBig">
                 <div id="owl-demo-1" class="owl-carousel">
-                    <a href="img/iphone.png" class="image-link">
+                    <a href="img/item6.png" class="image-link">
                         <div class="item">
-                            <img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+                            <img  class="img-responsive img-rounded" src="img/item6.png" alt="">
                         </div>
                     </a>
-                    <a href="img/iphone.png" class="image-link">
+                    <a href="img/item7.png" class="image-link">
                         <div class="item">
-                            <img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
-                        </div>
-                    </a>
-                    <a href="img/iphone.png" class="image-link">
-                        <div class="item">
-                            <img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+                            <img  class="img-responsive img-rounded" src="img/item7.png" alt="">
                         </div>
                     </a>
                 </div>
             </div>
 
             <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">
-                <h3 class="section-heading">Drag Gallery</h3>
-                <div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+                <h3 class="section-heading">@lang('page.New high speed air bearing turbine')</h3>
+                <div class="sub-title lead3">@lang('page.Prospects_title_two')</div>
                 <p class="lead">
-                    In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret.
-                    Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur,
-                    uam non erat mirum sapientiae lorem cupido
-                    patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
+                    @lang('page.Prospects_desc_two')
                 </p>
 
-                <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
-                    <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
+                {{--<p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>--}}
+                    {{--<a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>--}}
             </div>
         </div>
     </div>
@@ -262,21 +251,30 @@
     <div class="container">
 
         <div class="row">
+            <div class="col-sm-6 pull-right wow fadeInLeftBig">
+                <div id="owl-demo-2" class="owl-carousel">
+                    <a href="img/item9.png" class="image-link">
+                        <div class="item">
+                            <img  class="img-responsive img-rounded" src="img/item9.png" alt="">
+                        </div>
+                    </a>
+                    <a href="img/item36.jpg" class="image-link">
+                        <div class="item">
+                            <img  class="img-responsive img-rounded" src="img/item36.jpg" alt="">
+                        </div>
+                    </a>
 
-            <div class="col-sm-6 pull-right wow fadeInRightBig">
-                <img class="img-responsive " src="img/doge.png" alt="">
+                </div>
             </div>
 
-            <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
-                <h3 class="section-heading">Font Awesome & Glyphicon</h3>
-                <p class="lead">A special thanks to Death to the Stock Photo for
-                    providing the photographs that you see in this template.
-                </p>
 
+            <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
+                <h3 class="section-heading">@lang('page.Air bearing speed turbo blower system')</h3>
+                <div class="sub-title lead3">@lang('page.Prospects_title_three')</div>
                 <ul class="descp lead2">
-                    <li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
-                    <li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
-                    <li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
+                    <li><i class="glyphicon glyphicon-cog"></i> @lang('page.desc_item_one')</li>
+                    <li><i class="glyphicon glyphicon-refresh"></i> @lang('page.desc_item_two')</li>
+                    <li><i class="glyphicon glyphicon-record"></i> @lang('page.desc_item_three')</li>
                 </ul>
             </div>
         </div>
@@ -289,46 +287,57 @@
     <div class="container">
         <div class="row" >
             <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
-                <h2>Screen App</h2>
-                <p class="lead" style="margin-top:0">A special thanks to Death.</p>
+                <h2>@lang('page.Item Gallery')</h2>
+                <p class="lead" style="margin-top:0">@lang('page.item_gallery_desc')</p>
             </div>
         </div>
         <div class="row wow bounceInUp" >
             <div id="owl-demo" class="owl-carousel">
 
-                <a href="img/slide/1.png" class="image-link">
+                <a href="img/item2.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" src="img/item2.png" alt="Owl Image">
                     </div>
                 </a>
 
-                <a href="img/slide/2.png" class="image-link">
+                <a href="img/item4.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" src="img/item4.png" alt="Owl Image">
                     </div>
                 </a>
 
-                <a href="img/slide/3.png" class="image-link">
+                <a href="img/item8.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" src="img/item8.png" alt="Owl Image">
                     </div>
                 </a>
 
-                <a href="img/slide/1.png" class="image-link">
+                <a href="img/item14.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" src="img/item14.png" alt="Owl Image">
                     </div>
                 </a>
 
-                <a href="img/slide/2.png" class="image-link">
+                <a href="img/item15.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" src="img/item15.png" alt="Owl Image">
                     </div>
                 </a>
 
-                <a href="img/slide/3.png" class="image-link">
+                <a href="img/item25.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" src="img/item25.png" alt="Owl Image">
+                    </div>
+                </a>
+
+                <a href="img/item26.png" class="image-link">
+                    <div class="item">
+                        <img  class="img-responsive img-rounded" src="img/item26.png" alt="Owl Image">
+                    </div>
+                </a>
+                <a href="img/item27.png" class="image-link">
+                    <div class="item">
+                        <img  class="img-responsive img-rounded" src="img/item27.png" alt="Owl Image">
                     </div>
                 </a>
             </div>
@@ -338,6 +347,7 @@
 
 </div>
 
+{{--
 <div  class="content-section-c ">
     <div class="container">
         <div class="row">
@@ -366,6 +376,7 @@
         </div>>
     </div>
 </div>
+--}}
 
 <!-- Credits -->
 <div id="credits" class="content-section-a">
@@ -373,11 +384,11 @@
         <div class="row">
 
             <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-                <h2>Credits</h2>
-                <p class="lead" style="margin-top:0">A special thanks to Death.</p>
+                <h2>@lang('page.Honor')</h2>
+                <p class="lead" style="margin-top:0">@lang('page.honor_title')</p>
             </div>
 
-            <div class="col-sm-6  block wow bounceIn">
+            {{--<div class="col-sm-6  block wow bounceIn">
                 <div class="row">
                     <div class="col-md-4 box-icon rotate">
                         <i class="fa fa-desktop fa-4x "> </i>
@@ -398,11 +409,11 @@
                         <p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p>
                     </div>
                 </div>
-            </div>
+            </div>--}}
         </div>
 
         <div class="row tworow">
-            <div class="col-sm-6  block wow bounceIn">
+            {{--<div class="col-sm-6  block wow bounceIn">
                 <div class="row">
                     <div class="col-md-4 box-icon rotate">
                         <i class="fa fa-magic fa-4x "> </i>
@@ -423,7 +434,7 @@
                         <p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p>
                     </div>
                 </div>
-            </div>
+            </div>--}}
         </div>
     </div>
 </div>
