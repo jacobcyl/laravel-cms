@@ -69,7 +69,7 @@ return [
     'Chinese Academy of Sciences Institute of Advanced Manufacturing Technology, Changzhou' => 'Chinese Academy of Sciences Institute of Advanced Manufacturing Technology, Changzhou',
     'Beijing Iron and Steel Research Institute' => 'Beijing Iron and Steel Research Institute',
 
-    'Know More' => 'page.Know More',
+    'Know More' => 'Know More',
 
     'After decades of technological accumulation, now it has research, development and manufacture of the whole dynamic core key infrastructure technology products and capabilities based technology products pressure gas bearing system.' => 'After decades of technological accumulation, now it has research, development and manufacture of the whole dynamic core key infrastructure technology products and capabilities based technology products pressure gas bearing system.',
 
