@@ -250,8 +250,17 @@
 
     <div class="container">
 
-        <div class="row">
-            <div class="col-sm-6 pull-right wow fadeInLeftBig">
+        <div class="row">           
+            <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
+                <h3 class="section-heading">@lang('page.Air bearing speed turbo blower system')</h3>
+                <div class="sub-title lead3">@lang('page.Prospects_title_three')</div>
+                <ul class="descp lead2">
+                    <li><i class="glyphicon glyphicon-cog"></i> @lang('page.desc_item_one')</li>
+                    <li><i class="glyphicon glyphicon-refresh"></i> @lang('page.desc_item_two')</li>
+                    <li><i class="glyphicon glyphicon-record"></i> @lang('page.desc_item_three')</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 wow fadeInLeftBig">
                 <div id="owl-demo-2" class="owl-carousel">
                     <a href="img/item9.png" class="image-link">
                         <div class="item">
@@ -265,17 +274,6 @@
                     </a>
 
                 </div>
-            </div>
-
-
-            <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
-                <h3 class="section-heading">@lang('page.Air bearing speed turbo blower system')</h3>
-                <div class="sub-title lead3">@lang('page.Prospects_title_three')</div>
-                <ul class="descp lead2">
-                    <li><i class="glyphicon glyphicon-cog"></i> @lang('page.desc_item_one')</li>
-                    <li><i class="glyphicon glyphicon-refresh"></i> @lang('page.desc_item_two')</li>
-                    <li><i class="glyphicon glyphicon-record"></i> @lang('page.desc_item_three')</li>
-                </ul>
             </div>
         </div>
     </div>
