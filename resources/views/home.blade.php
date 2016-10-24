@@ -94,8 +94,8 @@
                 <li class="menuItem"><a href="#whatis">@lang('page.About')</a></li>
                 <li class="menuItem"><a href="#useit">@lang('page.Prospects')</a></li>
                 <li class="menuItem"><a href="#screen">@lang('page.Item Gallery')</a></li>
-                <li class="menuItem"><a href="#credits">@lang('page.Honor')</a></li>
-                <li class="menuItem"><a href="#contact">Contact</a></li>
+                {{--<li class="menuItem"><a href="#credits">@lang('page.Honor')</a></li>--}}
+                <li class="menuItem"><a href="#contact">@lang('page.Contact')</a></li>
                 <li class="menuItem">
                     <div class="dropdown">
                         <div class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
@@ -379,6 +379,7 @@
 --}}
 
 <!-- Credits -->
+{{--
 <div id="credits" class="content-section-a">
     <div class="container">
         <div class="row">
@@ -388,7 +389,7 @@
                 <p class="lead" style="margin-top:0">@lang('page.honor_title')</p>
             </div>
 
-            {{--<div class="col-sm-6  block wow bounceIn">
+            <div class="col-sm-6  block wow bounceIn">
                 <div class="row">
                     <div class="col-md-4 box-icon rotate">
                         <i class="fa fa-desktop fa-4x "> </i>
@@ -409,11 +410,11 @@
                         <p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p>
                     </div>
                 </div>
-            </div>--}}
+            </div>
         </div>
 
         <div class="row tworow">
-            {{--<div class="col-sm-6  block wow bounceIn">
+            <div class="col-sm-6  block wow bounceIn">
                 <div class="row">
                     <div class="col-md-4 box-icon rotate">
                         <i class="fa fa-magic fa-4x "> </i>
@@ -434,23 +435,11 @@
                         <p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p>
                     </div>
                 </div>
-            </div>--}}
-        </div>
-    </div>
-</div>
-
-<!-- Banner Download -->
-<div id="downloadlink" class="banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-                <h2>Download Free</h2>
-                <p class="lead" style="margin-top:0">Pay with a Tweet</p>
-                <p><a class="btn btn-embossed btn-primary view" role="button">Free Download</a></p>
             </div>
         </div>
     </div>
 </div>
+--}}
 
 <!-- Contact -->
 <div id="contact" class="content-section-a">
@@ -458,33 +447,33 @@
         <div class="row">
 
             <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-                <h2>Contact Us</h2>
-                <p class="lead" style="margin-top:0">A special thanks to Death.</p>
+                <h2>@lang('page.Contact Us')</h2>
+                <p class="lead" style="margin-top:0">@lang('page.A special thanks to Death.')</p>
             </div>
 
-            <form role="form" action="" method="post" >
+            <form role="form" action="/contact" method="post" >
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="InputName">Your Name</label>
+                        <label for="InputName">@lang('page.Your Name')</label>
                         <div class="input-group">
-                            <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                            <input type="text" class="form-control" name="InputName" id="InputName" placeholder="@lang('page.Enter Name')" required>
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok"></i></span>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="InputEmail">Your Email</label>
+                        <label for="InputEmail">@lang('page.Your Email')</label>
                         <div class="input-group">
-                            <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                            <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="@lang('page.Enter Email')" required  >
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok"></i></span>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="InputMessage">Message</label>
+                        <label for="InputMessage">@lang('page.Your Message')</label>
                         <div class="input-group">
                             <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-ok"></i></span>
                         </div>
                     </div>
 
@@ -495,14 +484,15 @@
             <hr class="featurette-divider hidden-lg">
             <div class="col-md-5 col-md-push-1 address">
                 <address>
-                    <h3>Office Location</h3>
-                    <p class="lead"><a href="https://www.google.com/maps/preview?ie=UTF-8&q=The+Pentagon&fb=1&gl=us&hq=1400+Defense+Pentagon+Washington,+DC+20301-1400&cid=12647181945379443503&ei=qmYfU4H8LoL2oATa0IHIBg&ved=0CKwBEPwSMAo&safe=on">The Pentagon<br>
-                            Washington, DC 20301</a><br>
-                        Phone: XXX-XXX-XXXX<br>
-                        Fax: XXX-XXX-YYYY</p>
+                    <h3>@lang('page.Office Location')</h3>
+                    <p class="lead"><a target="_blank" href="https://goo.gl/maps/hSLwsWHR4cw">@lang('page.ShangHai PlurJan Aviation Technology Co.,Ltd.')<br>
+                            @lang('page.China, Shanghai Shi, Jiading Qu, North St, Juyuan New Area') </a><br>
+                        @lang('page.Phone'): (+86)13916082128<br>
+                        @lang('page.Tel'): (+86)021-55512352<br>
+                        @lang('page.Email'): cchp_china@163.com</p>
                 </address>
 
-                <h3>Social</h3>
+                <h3>@lang('page.Social')</h3>
                 <li class="social">
                     <a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
                     <a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a>
@@ -520,36 +510,35 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <h3 class="footer-title">Follow Me!</h3>
-                <p>Vuoi ricevere news su altri template?<br/>
-                    Visita Andrea Galanti.it e vedrai tutte le news riguardanti nuovi Theme!<br/>
-                    Go to: <a  href="http://andreagalanti.it" target="_blank">andreagalanti.it</a>
+                <h3 class="footer-title">@lang('page.Know More')</h3>
+                <p>@lang('page.After decades of technological accumulation, now it has research, development and manufacture of the whole dynamic core key infrastructure technology products and capabilities based technology products pressure gas bearing system.')</p>
+                <p>
+                    @lang('page.We have the research and development of core infrastructure TECHNICAL FIELD small miniature high-speed blowers, turbochargers, high-speed motor, turbojet engines, turbines and turbine generators and other components, assemblies supporting the design and manufacturing capability of product technology.')
                 </p>
-
-                <!-- LICENSE -->
-                <a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
-                   property="dc:title">Flatfy Theme </a> by
-                <a rel="dc:creator" href="http://www.andreagalanti.it"
-                   property="cc:attributionName">Andrea Galanti</a>
-                is licensed to the public under
-                <BR>the <a rel="license"
-                           href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
-                    Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
-
-
+                <p>
+                    @lang('page.We have a superior performance and perfect, completely independent intellectual property rights fully dynamic pressure gas bearing system design and development and manufacturing technology.')
+                </p>
+                <p>
+                    @lang('page.We not only fill the gaps, but in the end to break the foreign monopoly in the field of advanced technology.');
+                </p>
+                <p>
+                    @lang('page.ive core foundation technology invention patent applications, 16 core foundation of applied technology invention patent applications, 19 PCT international patent applications, 22 utility model patents, nine Taiwan invention patent applications, a total of 71. Of which two are invention patents, six utility model patents have been authorized.')
+                </p>
             </div> <!-- /col-xs-7 -->
 
             <div class="col-md-5">
                 <div class="footer-banner">
-                    <h3 class="footer-title">Flatfy Theme</h3>
+                    <h3 class="footer-title">@lang('page.Cooperation Agency')</h3>
                     <ul>
-                        <li>12 Column Grid Bootstrap</li>
-                        <li>Form Contact</li>
-                        <li>Drag Gallery</li>
-                        <li>Full Responsive</li>
-                        <li>Lorem Ipsum</li>
+                        <li>@lang('page.Shanghai Institute of Ceramics, Chinese Academy of Sciences')</li>
+                        <li>@lang('page.High Performance Ceramics and ultrastructure of the State Key Laboratory')</li>
+                        <li>@lang('page.Structural ceramics and composite materials research center')</li>
+                        <li>@lang('page.Shanghai PlurJian aviation co-production base')</li>
+                        <li>@lang('page.Foshan CAS Shanghai Institute of Silicate Ceramic Development Center')</li>
+                        <li>@lang('page.Xi an Jiaotong University - Refrigeration and Cryogenic Engineering')</li>
+                        <li>@lang('page.Chinese Academy of Sciences Institute of Advanced Manufacturing Technology, Changzhou')</li>
+                        <li>@lang('page.Beijing Iron and Steel Research Institute')</li>
                     </ul>
-                    Go to: <a href="http://andreagalanti.it/flatfy" target="_blank">andreagalanti.it/flatfy</a>
                 </div>
             </div>
         </div>

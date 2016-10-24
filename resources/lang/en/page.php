@@ -10,6 +10,8 @@ return [
     'Prospects' => 'Prospects',
     'Item Gallery'   => 'Item Gallery',
     'Honor' => 'Honor',
+    'Contact' => 'Contact',
+    'Contact Us' => 'Contact Us',
 
     'company_overview' => 'About PlurJan',
     'company_overview_content'  => 'ShangHai PlurJan Aviation Technology Co., Ltd. has been committed to the R&D of hydrodynamic gas lubrication rotor-bearing system technology, and the design and manufacturing of its related products. With the support of top technologies from Shanghai Research Institute of Silicate (CAS), Xi’an Jiaotong University, Central Iron&Steel Research Institute, Institute of Advanced Manufacturing Technology (CAS), we invented a novel micro-grooves impeller shape hydrodynamic gas lubrication rotor-bearing system, and a new hybrid hydrodynamic gas bearing based on the micro-grooves impeller shape gas bearing and the idea about compliant foil hydrodynamic gas bearing. We are the only company who has the ability and the related intellectual property to development new hydrodynamic gas lubrication rotor-bearing system in China. We are becoming one of the world’s leaders in the field of R&D, design, manufacturing about hydrodynamic gas lubrication rotor-bearing system technology.',
@@ -37,6 +39,48 @@ return [
     'desc_item_three' => 'To meet the high-speed rotary axis 100,000 rpm ~ 1,000,000 rpm performance requirements',
     'item_gallery_desc' => 'partly product item photo show',
 
-    'honor_title' => 'Our research & technology & team'
+    'honor_title' => 'Our research & technology & team',
+
+    'Your Name' => 'Your Name',
+    'Your Email' => 'Your Email',
+    'Your Message' => 'Your Message',
+
+    'Enter Name' => 'Enter Name',
+    'Enter Email' => 'Enter Email',
+
+    'A special thanks to Death.' => 'A special thanks to Death.',
+
+    'China, Shanghai Shi, Jiading Qu, North St, Juyuan New Area' => 'China, Shanghai Shi, Jiading Qu, North St, Juyuan New Area',
+    'Phone' => 'Phone',
+    'Tel' => 'Tel',
+    'Email' => 'Email',
+    
+    'Office Location' => 'Office Location',
+
+    'Social' => 'Social',
+
+    'Cooperation Agency' => 'Cooperation Agency',
+
+    'High Performance Ceramics and ultrastructure of the State Key Laboratory' => 'High Performance Ceramics and ultrastructure of the State Key Laboratory',
+    'Structural ceramics and composite materials research center' => 'Structural ceramics and composite materials research center',
+    'Shanghai PlurJian aviation co-production base' => 'Shanghai PlurJian aviation co-production base',
+    'Foshan CAS Shanghai Institute of Silicate Ceramic Development Center' => 'Foshan CAS Shanghai Institute of Silicate Ceramic Development Center',
+    'Xi an Jiaotong University - Refrigeration and Cryogenic Engineering' => 'Xi\'an Jiaotong University - Refrigeration and Cryogenic Engineering',
+    'Chinese Academy of Sciences Institute of Advanced Manufacturing Technology, Changzhou' => 'Chinese Academy of Sciences Institute of Advanced Manufacturing Technology, Changzhou',
+    'Beijing Iron and Steel Research Institute' => 'Beijing Iron and Steel Research Institute',
+
+    'Know More' => 'page.Know More',
+
+    'After decades of technological accumulation, now it has research, development and manufacture of the whole dynamic core key infrastructure technology products and capabilities based technology products pressure gas bearing system.' => 'After decades of technological accumulation, now it has research, development and manufacture of the whole dynamic core key infrastructure technology products and capabilities based technology products pressure gas bearing system.',
+
+    'We have the research and development of core infrastructure TECHNICAL FIELD small miniature high-speed blowers, turbochargers, high-speed motor, turbojet engines, turbines and turbine generators and other components, assemblies supporting the design and manufacturing capability of product technology.' => 'We have the research and development of core infrastructure TECHNICAL FIELD small miniature high-speed blowers, turbochargers, high-speed motor, turbojet engines, turbines and turbine generators and other components, assemblies supporting the design and manufacturing capability of product technology.',
+
+    'We not only fill the gaps, but in the end to break the foreign monopoly in the field of advanced technology.' => 'We not only fill the gaps, but in the end to break the foreign monopoly in the field of advanced technology.',
+
+    'We have a superior performance and perfect, completely independent intellectual property rights fully dynamic pressure gas bearing system design and development and manufacturing technology.' => 'We have a superior performance and perfect, completely independent intellectual property rights fully dynamic pressure gas bearing system design and development and manufacturing technology.',
+
+    'Five core foundation technology invention patent applications, 16 core foundation of applied technology invention patent applications, 19 PCT international patent applications, 22 utility model patents, nine Taiwan invention patent applications, a total of 71. Of which two are invention patents, six utility model patents have been authorized.' => 'Five core foundation technology invention patent applications, 16 core foundation of applied technology invention patent applications, 19 PCT international patent applications, 22 utility model patents, nine Taiwan invention patent applications, a total of 71. Of which two are invention patents, six utility model patents have been authorized.',
+
+
 
 ];
