@@ -18,6 +18,7 @@ elixir(function(mix) {
     mix.copy('node_modules/bootstrap/fonts', 'public/build/fonts/bootstrap');
     mix.sass(['app.scss', 'front.scss'], 'public/css/all.css')
         .styles([//front stylesheet files
+            'f/googlefonts.css',
             './public/css/all.css',
             'f/custom.css',
             'f/owl.carousel.css',

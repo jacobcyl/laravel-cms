@@ -18,8 +18,8 @@
 
     <!-- Custom Google Web Font -->
     {{--<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">--}}
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    {{--<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>--}}
+    {{--<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>--}}
 
     <!-- Custom CSS-->
     {{--<link href="css/general.css" rel="stylesheet">--}}
@@ -58,12 +58,12 @@
 <!-- FullScreen -->
 <div class="intro-header">
     <div class="col-xs-12 text-center abcen1">
-        <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">PlurJan</h1>
-        <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Clean & minimal Theme</h3>
+        <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">@lang('page.slogan')</h1>
+        <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">@lang('page.ShangHai PlurJan Aviation Technology Co.,Ltd.')</h3>
         <ul class="list-inline intro-social-buttons">
-            <li><a href="https://twitter.com/galantiandrea" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
+            <li><a href="#" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
             </li>
-            <li id="download" ><a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
+            <li id="contact_btn" ><a href="#contact" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">@lang('page.contact_us')</span></a>
             </li>
         </ul>
     </div>
@@ -85,14 +85,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#home">Flatfy</a>
+            <a class="navbar-brand" href="#home">@lang('page.PlurJan')</a>
         </div>
 
         <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
             <ul class="nav navbar-nav">
 
-                <li class="menuItem"><a href="#whatis">What is?</a></li>
-                <li class="menuItem"><a href="#useit">Use It</a></li>
+                <li class="menuItem"><a href="#whatis">@lang('page.About')</a></li>
+                <li class="menuItem"><a href="#useit">@lang('page.Prospects')</a></li>
                 <li class="menuItem"><a href="#screen">Screenshot</a></li>
                 <li class="menuItem"><a href="#credits">Credits</a></li>
                 <li class="menuItem"><a href="#contact">Contact</a></li>
@@ -124,33 +124,37 @@
 <div id="whatis" class="content-section-b" style="border-top: 0">
     <div class="container">
 
-        <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-            <h2>What is?</h2>
-            <p class="lead" style="margin-top:0">A special thanks to Death.</p>
-
+        <div class="row">
+            {{--<div class="col-md-4">
+                <img src="img/aviation_modle.jpg" style="width:100%;">
+            </div>--}}
+            <div class="col-md-12 wrap_title">
+                <h3>@lang('page.company_overview')</h3>
+                <p class="lead" style="margin-top:0">@lang('page.company_overview_content')</p>
+            </div>
         </div>
 
         <div class="row">
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img class="rotate" src="img/icon/tweet.svg" alt="Generic placeholder image">
-                <h3>Follow Me</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <img class="sm-item-img" src="img/item32.png" alt="Micro-grooved thrust bearing">
+                <h3>@lang('page.Micro-grooved thrust bearing')</h3>
+                <p class="lead">微沟槽式止推轴承(Micro-grooved thrust bearing)</p>
 
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img  class="rotate" src="img/icon/picture.svg" alt="Generic placeholder image">
-                <h3>Gallery</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <img  class="sm-item-img" src="img/item1.png" alt="Generic placeholder image">
+                <h3>@lang('page.Hybrid micro-grooved foil thrust bearing')</h3>
+                <p class="lead"> 混合式止推轴承(Hybrid micro-grooved foil thrust bearing)</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img  class="rotate" src="img/icon/retina.svg" alt="Generic placeholder image">
-                <h3>Retina</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <img  class="sm-item-img" src="img/item33.png" alt="Generic placeholder image">
+                <h3>@lang('page.Multi-decked protuberant foil thrust bearing')</h3>
+                <p class="lead">多层鼓泡箔片止推轴承(Multi-decked protuberant foil thrust bearing)</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
@@ -159,23 +163,23 @@
         <div class="row tworow">
 
             <div class="col-sm-4  wow fadeInDown text-center">
-                <img class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
-                <h3>Responsive</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <img class="sm-item-img" src="img/item31.png" alt="Generic placeholder image">
+                <h3>@lang('Micro-grooved journal bearing')</h3>
+                <p class="lead">微沟槽式径向轴承(Micro-grooved journal bearing)</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img  class="rotate" src="img/icon/map.svg" alt="Generic placeholder image">
-                <h3>Google</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <img  class="sm-item-img" src="img/item3.png" alt="Generic placeholder image">
+                <h3>@lang('page.Hybrid micro-grooved foil journal bearing')</h3>
+                <p class="lead">混合式径向轴承(Hybrid micro-grooved foil journal bearing)</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 
             <div class="col-sm-4 wow fadeInDown text-center">
-                <img  class="rotate" src="img/icon/browser.svg" alt="Generic placeholder image">
-                <h3>Bootstrap</h3>
-                <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+                <img  class="sm-item-img" src="img/item34.png" alt="Generic placeholder image">
+                <h3>@lang('page.Multi-decked protuberant foil journal bearing')</h3>
+                <p class="lead">多层鼓泡箔片径向轴承(Multi-decked protuberant foil journal bearing)</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
 

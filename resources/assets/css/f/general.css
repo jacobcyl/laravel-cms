@@ -339,8 +339,13 @@ color: #ECEBEB;
     -webkit-transform:rotate(360deg);
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
-}  
+}
 
+.sm-item-img{
+	max-width: 150px;
+	/*max-height: 100px;*/
+	height: 100px;
+}
 
 
 /* Style for form modal */

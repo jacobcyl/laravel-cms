@@ -3238,7 +3238,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Arvo", sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -7328,7 +7328,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Lato", sans-serif;
+  font-family: "Arvo", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7441,7 +7441,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Lato", sans-serif;
+  font-family: "Arvo", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;

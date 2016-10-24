@@ -4748,6 +4748,18 @@ footer p {
 			font-weight: 400;
 			text-align: center;
 		}
+        .navbar-nav .dropdown{
+          font-size: 22px;
+          line-height: 42px;
+          font-weight: 400;
+          text-align: center;
+        }
+      .navbar-nav .open .dropdown-menu > li > a{
+          font-size: 20px;
+          line-height: 38px;
+          font-weight: 400;
+          text-align: center;
+        }
 		.sub-title{text-align:center}
 		.pull-right {margin-bottom: 40px;}
 		address{margin-top:130px;}
