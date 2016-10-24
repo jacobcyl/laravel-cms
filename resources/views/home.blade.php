@@ -519,7 +519,7 @@
                     @lang('page.We have a superior performance and perfect, completely independent intellectual property rights fully dynamic pressure gas bearing system design and development and manufacturing technology.')
                 </p>
                 <p>
-                    @lang('page.We not only fill the gaps, but in the end to break the foreign monopoly in the field of advanced technology.');
+                    @lang('page.We not only fill the gaps, but in the end to break the foreign monopoly in the field of advanced technology.')
                 </p>
                 <p>
                     @lang('page.Five core foundation technology invention patent applications, 16 core foundation of applied technology invention patent applications, 19 PCT international patent applications, 22 utility model patents, nine Taiwan invention patent applications, a total of 71. Of which two are invention patents, six utility model patents have been authorized.')

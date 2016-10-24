@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f379eb1-7d31-4074-8a42-beb24445765e" name="Default" comment="add repository framework">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
     </list>
     <ignored path="plurjan.iws" />
@@ -26,28 +24,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="524" column="33" selection-start-line="524" selection-start-column="33" selection-end-line="524" selection-end-column="33" />
+            <state relative-caret-position="435">
+              <caret line="521" column="142" selection-start-line="521" selection-start-column="142" selection-end-line="521" selection-end-column="142" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#16711#19208#0#HTML" expanded="false" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1477294728000" expanded="false" signature="18178:18631" placeholder="..." />
-                <marker date="1477294728000" expanded="true" signature="22665:22902" placeholder="..." />
-                <marker date="1477294728000" expanded="true" signature="22954:23262" placeholder="..." />
-                <marker date="1477294728000" expanded="true" signature="23331:23528" placeholder="..." />
-                <marker date="1477294728000" expanded="true" signature="23782:24133" placeholder="..." />
+                <marker date="1477294890000" expanded="false" signature="18178:18631" placeholder="..." />
+                <marker date="1477294890000" expanded="true" signature="22665:22902" placeholder="..." />
+                <marker date="1477294890000" expanded="true" signature="22954:23262" placeholder="..." />
+                <marker date="1477294890000" expanded="true" signature="23331:23528" placeholder="..." />
+                <marker date="1477294890000" expanded="true" signature="23781:24132" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -175,8 +173,8 @@
         <option value="$PROJECT_DIR$/resources/assets/js/f/script.js" />
         <option value="$PROJECT_DIR$/resources/lang/en/page.php" />
         <option value="$PROJECT_DIR$/resources/lang/zh/page.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
       </list>
     </option>
   </component>
@@ -454,7 +452,7 @@
       <updated>1468043627248</updated>
       <workItem from="1468043629264" duration="23959000" />
       <workItem from="1472866958999" duration="37386000" />
-      <workItem from="1476972417345" duration="45847000" />
+      <workItem from="1476972417345" duration="45940000" />
     </task>
     <task id="LOCAL-00001" summary="add repository framework">
       <created>1472883479445</created>
@@ -474,7 +472,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107192000" />
+    <option name="totallyTimeSpent" value="107285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -966,6 +964,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/zh/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -976,28 +982,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="524" column="33" selection-start-line="524" selection-start-column="33" selection-end-line="524" selection-end-column="33" />
+        <state relative-caret-position="435">
+          <caret line="521" column="142" selection-start-line="521" selection-start-column="142" selection-end-line="521" selection-end-column="142" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#16711#19208#0#HTML" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1477294728000" expanded="false" signature="18178:18631" placeholder="..." />
-            <marker date="1477294728000" expanded="true" signature="22665:22902" placeholder="..." />
-            <marker date="1477294728000" expanded="true" signature="22954:23262" placeholder="..." />
-            <marker date="1477294728000" expanded="true" signature="23331:23528" placeholder="..." />
-            <marker date="1477294728000" expanded="true" signature="23782:24133" placeholder="..." />
+            <marker date="1477294890000" expanded="false" signature="18178:18631" placeholder="..." />
+            <marker date="1477294890000" expanded="true" signature="22665:22902" placeholder="..." />
+            <marker date="1477294890000" expanded="true" signature="22954:23262" placeholder="..." />
+            <marker date="1477294890000" expanded="true" signature="23331:23528" placeholder="..." />
+            <marker date="1477294890000" expanded="true" signature="23781:24132" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
