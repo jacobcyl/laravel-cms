@@ -8,8 +8,8 @@ return [
 
     'About'     => 'About',
     'Prospects' => 'Prospects',
-    'Item Gallery'   => 'Item Gallery',
-    'Honor' => 'Honor',
+    'Item Gallery'   => 'components & parts',
+    'Team' => 'Team',
     'Contact' => 'Contact',
     'Contact Us' => 'Contact Us',
 
@@ -27,10 +27,10 @@ return [
     'New high speed air bearing turbine'=>'New high speed air bearing turbine',
     'Air bearing speed turbo blower system' => 'Air bearing speed turbo & blower system',
 
-    'Prospects_title_one' => 'Clean and efficient energy for portable power systems',
+    'Prospects_title_one' => 'Mainly applicable to efficient clean portable power generation system',
     'Prospects_desc_one' => 'For portable power, small size, high efficiency, long life. Very rich usage scenarios, such as field operations generators, ships with turbine power generation system, power supply system, vehicle parking, extended-range vehicle turbine generator systems. In addition, this device is particularly suitable for military equipment, power generation systems, such as armored vehicle power supply, power supply systems and unmanned robots, missiles, rockets servo power systems.',
-    'Prospects_title_two' => 'Mainly used to provide power <br> formed a series of four high-speed turbine to the air-bearing stereotypes equipment, has more than 6,000 commercial applications.',
-    'Prospects_desc_two' => 'This technology won a number of technology patents, to break the international monopoly. Ultra-high speed, efficiency and low consumption, long life, powerful, cutting-edge technology. Mainly for large power systems equipment, such as missile engines, a large freight truck engine, engine drone.',
+    'Prospects_title_two' => 'Mainly to meet the needs of high-speed turbine shaft operation <br> formed a series of four high-speed turbine to the air-bearing stereotypes equipment, has more than 6,000 commercial applications.',
+    'Prospects_desc_two' => 'Our technology access to a number of PCT international patents, breaking the international monopoly. High speed, high efficiency, low power consumption, no pollution, low friction loss, low noise, small volume, light weight, high speed, smooth operation, wide temperature range, long service life and extremely low maintenance cost. . Mainly applicable to high-speed rotary axis systems, such as distributed energy systems, automotive turbo-generator, unmanned aerial vehicle engine, missile engine systems, etc.',
     'Prospects_title_three' => 'Globally unique innovations <br> core underlying technology patents 7, the core foundation of applied technology patents 21, PCT 19 international patents, 22 utility model patents, patent Taiwan 9, a total of 78.',
     'Prospects_desc_three' => '',
 
@@ -39,7 +39,7 @@ return [
     'desc_item_three' => 'To meet the high-speed rotary axis 100,000 rpm ~ 1,000,000 rpm performance requirements',
     'item_gallery_desc' => 'partly product item photo show',
 
-    'honor_title' => 'Our research & technology & team',
+    'team deac' => 'A strong technical team with professional R & D platform, the state key institutions support',
 
     'Your Name' => 'Your Name',
     'Your Email' => 'Your Email',
@@ -59,15 +59,16 @@ return [
 
     'Social' => 'Social',
 
-    'Cooperation Agency' => 'Cooperation Agency',
+    'Technical support' => 'Technical Support',
 
     'High Performance Ceramics and ultrastructure of the State Key Laboratory' => 'High Performance Ceramics and ultrastructure of the State Key Laboratory',
     'Structural ceramics and composite materials research center' => 'Structural ceramics and composite materials research center',
     'Shanghai PlurJian aviation co-production base' => 'Shanghai PlurJian aviation co-production base',
     'Foshan CAS Shanghai Institute of Silicate Ceramic Development Center' => 'Foshan CAS Shanghai Institute of Silicate Ceramic Development Center',
-    'Xi an Jiaotong University - Refrigeration and Cryogenic Engineering' => 'Xi\'an Jiaotong University - Refrigeration and Cryogenic Engineering',
-    'Chinese Academy of Sciences Institute of Advanced Manufacturing Technology, Changzhou' => 'Chinese Academy of Sciences Institute of Advanced Manufacturing Technology, Changzhou',
+    'Xi`an Jiaotong University School of Energy and Engineering' => 'Xi`an Jiaotong University School of Energy and Engineering',
+    'Institute of Advanced Manufacturing Technology, Hefei Institute of Material Science, Chinese Academy of Sciences' => 'Institute of Advanced Manufacturing Technology, Hefei Institute of Material Science, Chinese Academy of Sciences',
     'Beijing Iron and Steel Research Institute' => 'Beijing Iron and Steel Research Institute',
+    'Shanghai Institute of Ceramics, Chinese Academy of Sciences Advanced ceramic manufacturing technology development platform' => 'Shanghai Institute of Ceramics, Chinese Academy of Sciences Advanced ceramic manufacturing technology development platform',
 
     'Know More' => 'Know More',
 
@@ -81,6 +82,28 @@ return [
 
     'Five core foundation technology invention patent applications, 16 core foundation of applied technology invention patent applications, 19 PCT international patent applications, 22 utility model patents, nine Taiwan invention patent applications, a total of 71. Of which two are invention patents, six utility model patents have been authorized.' => 'Five core foundation technology invention patent applications, 16 core foundation of applied technology invention patent applications, 19 PCT international patent applications, 22 utility model patents, nine Taiwan invention patent applications, a total of 71. Of which two are invention patents, six utility model patents have been authorized.',
 
+    'role_1_name' => 'Dong Shaoming',
+    'role_1_desc' => 'Director, Center for Structural Ceramics and Composites, Shanghai Institute of Ceramics, Chinese Academy of Sciences; Senior Researcher, State Key Laboratory of High Performance Ceramics and Microstructure, Ph.D.',
 
+    'role_2_name' => 'Tao Shunyan',
+    'role_2_desc' => 'Director, Key Laboratory of Special Inorganic Coatings, Shanghai Institute of Ceramics, Chinese Academy of Sciences (Researcher, Ph.D.)',
+
+    'role_3_name' => 'Wang Rongchuan',
+    'role_3_desc' => 'Institute director & Professor level senior engineer of Hefei Institute of Material Science, Chinese Academy of Sciences Institute of Advanced Manufacturing Technology',
+
+    'role_4_name' => 'Hou Yu',
+    'role_4_desc' => 'Vice president & Ph.D. of Energy and Power Engineering of Xi\'an Jiaotong University',
+
+    'role_5_name' => 'Zhang Jingchu',
+    'role_5_desc' => 'Aero-engine field researcher, senior engineer',
+
+    'role_6_name' => 'Luo Lifeng',
+    'role_6_desc' => '-Shanghai Institute of Ceramics, Chinese Academy of Sciences advanced ceramic manufacturing technology development platform, chief engineer<br>-Small micro-gas turbine key core technology design master<br>-Vibrating self-sealing micro-groove full dynamic pressure gas bearing system, impeller-like self-sealing micro groove and elastic foil hybrid full dynamic pressure gas bearing system designer, inventor',
+
+    'role_7_name' => 'Lai Tianwei',
+    'role_7_desc' => 'Xi\'an Jiaotong University, School of Energy and Engineering Master Instructor',
+
+    'role_8_name' => 'Zhang Wenwei',
+    'role_8_desc' => 'Shanghai PlurJian Aviation Technology Co., Ltd. Flexible manufacturing technology experts, the total manufacturing process division',
 
 ];
