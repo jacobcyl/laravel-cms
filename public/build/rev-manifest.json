@@ -1,6 +1,13 @@
 {
+<<<<<<< HEAD
   "css/admin.css": "css/admin-1acd8f338a.css",
   "css/front.css": "css/front-74bed72a7f.css",
   "js/admin.js": "js/admin-758028efd5.js",
   "js/front.js": "js/front-ce9eb1fe40.js"
+=======
+  "css/admin.css": "css/admin-ef75b20a3b.css",
+  "css/front.css": "css/front-464cfe86bd.css",
+  "js/admin.js": "js/admin-758028efd5.js",
+  "js/front.js": "js/front-d7a71eac3f.js"
+>>>>>>> 2bbac5a10bcc15ef4080712e5ca275755b9ce9f3
 }

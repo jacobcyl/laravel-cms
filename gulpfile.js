@@ -45,6 +45,7 @@ elixir(function(mix) {
             'f/uiMorphingButton_inflow.js',
             'f/jquery.magnific-popup.js',
             'f/stickUp.min.js',
+            'f/lazyload.js',
             'f/script.js',
             'front.js'
         ], 'public/js/front.js')
