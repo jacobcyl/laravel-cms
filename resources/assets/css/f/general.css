@@ -73,7 +73,7 @@ margin: auto;
 }
 
 .h1_home{
-	font-size: 80px;
+	font-size: 50px;
 	font-family: arvo;
 	font-weight: 300;
 	letter-spacing: 6px;
@@ -1088,7 +1088,7 @@ color: #ECEBEB;
 		.button_down {display:none}
 		
 		.h1_home {
-    			font-size: 60px;
+    			font-size: 45px;
 		}
 		
 	}
@@ -1199,6 +1199,7 @@ color: #ECEBEB;
 }
 
 footer {
+	color: #686868 !important;
 	background-color: #f8f8f8;
 	padding: 50px 0;
 }

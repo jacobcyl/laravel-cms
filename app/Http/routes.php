@@ -15,7 +15,11 @@
     return view('welcome');
 });*/
 
+Route::get('login', 'Auth\AuthController@getLogin');
+Route::post('login', 'Auth\AuthController@postLogin');
+Route::get('logout', 'Auth\AuthController@getLogout');
 
+Route::post('contact', 'HomeController@postContact');
 
 Route::group(['prefix'=>LaravelLocalization::setLocale()], function(){
     Route::get('/', 'HomeController@index');
