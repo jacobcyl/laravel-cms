@@ -164,7 +164,7 @@
 
             <div class="col-sm-4  wow fadeInDown text-center">
                 <img class="sm-item-img lazy" data-original="img/item31.png" alt="Generic placeholder image">
-                <h3>@lang('Micro-grooved journal bearing')</h3>
+                <h3>@lang('page.Micro-grooved journal bearing')</h3>
                 <p class="lead">微沟槽式径向轴承(Micro-grooved journal bearing)</p>
                 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
             </div><!-- /.col-lg-4 -->
