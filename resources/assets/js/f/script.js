@@ -41,41 +41,73 @@ $(document).ready(function() {
 
 		// OwlCarousel N1
 		$("#owl-demo").owlCarousel({
-			autoPlay: 3000,
-			items : 3,
-			lazyLoad:true,
-    		loop:true,
-			itemsDesktop : [1199,3],
-			itemsDesktopSmall : [979,3]
+		    lazyLoad:true,
+		    loop:true,
+		    autoplay:true,
+		    autoplayTimeout:3000,
+		    autoplayHoverPause:true,
+			responsiveClass:true,
+		    responsive:{
+		        0:{
+		            items:1,
+		            nav:true,
+		            dots: false,
+		        },
+		        600:{
+		            items:2,
+		            nav:true,
+		            dots: false,
+		        },
+		        800:{
+		            items:3,
+		            nav:false,
+		            dots: true,
+		        },
+		        1000:{
+		            items:4,
+		            nav:false,
+		            dots:true
+		        }
+		    }
 		});
 
 		// OwlCarousel N2
 		$("#owl-demo-0").owlCarousel({
-			navigation : false, // Show next and prev buttons
-			slideSpeed : 300,
-			paginationSpeed : 400,
-			singleItem:true,
+			items: 1,
+		    navigation : false, // Show next and prev buttons
 			lazyLoad:true,
-			loop:true
+		    loop:true,
+		    autoplay:true,
+		    autoplayTimeout:3000,
+		    autoplayHoverPause:true,
+		    responsiveClass:true,
+		    responsive:{
+		        0:{
+		            items:1,
+		            dots: false,
+		        }
+		    }
 		});
 
 		// OwlCarousel
-		$("#owl-demo-2").owlCarousel({
-			navigation : false, // Show next and prev buttons
-			slideSpeed : 300,
-			paginationSpeed : 400,
-			singleItem:true,
+		$("#owl-demo-1").owlCarousel({
+			items: 1,
+		    navigation : false, // Show next and prev buttons
 			lazyLoad:true,
-    		loop:true
+		    loop:true,
+		    autoplay:true,
+		    autoplayTimeout:3000,
+		    autoplayHoverPause:true
 		});
 
 		$("#owl-demo-2").owlCarousel({
-			navigation : false, // Show next and prev buttons
-			slideSpeed : 300,
-			paginationSpeed : 400,
-			singleItem:true,
+			items: 1,
+		    navigation : false, // Show next and prev buttons
 			lazyLoad:true,
-    		loop:true
+		    loop:true,
+		    autoplay:true,
+		    autoplayTimeout:3000,
+		    autoplayHoverPause:true
 		});
 
 		//SmothScroll

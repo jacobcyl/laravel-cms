@@ -27,6 +27,7 @@ elixir(function(mix) {
             'f/animate.css',
             'f/magnific-popup.css',
             'f/general.css',
+            'f/owl.theme.default.css',
             'front.css'
         ], 'public/css/front.css')
         .styles([//backend stylesheet files

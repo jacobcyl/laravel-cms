@@ -191,25 +191,23 @@
 <div id ="useit" class="content-section-a">
 
     <div class="container">
-
         <div class="row">
 
-            <div class="col-sm-6 pull-right wow fadeInRightBig">
-                <div id="owl-demo-0" class="owl-carousel">
-                    <a href="img/item6.png" class="image-link">
+            <div class="col-md-6 col-sm-6 col-sm-push-6 wow fadeInRightBig">
+                <div id="owl-demo-0" class="owl-carousel owl-theme">
+                    <a href="img/item21.png" class="image-link">
                         <div class="item">
-                            <img  class="img-responsive img-rounded lazyOw" data-src="img/item5.png" alt="">
+                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item21.png" alt="">
                         </div>
                     </a>
-                    <a href="img/item7.png" class="image-link">
+                    <a href="img/item8.png" class="image-link">
                         <div class="item">
-                            <img  class="img-responsive img-rounded lazyOw" data-src="img/item8.png"  alt="">
+                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item8.png"  alt="">
                         </div>
                     </a>
                 </div>
             </div>
-
-            <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
+            <div class="col-md-6 col-sm-6 col-sm-pull-6 wow fadeInLeftBig"  data-animation-delay="200">
                 <h3 class="section-heading">@lang('page.Turbine power generation system')</h3>
                 <div class="sub-title lead3">@lang('page.Prospects_title_one')</div>
                 <p class="lead">
@@ -226,15 +224,15 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 wow fadeInLeftBig">
-                <div id="owl-demo-1" class="owl-carousel">
+                <div id="owl-demo-1" class="owl-carousel owl-theme">
                     <a href="img/item6.png" class="image-link">
                         <div class="item">
-                            <img  class="img-responsive img-rounded lazyOw" data-original="img/item6.png" alt="">
+                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item6.png" alt="">
                         </div>
                     </a>
                     <a href="img/item7.png" class="image-link">
                         <div class="item">
-                            <img  class="img-responsive img-rounded lazyOw" data-original="img/item7.png"  alt="">
+                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item7.png"  alt="">
                         </div>
                     </a>
                 </div>
@@ -246,20 +244,29 @@
                 <p class="lead">
                     @lang('page.Prospects_desc_two')
                 </p>
-
-                {{--<p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>--}}
-                    {{--<a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>--}}
             </div>
         </div>
     </div>
 </div>
 
 <div class="content-section-a">
-
     <div class="container">
-
         <div class="row">
-            <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">
+            <div class="col-md-6 col-sm-6 col-sm-push-6 wow fadeInLeftBig">
+                <div id="owl-demo-2" class="owl-carousel owl-theme">
+                    <a href="img/item9.png" class="image-link">
+                        <div class="item">
+                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item9.png" alt="">
+                        </div>
+                    </a>
+                    <a href="img/item50.jpg" class="image-link">
+                        <div class="item">
+                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item50.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-sm-pull-6 wow fadeInLeftBig"  data-animation-delay="200">
                 <h3 class="section-heading">@lang('page.Air bearing speed turbo blower system')</h3>
                 <div class="sub-title lead3">@lang('page.Prospects_title_three')</div>
                 <ul class="descp lead2">
@@ -267,20 +274,6 @@
                     <li><i class="glyphicon glyphicon-refresh"></i> @lang('page.desc_item_two')</li>
                     <li><i class="glyphicon glyphicon-record"></i> @lang('page.desc_item_three')</li>
                 </ul>
-            </div>
-            <div class="col-sm-6 wow fadeInLeftBig">
-                <div id="owl-demo-2" class="owl-carousel">
-                    <a href="img/item9.png" class="image-link">
-                        <div class="item">
-                            <img  class="img-responsive img-rounded lazyOw" data-src="img/item9.png" alt="">
-                        </div>
-                    </a>
-                    <a href="img/item50.jpg" class="image-link">
-                        <div class="item">
-                            <img  class="img-responsive img-rounded lazyOw" data-src="img/item50.jpg" alt="">
-                        </div>
-                    </a>
-                </div>
             </div>
         </div>
     </div>
@@ -297,123 +290,123 @@
             </div>
         </div>
         <div class="row wow bounceInUp" >
-            <div id="owl-demo" class="owl-carousel">
+            <div id="owl-demo" class="owl-carousel owl-theme">
 
                 <a href="img/item2.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item2.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item2.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item4.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item4.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item4.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item11.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item11.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item11.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item5.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item5.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item5.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item25.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item25.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item25.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item26.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item26.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item26.png" alt="Owl Image">
                     </div>
                 </a>
                 <a href="img/item27.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item27.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item27.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item40.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item40.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item40.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item20.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item20.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item20.png" alt="Owl Image">
                     </div>
                 </a>
 
 
                 <a href="img/item38.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item38.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item38.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item40.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item40.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item40.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item41.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item41.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item41.jpg" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item42.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item42.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item42.jpg" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item43.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item43.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item43.jpg" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item44.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item38.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item38.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item45.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item45.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item45.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item46.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item46.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item46.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item47.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item47.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item47.jpg" alt="Owl Image">
                     </div>
                 </a>
                 <a href="img/item48.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item48.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item48.jpg" alt="Owl Image">
                     </div>
                 </a>
                 <a href="img/item49.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazyOw" data-src="img/item49.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item49.jpg" alt="Owl Image">
                     </div>
                 </a>
             </div>
@@ -464,12 +457,12 @@
                 <p class="lead" style="margin-top:0">@lang('page.team deac')</p>
             </div>
 
-            <div class="col-sm-6  block wow bounceIn">
+            <div class="col-sm-6 block wow bounceIn">
                 <div class="row">
-                    <div class="col-md-4 box-icon">
+                    <div class="col-md-3">
                         <img class="sm-item-img lazy" data-original="img/role1.png" alt="Micro-grooved thrust bearing">
                     </div>
-                    <div class="col-md-8 box-ct">
+                    <div class="col-md-9">
                         <h3>
                             @lang('page.role_1_name')
                         </h3>
@@ -481,10 +474,10 @@
             </div>
             <div class="col-sm-6 block wow bounceIn">
                 <div class="row">
-                    <div class="col-md-4 box-icon">
+                    <div class="col-md-3">
                         <img class="sm-item-img lazy" data-original="img/role2.png" alt="Micro-grooved thrust bearing">
                     </div>
-                    <div class="col-md-8 box-ct">
+                    <div class="col-md-9">
                         <h3>
                             @lang('page.role_2_name')
                         </h3>
@@ -499,10 +492,10 @@
         <div class="row tworow">
             <div class="col-sm-6  block wow bounceIn">
                 <div class="row">
-                    <div class="col-md-4 box-icon">
+                    <div class="col-md-3">
                         <img class="sm-item-img lazy" data-original="img/role3.png" alt="Micro-grooved thrust bearing">
                     </div>
-                    <div class="col-md-8 box-ct">
+                    <div class="col-md-9">
                         <h3>
                             @lang('page.role_3_name')
                         </h3>
@@ -514,10 +507,10 @@
             </div>
             <div class="col-sm-6 block wow bounceIn">
                 <div class="row">
-                    <div class="col-md-4 box-icon">
+                    <div class="col-md-3">
                         <img class="sm-item-img lazy" data-original="img/role4.png" alt="Micro-grooved thrust bearing">
                     </div>
-                    <div class="col-md-8 box-ct">
+                    <div class="col-md-9">
                         <h3>
                             @lang('page.role_4_name')
                         </h3>
@@ -532,10 +525,10 @@
         <div class="row tworow">
             <div class="col-sm-6  block wow bounceIn">
                 <div class="row">
-                    <div class="col-md-4 box-icon">
+                    <div class="col-md-3">
                         <img class="sm-item-img lazy" data-original="img/role5.png" alt="Micro-grooved thrust bearing">
                     </div>
-                    <div class="col-md-8 box-ct">
+                    <div class="col-md-9">
                         <h3>
                             @lang('page.role_5_name')
                         </h3>
@@ -547,10 +540,10 @@
             </div>
             <div class="col-sm-6 block wow bounceIn">
                 <div class="row">
-                    <div class="col-md-4 box-icon">
+                    <div class="col-md-3">
                         <img class="sm-item-img lazy" data-original="img/role6.png" alt="Micro-grooved thrust bearing">
                     </div>
-                    <div class="col-md-8 box-ct">
+                    <div class="col-md-9">
                         <h3>
                             @lang('page.role_6_name')
                         </h3>
@@ -565,10 +558,10 @@
         <div class="row tworow">
             <div class="col-sm-6  block wow bounceIn">
                 <div class="row">
-                    <div class="col-md-4 box-icon">
+                    <div class="col-md-3">
                         <img class="sm-item-img lazy" data-original="img/role7.png" alt="Micro-grooved thrust bearing">
                     </div>
-                    <div class="col-md-8 box-ct">
+                    <div class="col-md-9">
                         <h3>
                             @lang('page.role_7_name')
                         </h3>
@@ -580,10 +573,10 @@
             </div>
             <div class="col-sm-6 block wow bounceIn">
                 <div class="row">
-                    <div class="col-md-4 box-icon">
+                    <div class="col-md-3">
                         <img class="sm-item-img lazy" data-original="img/role8.png" alt="Micro-grooved thrust bearing">
                     </div>
-                    <div class="col-md-8 box-ct">
+                    <div class="col-md-9">
                         <h3>
                             @lang('page.role_8_name')
                         </h3>
@@ -645,7 +638,7 @@
                     <p class="lead"><a target="_blank" href="https://goo.gl/maps/hSLwsWHR4cw">
                         @lang('page.ShangHai PlurJan Aviation Technology Co.,Ltd.')<br>
                         @lang('page.China, Shanghai Shi, Jiading Qu, North St, Juyuan New Area') </a><br>
-                        @lang('page.Phone'): (+86)13916082128[普通话] &nbsp;&nbsp;OR&nbsp;&nbsp;  (+86)13002934332[For English]<br>
+                        @lang('page.Phone'): (+86)13916082128[普通话] &nbsp;&nbsp;or&nbsp;&nbsp;  (+86)13002934332[For English]<br>
                         @lang('page.Tel'): (+86)021-55512352<br>
                         @lang('page.Email'): plurjan&#64;gm<!-- >@. -->ail&#46;com</p>
                 </address>
