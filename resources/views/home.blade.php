@@ -8,10 +8,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="全动压气体轴承系统">
+    <meta name="description" content="@lang('page.slogan')">
     <meta name="author" content="">
 
-    <title>上海璞剑航空技术有限公司-全动压气体轴承系统</title>
+    <title>@lang('page.ShangHai PlurJan Aviation Technology Co.,Ltd.')-@lang('page.slogan')</title>
 
     <!-- Bootstrap core CSS -->
     {{--<link href="css/bootstrap.min.css" rel="stylesheet">--}}
@@ -267,12 +267,6 @@
                             <img  class="img-responsive img-rounded lazy" data-original="img/item9.png" alt="">
                         </div>
                     </a>
-                    <a href="img/item36.jpg" class="image-link">
-                        <div class="item">
-                            <img  class="img-responsive img-rounded lazy" data-original="img/item36.jpg" alt="">
-                        </div>
-                    </a>
-
                 </div>
             </div>
         </div>
