@@ -11,9 +11,7 @@ $(window).on('load', function() {
 	$('#status').delay(300).fadeOut();
 	$('#preloader').delay(300).fadeOut('slow');
 	$('body').delay(550).css({'overflow':'visible'});
-})
-
-new WOW().init();
+});
 
 $(document).ready(function() {
 
@@ -45,8 +43,8 @@ $(document).ready(function() {
 		$("#owl-demo").owlCarousel({
 			autoPlay: 3000,
 			items : 3,
-			lazyLoad: true,
-			loop: true,
+			lazyLoad:true,
+    			loop:true,
 			itemsDesktop : [1199,3],
 			itemsDesktopSmall : [979,3]
 		});
@@ -64,8 +62,7 @@ $(document).ready(function() {
 			navigation : false, // Show next and prev buttons
 			slideSpeed : 300,
 			paginationSpeed : 400,
-			singleItem:true,
-			autoHeight:true
+			singleItem:true
 		});
 
 		//SmothScroll
