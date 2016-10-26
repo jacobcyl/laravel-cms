@@ -310,12 +310,6 @@
                     </div>
                 </a>
 
-                <a href="img/item21.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item21.png" alt="Owl Image">
-                    </div>
-                </a>
-
                 <a href="img/item25.png" class="image-link">
                     <div class="item">
                         <img  class="img-responsive img-rounded owl-lazy" data-src="img/item25.png" alt="Owl Image">
