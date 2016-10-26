@@ -45,6 +45,8 @@ $(document).ready(function() {
 		$("#owl-demo").owlCarousel({
 			autoPlay: 3000,
 			items : 3,
+			lazyLoad: true,
+			loop: true,
 			itemsDesktop : [1199,3],
 			itemsDesktopSmall : [979,3]
 		});
@@ -62,7 +64,8 @@ $(document).ready(function() {
 			navigation : false, // Show next and prev buttons
 			slideSpeed : 300,
 			paginationSpeed : 400,
-			singleItem:true
+			singleItem:true,
+			autoHeight:true
 		});
 
 		//SmothScroll
