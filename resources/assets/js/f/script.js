@@ -44,17 +44,19 @@ $(document).ready(function() {
 			autoPlay: 3000,
 			items : 3,
 			lazyLoad:true,
-    			loop:true,
+    		loop:true,
 			itemsDesktop : [1199,3],
 			itemsDesktopSmall : [979,3]
 		});
 
 		// OwlCarousel N2
-		$("#owl-demo-1").owlCarousel({
-			  navigation : false, // Show next and prev buttons
-			  slideSpeed : 300,
-			  paginationSpeed : 400,
-			  singleItem:true
+		$("#owl-demo-0").owlCarousel({
+			navigation : false, // Show next and prev buttons
+			slideSpeed : 300,
+			paginationSpeed : 400,
+			singleItem:true,
+			lazyLoad:true,
+			loop:true
 		});
 
 		// OwlCarousel
@@ -62,7 +64,18 @@ $(document).ready(function() {
 			navigation : false, // Show next and prev buttons
 			slideSpeed : 300,
 			paginationSpeed : 400,
-			singleItem:true
+			singleItem:true,
+			lazyLoad:true,
+    		loop:true
+		});
+
+		$("#owl-demo-2").owlCarousel({
+			navigation : false, // Show next and prev buttons
+			slideSpeed : 300,
+			paginationSpeed : 400,
+			singleItem:true,
+			lazyLoad:true,
+    		loop:true
 		});
 
 		//SmothScroll
