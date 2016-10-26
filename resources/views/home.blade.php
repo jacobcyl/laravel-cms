@@ -372,7 +372,7 @@
 
                 <a href="img/item44.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item44.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item44.jpg" alt="Owl Image">
                     </div>
                 </a>
 
