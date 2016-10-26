@@ -4489,7 +4489,7 @@ footer p {
 .footer-banner {
   background-color: #34495e;
   color: #fff;
-  margin-left: 42px;
+  /*margin-left: 42px;*/
   min-height: 316px;
   padding: 0 30px 30px;
 }
@@ -4741,7 +4741,7 @@ footer p {
 		.lead{text-align:center}
 		.box-icon{margin: 0 auto;}
 		.social{text-align:center}
-		.footer-banner{display:none}
+		/*.footer-banner{display:none}*/
 		.navbar-nav > li > a {
 			font-size: 22px;
 			line-height: 42px;
@@ -4785,7 +4785,7 @@ footer p {
 		.box-icon{margin: 0 auto;}
 		address{margin-top:80px;}
 		.address{text-align:center}
-		.footer-banner{display:none}
+		/*.footer-banner{display:none}*/
 		
 		
 		
