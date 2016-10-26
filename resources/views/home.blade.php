@@ -679,7 +679,7 @@
                         <li>@lang('page.Structural ceramics and composite materials research center')</li>
                         <li>@lang('page.Shanghai PlurJian aviation co-production base')</li>
                         <li>@lang('page.Foshan CAS Shanghai Institute of Silicate Ceramic Development Center')</li>
-                        <li>@lang('page.Xi an Jiaotong University - Refrigeration and Cryogenic Engineering')</li>
+                        <li>@lang('page.Xi`an Jiaotong University School of Energy and Engineering')</li>
                         <li>@lang('page.Institute of Advanced Manufacturing Technology, Hefei Institute of Material Science, Chinese Academy of Sciences')</li>
                         <li>@lang('page.Beijing Iron and Steel Research Institute')</li>
                         <li>@lang('page.Shanghai Institute of Ceramics, Chinese Academy of Sciences Advanced ceramic manufacturing technology development platform')</li>
