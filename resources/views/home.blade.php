@@ -288,119 +288,119 @@
 
                 <a href="img/item2.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item2.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item2.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item4.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item4.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item4.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item11.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item11.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item11.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item5.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item5.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item5.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item25.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item25.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item25.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item26.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item26.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item26.png" alt="Owl Image">
                     </div>
                 </a>
                 <a href="img/item27.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item27.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item27.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item40.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item40.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item40.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item20.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item20.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item20.png" alt="Owl Image">
                     </div>
                 </a>
 
 
                 <a href="img/item38.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item38.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item38.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item40.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item40.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item40.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item41.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item41.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item41.jpg" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item42.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item42.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item42.jpg" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item43.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item43.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item43.jpg" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item44.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item38.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item38.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item45.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item45.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item45.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item46.png" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item46.png" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item46.png" alt="Owl Image">
                     </div>
                 </a>
 
                 <a href="img/item47.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item47.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item47.jpg" alt="Owl Image">
                     </div>
                 </a>
                 <a href="img/item48.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item48.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item48.jpg" alt="Owl Image">
                     </div>
                 </a>
                 <a href="img/item49.jpg" class="image-link">
                     <div class="item">
-                        <img  class="img-responsive img-rounded lazy" data-src="img/item49.jpg" alt="Owl Image">
+                        <img  class="img-responsive img-rounded" data-src="img/item49.jpg" alt="Owl Image">
                     </div>
                 </a>
             </div>
