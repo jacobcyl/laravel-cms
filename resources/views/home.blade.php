@@ -631,7 +631,7 @@
                     <h3>@lang('page.Office Location')</h3>
                     <p class="lead"><a target="_blank" href="https://goo.gl/maps/hSLwsWHR4cw">
                         @lang('page.ShangHai PlurJan Aviation Technology Co.,Ltd.')<br>
-                        @lang('page.China, Shanghai Shi, Jiading Qu, North St, Juyuan New Area') </a><br>
+                        @lang('page.Chrysanthemum Area, Jiading District, Shanghai, China') </a><br>
                         @lang('page.Phone'): (+86)13916082128[普通话] &nbsp;&nbsp;or&nbsp;&nbsp;  (+86)13002934332[For English]<br>
                         @lang('page.Tel'): (+86)021-55512352<br>
                         @lang('page.Email'): plurjan&#64;gm<!-- >@. -->ail&#46;com</p>
@@ -656,18 +656,8 @@
         <div class="row">
             <div class="col-md-7">
                 <h3 class="footer-title">@lang('page.Know More')</h3>
-                <p>@lang('page.After decades of technological accumulation, now it has research, development and manufacture of the whole dynamic core key infrastructure technology products and capabilities based technology products pressure gas bearing system.')</p>
                 <p>
-                    @lang('page.We have the research and development of core infrastructure TECHNICAL FIELD small miniature high-speed blowers, turbochargers, high-speed motor, turbojet engines, turbines and turbine generators and other components, assemblies supporting the design and manufacturing capability of product technology.')
-                </p>
-                <p>
-                    @lang('page.We have a superior performance and perfect, completely independent intellectual property rights fully dynamic pressure gas bearing system design and development and manufacturing technology.')
-                </p>
-                <p>
-                    @lang('page.We not only fill the gaps, but in the end to break the foreign monopoly in the field of advanced technology.')
-                </p>
-                <p>
-                    @lang('page.Five core foundation technology invention patent applications, 16 core foundation of applied technology invention patent applications, 19 PCT international patent applications, 22 utility model patents, nine Taiwan invention patent applications, a total of 71. Of which two are invention patents, six utility model patents have been authorized.')
+                    @lang('page.Know More Detail')
                 </p>
             </div> <!-- /col-xs-7 -->
 
@@ -680,9 +670,9 @@
                         <li>@lang('page.Structural ceramics and composite materials research center')</li>
                         <li>@lang('page.Shanghai PlurJian aviation co-production base')</li>
                         <li>@lang('page.Foshan CAS Shanghai Institute of Silicate Ceramic Development Center')</li>
-                        <li>@lang('page.Xi`an Jiaotong University School of Energy and Engineering')</li>
+                        <li>@lang('page.School of Energy and Power Engineering, Xi`an Jiaotong University')</li>
                         <li>@lang('page.Institute of Advanced Manufacturing Technology, Hefei Institute of Material Science, Chinese Academy of Sciences')</li>
-                        <li>@lang('page.Beijing Iron and Steel Research Institute')</li>
+                        <li>@lang('page.Central Iron & Steel Research Institute')</li>
                         <li>@lang('page.Shanghai Institute of Ceramics, Chinese Academy of Sciences Advanced ceramic manufacturing technology development platform')</li>
                     </ul>
                 </div>
