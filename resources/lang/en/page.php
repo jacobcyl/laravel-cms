@@ -61,6 +61,7 @@ return [
 
     'Technical support' => 'Technical Support',
 
+    'Shanghai Institute of Ceramics, Chinese Academy of Sciences' => 'Shanghai Institute of Ceramics, Chinese Academy of Sciences',
     'High Performance Ceramics and ultrastructure of the State Key Laboratory' => 'High Performance Ceramics and ultrastructure of the State Key Laboratory',
     'Structural ceramics and composite materials research center' => 'Structural ceramics and composite materials research center',
     'Shanghai PlurJian aviation co-production base' => 'Shanghai PlurJian aviation co-production base',
