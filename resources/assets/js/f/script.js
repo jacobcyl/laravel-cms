@@ -80,13 +80,6 @@ $(document).ready(function() {
 		    autoplay:true,
 		    autoplayTimeout:3000,
 		    autoplayHoverPause:true,
-		    responsiveClass:true,
-		    responsive:{
-		        0:{
-		            items:1,
-		            dots: false,
-		        }
-		    }
 		});
 
 		// OwlCarousel
