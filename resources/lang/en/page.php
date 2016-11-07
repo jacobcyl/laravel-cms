@@ -1,6 +1,6 @@
 <?php
 return [
-    'ShangHai PlurJan Aviation Technology Co.,Ltd.' => 'ShangHai PlurJan Aviation Technology Co., sLtd.',
+    'ShangHai PlurJan Aviation Technology Co.,Ltd.' => 'ShangHai PlurJan Aviation Technology Co., Ltd.',
     'slogan'    => 'Fully Hydrodynamic Lubricated Rotor-bearing System',
     'plrujan'   => 'plurjan',
     'PlurJan'   => 'PlurJan',
