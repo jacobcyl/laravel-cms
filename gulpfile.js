@@ -28,6 +28,10 @@ elixir(function(mix) {
             'f/magnific-popup.css',
             'f/general.css',
             'f/owl.theme.default.css',
+            //'front.css'
+        ], 'public/css/homepage.css')
+        .styles([
+            './public/css/all.css',
             'front.css'
         ], 'public/css/front.css')
         .styles([//backend stylesheet files
@@ -48,6 +52,10 @@ elixir(function(mix) {
             'f/stickUp.min.js',
             'f/lazyload.js',
             'f/script.js',
+            //'front.js'
+        ], 'public/js/homepage.js')
+        .scripts([
+            './public/js/app.js',
             'front.js'
         ], 'public/js/front.js')
         .scripts([//backend javascript files
@@ -56,7 +64,7 @@ elixir(function(mix) {
             //'./node_modules/raphael/raphael.js',
             //'./node_modules/morris.js/morris.js',
         ], 'public/js/admin.js')
-        .version(['css/front.css', 'css/admin.css', 'js/front.js', 'js/admin.js']);
+        .version(['css/homepage.css', 'css/front.css', 'css/admin.css', 'js/homepage.js', 'js/front.js', 'js/admin.js']);
 
 });
 

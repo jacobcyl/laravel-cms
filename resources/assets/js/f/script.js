@@ -17,6 +17,19 @@ $(document).ready(function() {
 
 	$('.navbar-default').stickUp();
 
+	$(".lazy").lazyload({
+		effect : "fadeIn"
+	});
+
+	//Disable cut copy
+	$('body').bind('cut copy', function (e) {
+		e.preventDefault();
+	});
+
+	//Disable mouse right click
+	$("body").on("contextmenu",function(e){
+		return false;
+	});
 	
 	//animated logo
 		$(".navbar-brand").hover(function () {

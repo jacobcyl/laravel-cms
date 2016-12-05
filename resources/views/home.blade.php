@@ -33,7 +33,7 @@
 
     <!-- Magnific Popup core CSS file -->
     {{--<link rel="stylesheet" href="css/magnific-popup.css">--}}
-    <link href="{{ elixir('css/front.css') }}" rel="stylesheet">
+    <link href="{{ elixir('css/homepage.css') }}" rel="stylesheet">
 
     {{--<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->--}}
     <!--[if IE 9]>
@@ -696,7 +696,7 @@
 {{--<script src="js/uiMorphingButton_inflow.js"></script>--}}
 <!-- Magnific Popup core JS file -->
 {{--<script src="js/jquery.magnific-popup.js"></script>--}}
-<script src="{{ elixir('js/front.js') }}"></script>
+<script src="{{ elixir('js/homepage.js') }}"></script>
 
 </body>
 

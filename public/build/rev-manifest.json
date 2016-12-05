@@ -1,6 +1,8 @@
 {
-  "css/admin.css": "css/admin-ce48f41c49.css",
-  "css/front.css": "css/front-3d0d2f8501.css",
-  "js/admin.js": "js/admin-758028efd5.js",
-  "js/front.js": "js/front-072165aef7.js"
+  "css/admin.css": "css/admin-2344e9ba39.css",
+  "css/front.css": "css/front-98b4871f3e.css",
+  "css/homepage.css": "css/homepage-917ffa95e5.css",
+  "js/admin.js": "js/admin-2fa8aafc04.js",
+  "js/front.js": "js/front-77675877d1.js",
+  "js/homepage.js": "js/homepage-2c6aab663a.js"
 }
