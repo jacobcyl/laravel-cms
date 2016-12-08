@@ -156,9 +156,15 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //多国语言翻译
         Dimsav\Translatable\TranslatableServiceProvider::class,
-        
+
+        //uri 语言路由
         Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
+
+        //多国语言模板生成
+        AdamWathan\BootForms\BootFormsServiceProvider::class,
+        Propaganistas\LaravelTranslatableBootForms\TranslatableBootFormsServiceProvider::class,
     ],
 
     /*
@@ -205,6 +211,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'LaravelLocalization' => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
+        'TranslatableBootForm' => Propaganistas\LaravelTranslatableBootForms\Facades\TranslatableBootForm::class,
     ],
 
 ];

@@ -108,6 +108,9 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'postTitle' => '文章标题',
+        'postContent' => '文章内容',
+    ],
 
 ];

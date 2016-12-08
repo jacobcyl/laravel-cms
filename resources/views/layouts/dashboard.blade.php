@@ -13,6 +13,7 @@
 
     <link href="{{ elixir('css/admin.css') }}" rel="stylesheet">
 
+    @yield('page_css')
     <!-- Bootstrap Core CSS -->
     {{--<link href="css/bootstrap.min.css" rel="stylesheet">--}}
 
@@ -173,10 +174,10 @@
                     </a>
                     <ul id="article" class="collapse">
                         <li>
-                            <a href="{{ url('dashboard/article') }}">文章列表</a>
+                            <a href="{{ url('dashboard/article') }}"><i class="fa fa-fw fa-list"></i> 文章列表</a>
                         </li>
                         <li>
-                            <a href="{{ url('dashboard/article/create') }}">发布文章</a>
+                            <a href="{{ url('dashboard/article/create') }}"><i class="fa fa-fw fa-edit"></i> 发布文章</a>
                         </li>
                     </ul>
                 </li>
@@ -196,6 +197,9 @@
                     </ul>
                 </li>
                 <li>
+                    <a href="{{ url('dashboard/category') }}"><i class="fa fa-fw fa-folder-open-o"></i> 文章分类</a>
+                </li>
+                {{--<li>
                     <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
                 </li>
                 <li>
@@ -220,7 +224,7 @@
                 </li>
                 <li>
                     <a href="index-rtl.html"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
-                </li>
+                </li>--}}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -240,18 +244,8 @@
 
 </div>
 <!-- /#wrapper -->
-
-<!-- jQuery -->
-{{--<script src="js/jquery.js"></script>--}}
-
-<!-- Bootstrap Core JavaScript -->
-{{--<script src="js/bootstrap.min.js"></script>--}}
-
-<!-- Morris Charts JavaScript -->
-{{--<script src="js/plugins/morris/raphael.min.js"></script>--}}
-{{--<script src="js/plugins/morris/morris.min.js"></script>--}}
-{{--<script src="js/plugins/morris/morris-data.js"></script>--}}
 <script src="{{ elixir('js/admin.js') }}"></script>
+@yield('page_js')
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 <?php
 namespace App\Repositories;
-use App\Models\Post;
+use App\Models\Category;
 use Bosnadev\Repositories\Eloquent\Repository;
 
 /**
@@ -9,7 +9,7 @@ use Bosnadev\Repositories\Eloquent\Repository;
  * Date: 16/9/3
  * Time: 上午10:40
  */
-class PostRepository extends Repository
+class CategoryRepository extends Repository
 {
     
     /**
@@ -19,7 +19,8 @@ class PostRepository extends Repository
      */
     function model()
     {
-        return Post::class;
+        return Category::class;
     }
+
 
 }

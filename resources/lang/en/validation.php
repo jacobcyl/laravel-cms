@@ -108,6 +108,9 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'postTitle' => 'Article Title',
+        'postContent' => 'Article Content',
+    ],
 
 ];

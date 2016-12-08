@@ -21,21 +21,27 @@ Route::post('contact', 'HomeController@postContact');
 
 Route::group(['prefix'=>LaravelLocalization::setLocale()], function(){
     Route::get('/', 'HomeController@index');
+    Route::get('/home', 'HomeController@index');
 });
 
-Route::group(['middleware'=>['web','auth'], 'prefix' => 'dashboard', 'namespace' => 'Dashboard', 'as' => 'dashboard.'], function (){
+Route::group(['middleware'=>['web','auth'], 'prefix' => LaravelLocalization::setLocale().'/dashboard', 'namespace' => 'Dashboard', 'as' => 'dashboard.'], function (){
     Route::get('/', [
         'as'   => 'index',
         'uses' => 'DashboardController@showDashboard',
     ]);
 
     Route::group(['prefix'=>'/article'], function(){
-        Route::get('/', 'PostController@index');
+        Route::get('/', 'PostController@index')->name('post-list');
         Route::get('/create', 'PostController@create');
+        Route::post('/store', 'PostController@store')->name('store-post');
     });
     
     Route::group(['prefix'=>'/page'], function (){
         Route::get('/', 'PageController@index');
         Route::get('/create', 'PageController@create');
+    });
+
+    Route::group(['prefix' => '/category'], function(){
+        Route::get('/', 'CategoryController@index');
     });
 });

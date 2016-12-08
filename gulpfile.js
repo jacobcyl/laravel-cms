@@ -35,7 +35,7 @@ elixir(function(mix) {
             'front.css'
         ], 'public/css/front.css')
         .styles([//backend stylesheet files
-            './node_modules/morris.js/morris.css',
+            //'./node_modules/morris.js/morris.css',
             './public/css/all.css',
             'sb-admin.css'
         ], 'public/css/admin.css')
