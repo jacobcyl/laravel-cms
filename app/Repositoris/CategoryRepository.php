@@ -22,5 +22,27 @@ class CategoryRepository extends Repository
         return Category::class;
     }
 
+    /**
+     * 计算树的层级
+     * @return mixed
+     */
+    public function withDepth(){
+        return $this->model->withDepth();
+    }
 
+    /**
+     * @param int $parent 父类ID
+     * @param array $input attributes
+     * @return Category $node
+     */
+    public function createNode(int $parent, array $input){
+        $node = $this->create($input);
+
+        if($parent > 0){
+            $parentNode = $this->find($parent);
+            $parentNode->appendNode($node);
+        }
+        
+        return $node;
+    }
 }

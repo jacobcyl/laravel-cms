@@ -165,6 +165,10 @@ return [
         //多国语言模板生成
         AdamWathan\BootForms\BootFormsServiceProvider::class,
         Propaganistas\LaravelTranslatableBootForms\TranslatableBootFormsServiceProvider::class,
+        //notification
+        Krucas\Notification\NotificationServiceProvider::class,
+
+        Bkwld\Croppa\ServiceProvider::class,
     ],
 
     /*
@@ -212,6 +216,9 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'LaravelLocalization' => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
         'TranslatableBootForm' => Propaganistas\LaravelTranslatableBootForms\Facades\TranslatableBootForm::class,
+        'FileUpload' => App\Facades\FileUpload::class,
+        'Notification' => Krucas\Notification\Facades\Notification::class,
+        'Croppa' => Bkwld\Croppa\Facade::class
     ],
 
 ];

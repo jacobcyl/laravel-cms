@@ -43,5 +43,8 @@ Route::group(['middleware'=>['web','auth'], 'prefix' => LaravelLocalization::set
 
     Route::group(['prefix' => '/category'], function(){
         Route::get('/', 'CategoryController@index');
+        Route::get('/create', 'CategoryController@create');
+        Route::post('/store', 'CategoryController@store')->name('store-category');
+        Route::delete('/delete/{id}', 'CategoryController@delete')->name('delete-category');
     });
 });

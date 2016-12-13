@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Services\FileUpload;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +24,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        /*
+        |--------------------------------------------------------------------------
+        | upload service.
+        |--------------------------------------------------------------------------
+        */
+        $this->app->singleton('upload.file', function () {
+            return new FileUpload();
+        });
     }
 }

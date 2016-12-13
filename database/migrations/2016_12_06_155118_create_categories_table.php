@@ -14,7 +14,9 @@ class CreateCategoriesTable extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('parent_id')->default(0)->unsigned()->comment('父类id');
+            //$table->integer('parent_id')->default(0)->unsigned()->comment('父类id');
+            NestedSet::columns($table);
+            $table->string('cate_type')->comment('分类类别');
             $table->string('name')->comment('分类名称');
             $table->string('slug')->comment('别名');
             $table->integer('sort')->comment('排序');

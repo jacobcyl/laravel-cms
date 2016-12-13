@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Dashboard;
 
 use App\Repositories\PostRepository as Post;
+use App\Repositories\CategoryRepository as Category;
 use Illuminate\Http\Request;
 
 class PostController extends BaseController
@@ -13,10 +14,16 @@ class PostController extends BaseController
     protected $post;
 
     /**
+     * @var Category $category
+     */
+    protected $category;
+
+    /**
      * @param Post $post
      */
-    public function __construct(Post $post){
+    public function __construct(Post $post, Category $category){
         $this->post = $post;
+        $this->category = $category;
     }
     
     public function index(){
@@ -28,15 +35,18 @@ class PostController extends BaseController
      * 创建文章
      */
     public function create(){
-        return view('dashboard.post.create');
+        $categories = $this->category->withDepth()->where('cate_type', 'post')->get()->toFlatTree();
+
+        return view('dashboard.post.create', compact('categories'));
     }
 
     /**
      * 保存文章
      * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
     public function store(Request $request){
-        $this->post->create($request->all());
+        $this->post->create(array_merge($request->all(), ['published' => 1]));
         
         return redirect(route('dashboard.post-list'));
     }

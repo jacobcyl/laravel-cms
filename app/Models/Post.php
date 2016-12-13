@@ -19,6 +19,15 @@ class Post extends Model
     protected $fillable = ['published'];
 
 
+    /**
+     * Columns that are file.
+     *
+     * @var array
+     */
+    public $attachments = [
+        'image' => 'cover_id',
+    ];
+
     // translate
     // see http://blog.remoblaser.ch/laravel/2016/laravel-multi-language/
     //Read the title in the currently set language
