@@ -21,6 +21,17 @@
             </div>
             <div class="col-xs-12 col-md-4 col-lg-4">
                 <div class="panel panel-default">
+                    <div class="panel-heading">文章封面图片11</div>
+                    <div class="panel-body">
+                        <div class="scale w-5-3-h post-cover without-image">
+                            <div class="fill-box"><img class="preview-image" /></div>
+                            <div class="fill-box box-del"><i class="fa fa-w fa-trash btn-remove-file"></i></div>
+                            <div class="fill-box box-add"><i class="fa fa-w fa-folder-open"></i></div>
+                            <input class="fill-box" type="file" name="image" accept="image/*">
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
                     <div class="panel-heading">发布</div>
                     <div class="panel-body">
                         <div class="form-group">
@@ -49,8 +60,55 @@
         .content{
             height:400px !important;
         }
+        .w-5-3-h{
+            padding-bottom: 60%;
+        }
+        .scale {
+            height: 0;
+            position: relative;
+        }
+        .with-image img, .with-image:hover .box-del, .without-image .box-add, .without-image input{
+            display: block;
+        }
+        .without-image img, .box-del, .with-image .box-add, .with-image input{
+            display: none;
+        }
+        .fill-box{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        input.fill-box{
+            opacity: 0;
+        }
+        .box-del > i{
+            font-size: 2rem;
+            background: gray;
+            cursor: pointer;
+            color: white;
+            padding: .1rem .5rem;
+            position: absolute;
+            bottom: .5rem;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+        .box-add > i{
+            font-size: 5rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .post-cover img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     </style>
 @endsection
+
 
 @section('page_js')
     <script type="text/javascript" src="/js/wangEditor/wangEditor.min.js"></script>
@@ -66,15 +124,34 @@
                 });
                 editor.create();
             });
+
+            $('.lang-select').on('change', function(){
+                var locale = $(this).val();
+                $('.form-group-translation').hide().has('[data-language="'+locale+'"]').show();
+            })
+
+            $('.form-group-translation').hide().has('[data-language="'+$('.lang-select').val()+'"]').show();
+
+            $('input[name="image"]').on('change', function(e){
+                if (this.files && this.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        $('.preview-image').attr('src', e.target.result);
+                        $('.post-cover').removeClass('without-image').addClass('with-image');
+                    }
+
+                    reader.readAsDataURL(this.files[0]);
+                }
+            });
+            $('.btn-remove-file').on('click', function(){
+                $('input[name="image"]').val('');
+                $('.post-cover').removeClass('with-image').addClass('without-image');
+            });
         });
         //var editor = new wangEditor($('.content'));
         //editor.create();
 
-        $('.lang-select').on('change', function(){
-            var locale = $(this).val();
-            $('.form-group-translation').hide().has('[data-language="'+locale+'"]').show();
-        })
 
-        $('.form-group-translation').hide().has('[data-language="'+$('.lang-select').val()+'"]').show();
     </script>
 @endsection
