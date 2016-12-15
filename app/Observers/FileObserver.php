@@ -83,6 +83,14 @@ class FileObserver
                 }
             }
         }
+
+    }
+
+    public function saved(Model $model){
+        if(Request::has('categories')){
+            $categories = Request::get('categories');
+            $model->categories()->sync($categories);
+        }
     }
 
     /**

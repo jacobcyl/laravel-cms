@@ -27,6 +27,10 @@ class Post extends Model
     public $attachments = [
         'image' => 'cover_id',
     ];
+    
+    public function categories(){
+        return $this->belongsToMany(Category::class, 'post_category');
+    }
 
     // translate
     // see http://blog.remoblaser.ch/laravel/2016/laravel-multi-language/

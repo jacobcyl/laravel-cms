@@ -6,6 +6,16 @@
         <div class="col-lg-12">
             <h1 class="page-header">
                 <small>发布文章</small>
+                <div style="float: right" class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        <span class="selected-lang">选择语言</span>
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                        <li><a role="menuitem" class="set-lang" tabindex="-1" data-lang="zh" href="#zh">中文</a></li>
+                        <li><a role="menuitem" class="set-lang" tabindex="-1" data-lang="en" href="#en">英文</a></li>
+                    </ul>
+                </div>
             </h1>
         </div>
     </div>
@@ -32,14 +42,16 @@
                     </div>
                 </div>
                 <div class="panel panel-default">
-                    <div class="panel-heading">发布</div>
+                    <div class="panel-heading">选择文章分类</div>
                     <div class="panel-body">
                         <div class="form-group">
-                            <label class="" for="content">选择文章语言</label>
-                            <select class="form-control lang-select">
-                                <option value="zh">中文</option>
-                                <option value="en">英文</option>
-                            </select>
+                            @foreach($categories as $category)
+                            <div class="checkbox level-{{ $category->depth }}">
+                                <label>
+                                    <input class="level-{{ $category->depth }}" data-level="{{ $category->depth }}" data-parent="{{ $category->parent_id }}" type="checkbox" name="categories[]" value="{{ $category->id }}"> {!! $category->name !!}
+                                </label>
+                            </div>
+                            @endforeach
                         </div>
                     </div>
                     <div class="panel-footer">
@@ -57,6 +69,23 @@
 @section('page_css')
     <link rel="stylesheet" type="text/css" href="/css/wangEditor/wangEditor.min.css">
     <style>
+
+        .level-1{
+            margin-left: 1rem;
+        }
+        .level-2{
+            margin-left: 2rem;
+        }
+        .level-3{
+            margin-left: 3rem;
+        }
+        .level-4{
+            margin-left: 4rem;
+        }
+        .level-5{
+            margin-left: 5rem;
+        }
+
         .content{
             height:400px !important;
         }
@@ -125,12 +154,13 @@
                 editor.create();
             });
 
-            $('.lang-select').on('change', function(){
-                var locale = $(this).val();
+            $('.set-lang').on('click', function(){
+                var locale = $(this).data('lang');
+                $('span.selected-lang').html($(this).html());
                 $('.form-group-translation').hide().has('[data-language="'+locale+'"]').show();
             })
 
-            $('.form-group-translation').hide().has('[data-language="'+$('.lang-select').val()+'"]').show();
+            $('.form-group-translation').hide().has('[data-language="zh"]').show();
 
             $('input[name="image"]').on('change', function(e){
                 if (this.files && this.files[0]) {
@@ -147,6 +177,22 @@
             $('.btn-remove-file').on('click', function(){
                 $('input[name="image"]').val('');
                 $('.post-cover').removeClass('with-image').addClass('without-image');
+            });
+
+            $('input[type=checkbox]').on('click', function(){
+                var level = $(this).data('level');
+                var parent = $(this).data('parent');
+
+                var check = $(this).prop("checked");
+
+                $('input[type=checkbox]').each(function(index, item){
+                    if($(item).val() == parent){
+                        if(check) $(item).prop('checked', true);
+                        else{
+
+                        }
+                    }
+                });
             });
         });
         //var editor = new wangEditor($('.content'));

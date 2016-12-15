@@ -46,7 +46,12 @@ class PostController extends BaseController
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
     public function store(Request $request){
-        $this->post->create(array_merge($request->all(), ['published' => 1]));
+        $post = $this->post->create(array_merge($request->all(), ['published' => 1]));
+        
+        if($request->has('category')){
+            $categories = $request->get('category');
+            
+        }
         
         return redirect(route('dashboard.post-list'));
     }
