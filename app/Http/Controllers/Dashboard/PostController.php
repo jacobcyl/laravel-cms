@@ -27,8 +27,8 @@ class PostController extends BaseController
     }
     
     public function index(){
-        
-        return view('dashboard.post.index');
+        $posts = $this->post->with(['cover'])->paginate(30);
+        return view('dashboard.post.index', compact('posts'));
     }
     
     /*
@@ -54,5 +54,18 @@ class PostController extends BaseController
         }
         
         return redirect(route('dashboard.post-list'));
+    }
+
+    public function delete($id){
+        $post = $this->post->delete($id);
+
+        return back();
+    }
+
+    public function edit($id){
+        $post = $this->post->find($id);
+        $categories = $this->category->withDepth()->where('cate_type', 'post')->get()->toFlatTree();
+
+        return view('dashboard.post.edit', compact('post', 'categories'));
     }
 }

@@ -22,6 +22,8 @@ Route::post('contact', 'HomeController@postContact');
 Route::group(['prefix'=>LaravelLocalization::setLocale()], function(){
     Route::get('/', 'HomeController@index');
     Route::get('/home', 'HomeController@index');
+    Route::get('/news', 'PostController@index')->name('news-list');
+    Route::get('/news/{id}', 'PostController@show')->name('news-show');
 });
 
 Route::group(['middleware'=>['web','auth'], 'prefix' => LaravelLocalization::setLocale().'/dashboard', 'namespace' => 'Dashboard', 'as' => 'dashboard.'], function (){
@@ -34,6 +36,11 @@ Route::group(['middleware'=>['web','auth'], 'prefix' => LaravelLocalization::set
         Route::get('/', 'PostController@index')->name('post-list');
         Route::get('/create', 'PostController@create');
         Route::post('/store', 'PostController@store')->name('store-post');
+        Route::put('/update/{id}', 'PostController@update')->name('update-post');
+
+
+        Route::get('/delete/{id}', 'PostController@delete')->name('delete-post');
+        Route::get('/edit/{id}', 'PostController@edit')->name('edit-post');
     });
     
     Route::group(['prefix'=>'/page'], function (){

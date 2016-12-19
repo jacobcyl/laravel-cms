@@ -22,7 +22,7 @@
     <!-- /.row -->
 
     <div class="row">
-        {!! TranslatableBootForm::open()->action(route('dashboard.store-post'))->multipart()->role('form') !!}
+        {!! TranslatableBootForm::open()->action(route('dashboard.update-post', ['id'=>$post->id]))->multipart()->role('form') !!}
             <div class="col-xs-12 col-md-8 col-lg-8">
                 {!! TranslatableBootForm::text(trans('validation.attributes.postTitle'), 'title')
                 ->placeholder('输入文章标题') !!}
@@ -34,7 +34,7 @@
                     <div class="panel-heading">文章封面图片</div>
                     <div class="panel-body">
                         <div class="scale w-5-3-h post-cover without-image">
-                            <div class="fill-box"><img class="preview-image" /></div>
+                            <div class="fill-box"><img class="preview-image" {{ $post->cover?'src="'.url($post->cover->path).'"':'' }} /></div>
                             <div class="fill-box box-del"><i class="fa fa-w fa-trash btn-remove-file"></i></div>
                             <div class="fill-box box-add"><i class="fa fa-w fa-folder-open"></i></div>
                             <input class="fill-box" type="file" name="image" accept="image/*">

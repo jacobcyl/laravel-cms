@@ -32,6 +32,10 @@ class Post extends Model
         return $this->belongsToMany(Category::class, 'post_category');
     }
 
+    public function cover(){
+        return $this->hasOne(Media::class, 'id', 'cover_id');
+    }
+
     // translate
     // see http://blog.remoblaser.ch/laravel/2016/laravel-multi-language/
     //Read the title in the currently set language

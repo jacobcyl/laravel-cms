@@ -91,10 +91,11 @@
         <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
             <ul class="nav navbar-nav">
 
-                <li class="menuItem"><a href="#whatis">@lang('page.About')</a></li>
-                <li class="menuItem"><a href="#useit">@lang('page.Prospects')</a></li>
-                <li class="menuItem"><a href="#screen">@lang('page.Item Gallery')</a></li>
-                <li class="menuItem"><a href="#credits">@lang('page.Team')</a></li>
+                <li class="menuItem"><a href="#About">@lang('page.About')</a></li>
+                <li class="menuItem"><a href="#Prospects">@lang('page.Prospects')</a></li>
+                <li class="menuItem"><a href="#Gallery">@lang('page.Item Gallery')</a></li>
+                <li class="menuItem"><a href="{{ route('news-list') }}">@lang('page.news')</a></li>
+                <li class="menuItem"><a href="#Team">@lang('page.Team')</a></li>
                 <li class="menuItem"><a href="#contact">@lang('page.Contact')</a></li>
                 <li class="menuItem">
                     <div class="dropdown">
@@ -121,7 +122,7 @@
 </nav>
 
 <!-- What is -->
-<div id="whatis" class="content-section-b" style="border-top: 0">
+<div id="About" class="content-section-b" style="border-top: 0">
     <div class="container">
 
         <div class="row">
@@ -188,7 +189,7 @@
 </div>
 
 <!-- Use it -->
-<div id ="useit" class="content-section-a">
+<div id ="Prospects" class="content-section-a">
 
     <div class="container">
         <div class="row">
@@ -281,7 +282,7 @@
 </div>
 
 <!-- Screenshot -->
-<div id="screen" class="content-section-b">
+<div id="Gallery" class="content-section-b">
     <div class="container">
         <div class="row" >
             <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
@@ -442,7 +443,7 @@
 --}}
 
 <!-- Credits -->
-<div id="credits" class="content-section-a team">
+<div id="Team" class="content-section-a team">
     <div class="container">
         <div class="row">
 
