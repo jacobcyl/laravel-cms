@@ -94,7 +94,7 @@
                 <li class="menuItem"><a href="#About">@lang('page.About')</a></li>
                 <li class="menuItem"><a href="#Prospects">@lang('page.Prospects')</a></li>
                 <li class="menuItem"><a href="#Gallery">@lang('page.Item Gallery')</a></li>
-                <li class="menuItem"><a href="{{ route('news-list') }}">@lang('page.news')</a></li>
+                <li class="menuItem"><a href="{{ route('news-list') }}">@lang('page.News')</a></li>
                 <li class="menuItem"><a href="#Team">@lang('page.Team')</a></li>
                 <li class="menuItem"><a href="#contact">@lang('page.Contact')</a></li>
                 <li class="menuItem">

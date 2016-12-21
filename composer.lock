@@ -551,16 +551,16 @@
         },
         {
             "name": "kalnoy/nestedset",
-            "version": "v4.1.6",
+            "version": "v4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lazychaser/laravel-nestedset.git",
-                "reference": "101a849ae11891de0ff106330ed9f070743e98c3"
+                "reference": "c7584ba0daa059f1f339f7d163f3042fd7d1d65d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lazychaser/laravel-nestedset/zipball/101a849ae11891de0ff106330ed9f070743e98c3",
-                "reference": "101a849ae11891de0ff106330ed9f070743e98c3",
+                "url": "https://api.github.com/repos/lazychaser/laravel-nestedset/zipball/c7584ba0daa059f1f339f7d163f3042fd7d1d65d",
+                "reference": "c7584ba0daa059f1f339f7d163f3042fd7d1d65d",
                 "shasum": ""
             },
             "require": {
@@ -575,7 +575,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "v4.1.x-dev"
+                    "dev-master": "v4.2.x-dev"
                 }
             },
             "autoload": {
@@ -601,7 +601,7 @@
                 "nested sets",
                 "nsm"
             ],
-            "time": "2016-08-29 14:32:09"
+            "time": "2016-12-19 08:36:51"
         },
         {
             "name": "laravel/framework",
@@ -818,16 +818,16 @@
         },
         {
             "name": "mcamara/laravel-localization",
-            "version": "1.1.9",
+            "version": "1.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mcamara/laravel-localization.git",
-                "reference": "82bc38c4d6b0c8cd8a4a774edbc677039b460769"
+                "reference": "a7ebf1783219e3df5db3c699b31282ec615e2de6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mcamara/laravel-localization/zipball/82bc38c4d6b0c8cd8a4a774edbc677039b460769",
-                "reference": "82bc38c4d6b0c8cd8a4a774edbc677039b460769",
+                "url": "https://api.github.com/repos/mcamara/laravel-localization/zipball/a7ebf1783219e3df5db3c699b31282ec615e2de6",
+                "reference": "a7ebf1783219e3df5db3c699b31282ec615e2de6",
                 "shasum": ""
             },
             "require": {
@@ -862,7 +862,7 @@
                 "localization",
                 "php"
             ],
-            "time": "2016-10-17 06:56:04"
+            "time": "2016-12-16 16:08:51"
         },
         {
             "name": "monolog/monolog",
@@ -1473,7 +1473,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -2186,55 +2186,6 @@
     ],
     "packages-dev": [
         {
-            "name": "bkwld/croppa",
-            "version": "4.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/BKWLD/croppa.git",
-                "reference": "5e93e97e0e20388a2f942a561911319eb956be77"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/BKWLD/croppa/zipball/5e93e97e0e20388a2f942a561911319eb956be77",
-                "reference": "5e93e97e0e20388a2f942a561911319eb956be77",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "4 - 5",
-                "illuminate/routing": "4 - 5",
-                "illuminate/support": "4 - 5",
-                "league/flysystem": "~1.0",
-                "php": ">=5.4.0",
-                "symfony/http-foundation": "2 - 3",
-                "symfony/http-kernel": "2 - 3",
-                "weotch/phpthumb": "^1.0.5"
-            },
-            "conflict": {
-                "league/flysystem-cached-adapter": "<1.0.2"
-            },
-            "require-dev": {
-                "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Bkwld\\Croppa": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Robert Reinhard"
-                }
-            ],
-            "description": "Image thumbnail creation through specially formatted URLs for Laravel",
-            "time": "2016-09-08 16:24:58"
-        },
-        {
             "name": "doctrine/instantiator",
             "version": "1.0.5",
             "source": {
@@ -2900,16 +2851,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.30",
+            "version": "4.8.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "a534e04d0bd39c557c2881c341efd06fa6f1292a"
+                "reference": "98b2b39a520766bec663ff5b7ff1b729db9dbfe3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a534e04d0bd39c557c2881c341efd06fa6f1292a",
-                "reference": "a534e04d0bd39c557c2881c341efd06fa6f1292a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/98b2b39a520766bec663ff5b7ff1b729db9dbfe3",
+                "reference": "98b2b39a520766bec663ff5b7ff1b729db9dbfe3",
                 "shasum": ""
             },
             "require": {
@@ -2968,7 +2919,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-12-01 17:05:48"
+            "time": "2016-12-09 02:45:31"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -3509,16 +3460,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "f2300ba8fbb002c028710b92e1906e7457410693"
+                "reference": "a7095af4b97a0955f85c8989106c249fa649011f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/f2300ba8fbb002c028710b92e1906e7457410693",
-                "reference": "f2300ba8fbb002c028710b92e1906e7457410693",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/a7095af4b97a0955f85c8989106c249fa649011f",
+                "reference": "a7095af4b97a0955f85c8989106c249fa649011f",
                 "shasum": ""
             },
             "require": {
@@ -3560,7 +3511,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:17:59"
+            "time": "2016-12-10 10:07:06"
         },
         {
             "name": "webmozart/assert",
@@ -3611,41 +3562,6 @@
                 "validate"
             ],
             "time": "2016-11-23 20:04:58"
-        },
-        {
-            "name": "weotch/phpthumb",
-            "version": "1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/weotch/PHPThumb.git",
-                "reference": "f5c1d2ef2e9de3bded7483778618bf8cac2511c3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/weotch/PHPThumb/zipball/f5c1d2ef2e9de3bded7483778618bf8cac2511c3",
-                "reference": "f5c1d2ef2e9de3bded7483778618bf8cac2511c3",
-                "shasum": ""
-            },
-            "replace": {
-                "dannytrue/phpthumb": "dev-master#2d8898f62e75a743e248dd5906a038d574e0dfe0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Robert Reinhard"
-                }
-            ],
-            "description": "Fork of PHPThumb that adds auto-image rotation based on EXIF data and composer support",
-            "time": "2015-05-12 22:56:19"
         }
     ],
     "aliases": [],

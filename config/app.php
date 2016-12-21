@@ -168,7 +168,7 @@ return [
         //notification
         Krucas\Notification\NotificationServiceProvider::class,
 
-        Bkwld\Croppa\ServiceProvider::class,
+        //Bkwld\Croppa\ServiceProvider::class,
     ],
 
     /*
@@ -218,7 +218,7 @@ return [
         'TranslatableBootForm' => Propaganistas\LaravelTranslatableBootForms\Facades\TranslatableBootForm::class,
         'FileUpload' => App\Facades\FileUpload::class,
         'Notification' => Krucas\Notification\Facades\Notification::class,
-        'Croppa' => Bkwld\Croppa\Facade::class
+        //'Croppa' => Bkwld\Croppa\Facade::class
     ],
 
 ];
