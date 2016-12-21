@@ -521,7 +521,7 @@
             <div class="col-sm-6  block wow bounceIn">
                 <div class="row">
                     <div class="col-md-3">
-                        <img class="sm-item-img lazy" data-original="img/role5.png" alt="Micro-grooved thrust bearing">
+                        <img class="sm-item-img lazy" data-original="img/role5.jpg" alt="Micro-grooved thrust bearing">
                     </div>
                     <div class="col-md-9">
                         <h3>

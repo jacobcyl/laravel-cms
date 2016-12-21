@@ -92,8 +92,9 @@ return [
     'role_4_name' => 'Hou Yu',
     'role_4_desc' => 'Vice dean & Ph.D.,  School of Energy and Power Engineering,  Xi\'an Jiaotong University',
 
-    'role_5_name' => 'Zhang Jingchu',
-    'role_5_desc' => 'Aero-engine field researcher, senior engineer',
+    'role_5_name' => '',
+    'role_5_desc' => '
+Tsinghua University mechanical engineering graduate, serving graduate students. Shanghai Pu Jian Aviation Technology Co., Ltd. mechanical engineer',
 
     'role_6_name' => 'Luo Lifeng',
     'role_6_desc' => '-Chief engineer, Shanghai Institute of Ceramics, Chinese Academy of Sciences advanced ceramic manufacturing technology development platform; <br>-Designer of key technology in a small micro-gas turbine; <br>-Designer &inventor of self-sealing micro-grooved full dynamic pressure gas bearing system, impeller-like self-sealing micro grooved and elastic foil full dynamic pressure gas bearing system.',
