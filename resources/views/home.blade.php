@@ -518,17 +518,17 @@
         </div>
 
         <div class="row tworow">
-            <div class="col-sm-6  block wow bounceIn">
+            <div class="col-sm-6 block wow bounceIn">
                 <div class="row">
                     <div class="col-md-3">
-                        <img class="sm-item-img lazy" data-original="img/role5.jpg" alt="Micro-grooved thrust bearing">
+                        <img class="sm-item-img lazy" data-original="img/role8.png" alt="Micro-grooved thrust bearing">
                     </div>
                     <div class="col-md-9">
                         <h3>
-                            @lang('page.role_5_name')
+                            @lang('page.role_8_name')
                         </h3>
                         <p>
-                            @lang('page.role_5_desc')
+                            @lang('page.role_8_desc')
                         </p>
                     </div>
                 </div>
@@ -566,21 +566,21 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 block wow bounceIn">
+            <div class="col-sm-6  block wow bounceIn">
                 <div class="row">
                     <div class="col-md-3">
-                        <img class="sm-item-img lazy" data-original="img/role8.png" alt="Micro-grooved thrust bearing">
+                        <img class="sm-item-img lazy" data-original="img/role5.jpg" alt="Micro-grooved thrust bearing">
                     </div>
                     <div class="col-md-9">
                         <h3>
-                            @lang('page.role_8_name')
+                            @lang('page.role_5_name')
                         </h3>
                         <p>
-                            @lang('page.role_8_desc')
+                            @lang('page.role_5_desc')
                         </p>
                     </div>
                 </div>
-            </div>
+            </div>            
         </div>
     </div>
 </div>
