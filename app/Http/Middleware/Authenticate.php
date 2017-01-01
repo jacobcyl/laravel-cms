@@ -25,6 +25,10 @@ class Authenticate
             }
         }
 
+        $user = Auth::user();
+        if($user->active == 0){
+            return response('Unactived.', 401);
+        }
         return $next($request);
     }
 }
