@@ -68,9 +68,12 @@ class FileObserver
             return;
         }
 
+        Log::debug('foreach attachments');
         foreach ($attachments as $inputname => $fieldname) {
             if (Request::hasFile($inputname)) {
                 // delete prev image
+
+                Log::debug('handle upload file');
                 $file = FileUpload::handle(Request::file($inputname), 'uploads/'.$model->getTable());
 
                 if($file)
