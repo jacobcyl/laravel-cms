@@ -4,6 +4,7 @@ namespace App\Services;
 
 use App\Models\Media;
 use Exception;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 use Notification;
 use Symfony\Component\HttpFoundation\File\Exception\FileException;
@@ -62,7 +63,7 @@ class FileUpload
         try {
             $file->move($input['path'], $input['file_name']);
             list($input['width'], $input['height']) = getimagesize($input['path'].'/'.$input['file_name']);
-
+            Log::debug('File uploaded');
             return $this->saveToMedia($input);
 
             //return $input;
@@ -74,6 +75,7 @@ class FileUpload
     }
 
     private function saveToMedia(array $input){
+        Log::debug($input);
         $input['path'] = $input['path'].'/'.$input['file_name'];
         $user = auth()->user();
         if($user) $input['user_id'] = $user->id;

@@ -42,7 +42,7 @@ class CategoryController extends BaseController
             return response()->json(['error'=>true, 'message'=>'表单验证错误']);
         }
 
-        $parent = $request->get('parent');
+        $parent = (int) $request->get('parent');
         $node = $this->category->createNode($parent, $request->all());
 
         return $request->ajax()?response()->json($node):back();

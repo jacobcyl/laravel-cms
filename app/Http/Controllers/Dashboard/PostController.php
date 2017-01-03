@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Dashboard;
 
+use App\Repositories\Criteria\Post\LatestPosts;
 use App\Repositories\PostRepository as Post;
 use App\Repositories\CategoryRepository as Category;
 use Illuminate\Http\Request;
@@ -27,6 +28,7 @@ class PostController extends BaseController
     }
     
     public function index(){
+        $this->post->pushCriteria(new LatestPosts());
         $posts = $this->post->with(['cover'])->paginate(30);
         return view('dashboard.post.index', compact('posts'));
     }
