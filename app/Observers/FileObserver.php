@@ -3,7 +3,7 @@
 namespace App\Observers;
 
 use App\Models\Media;
-use Croppa;
+//use Croppa;
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
@@ -47,7 +47,7 @@ class FileObserver
         }
         $file = '/uploads/'.$model->getTable().'/'.$filename;
         try {
-            Croppa::delete($file);
+            //Croppa::delete($file);
             File::delete(public_path().$file);
         } catch (Exception $e) {
             Log::error($e->getMessage());
