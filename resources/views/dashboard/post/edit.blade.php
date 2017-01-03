@@ -22,45 +22,46 @@
     <!-- /.row -->
 
     <div class="row">
-        {!! TranslatableBootForm::open()->action(route('dashboard.update-post', ['id'=>$post->id]))->multipart()->role('form') !!}
-            <div class="col-xs-12 col-md-8 col-lg-8">
-                {!! TranslatableBootForm::text(trans('validation.attributes.postTitle'), 'title')
-                ->placeholder('输入文章标题') !!}
-                {!! TranslatableBootForm::textarea(trans('validation.attributes.postContent'), 'content')
-                ->addClass('content') !!}
-            </div>
-            <div class="col-xs-12 col-md-4 col-lg-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">文章封面图片</div>
-                    <div class="panel-body">
-                        <div class="scale w-5-3-h post-cover without-image">
-                            <div class="fill-box"><img class="preview-image" {{ $post->cover?'src="'.url($post->cover->path).'"':'' }} /></div>
-                            <div class="fill-box box-del"><i class="fa fa-w fa-trash btn-remove-file"></i></div>
-                            <div class="fill-box box-add"><i class="fa fa-w fa-folder-open"></i></div>
-                            <input class="fill-box" type="file" name="image" accept="image/*">
-                        </div>
+        {!! TranslatableBootForm::open()->put()->action(route('dashboard.update-post', $post->id))->multipart()->role('form') !!}
+        {!! TranslatableBootForm::bind($post) !!}
+
+        <div class="col-xs-12 col-md-8 col-lg-8">
+            {!! TranslatableBootForm::text(trans('validation.attributes.postTitle'), 'title')
+            ->placeholder('输入文章标题') !!}
+            {!! TranslatableBootForm::textarea(trans('validation.attributes.postContent'), 'content')
+            ->addClass('content') !!}
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">文章封面图片</div>
+                <div class="panel-body">
+                    <div class="scale w-5-3-h post-cover with-image">
+                        <div class="fill-box"><img class="preview-image" {{ $post->cover?('src='.url($post->cover->path)):'' }} /></div>
+                        <div class="fill-box box-del"><i class="fa fa-w fa-trash btn-remove-file"></i></div>
+                        <div class="fill-box box-add"><i class="fa fa-w fa-folder-open"></i></div>
+                        <input class="fill-box" type="file" name="image" accept="image/*">
                     </div>
                 </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading">选择文章分类</div>
-                    <div class="panel-body">
-                        <div class="form-group">
-                            @foreach($categories as $category)
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">选择文章分类</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        @foreach($categories as $category)
                             <div class="checkbox level-{{ $category->depth }}">
                                 <label>
                                     <input class="level-{{ $category->depth }}" data-level="{{ $category->depth }}" data-parent="{{ $category->parent_id }}" type="checkbox" name="categories[]" value="{{ $category->id }}"> {!! $category->name !!}
                                 </label>
                             </div>
-                            @endforeach
-                        </div>
-                    </div>
-                    <div class="panel-footer">
-                        <button type="submit" class="btn btn-primary">发布</button>
+                        @endforeach
                     </div>
                 </div>
+                <div class="panel-footer">
+                    <button type="submit" class="btn btn-primary">发布</button>
+                </div>
             </div>
+        </div>
         {!! TranslatableBootForm::close() !!}
-
     </div>
     <!-- /.row -->
 
