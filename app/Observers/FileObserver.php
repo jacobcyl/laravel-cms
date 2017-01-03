@@ -63,18 +63,13 @@ class FileObserver
      */
     public function saving(Model $model)
     {
-        Log::debug('Post Saving ...');
         if (!$attachments = $model->attachments) {
-            Log::debug($attachments);
             return;
         }
 
-        Log::debug('foreach attachments');
         foreach ($attachments as $inputname => $fieldname) {
             if (Request::hasFile($inputname)) {
                 // delete prev image
-
-                Log::debug('handle upload file');
                 $file = FileUpload::handle(Request::file($inputname), 'uploads/'.$model->getTable());
 
                 if($file)
@@ -92,7 +87,6 @@ class FileObserver
     }
 
     public function saved(Model $model){
-        Log::debug('Post Saved.');
         if(Request::has('categories')){
             $categories = Request::get('categories');
             $model->categories()->sync($categories);
