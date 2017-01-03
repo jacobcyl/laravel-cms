@@ -65,6 +65,7 @@ class FileObserver
     {
         Log::debug('Post Saving ...');
         if (!$attachments = $model->attachments) {
+            Log::debug($attachments);
             return;
         }
 
