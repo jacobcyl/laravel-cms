@@ -35,7 +35,7 @@ class CategoryRepository extends Repository
      * @param array $input attributes
      * @return Category $node
      */
-    public function createNode(int $parent, array $input){
+    public function createNode($parent, array $input){
         $node = $this->create($input);
 
         if($parent > 0){
