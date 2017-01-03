@@ -29,6 +29,7 @@ class FileUpload
      */
     public function handle(UploadedFile $file, $path = 'uploads', $category = 'assets', $fileName = null, $storage = 'local')
     {
+        Log::debug('handle function');
         $input = [];
         $input['storage'] = $storage;
         $input['category'] = $category;
@@ -61,6 +62,7 @@ class FileUpload
         }
 
         try {
+            Log::debug('file info', $input);
             $file->move($input['path'], $input['file_name']);
             list($input['width'], $input['height']) = getimagesize($input['path'].'/'.$input['file_name']);
             Log::debug('File uploaded');
