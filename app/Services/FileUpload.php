@@ -70,6 +70,7 @@ class FileUpload
 
             //return $input;
         } catch (FileException $e) {
+            Log::error($e->getMessage());
             Notification::error($e->getmessage());
 
             return false;
