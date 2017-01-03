@@ -63,6 +63,7 @@ class FileObserver
      */
     public function saving(Model $model)
     {
+        Log::debug('Post Saving ...');
         if (!$attachments = $model->attachments) {
             return;
         }
@@ -87,6 +88,7 @@ class FileObserver
     }
 
     public function saved(Model $model){
+        Log::debug('Post Saved.');
         if(Request::has('categories')){
             $categories = Request::get('categories');
             $model->categories()->sync($categories);

@@ -12,7 +12,7 @@
     <!-- /.row -->
 
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title" data-level="-1" data-parent="0" data-id="0">
