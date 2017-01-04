@@ -63,6 +63,7 @@ class FileObserver
      */
     public function saving(Model $model)
     {
+        /*
         if (!$attachments = $model->attachments) {
             return;
         }
@@ -83,8 +84,9 @@ class FileObserver
                 }
             }
         }
-
+        */
     }
+
 
     public function saved(Model $model){
         if(Request::has('categories')){

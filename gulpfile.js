@@ -37,10 +37,11 @@ elixir(function(mix) {
         .styles([//backend stylesheet files
             //'./node_modules/morris.js/morris.css',
             './public/css/all.css',
-            'sb-admin.css'
+            'sb-admin.css',
+            'image-picker.css'
         ], 'public/css/admin.css')
         .browserify('app.js')
-        .scripts([//front javascript files
+        .scripts([//homepage javascript files
             './public/js/app.js',
             'f/modernizr-2.8.3.min.js',
             'f/owl.carousel.js',
@@ -54,12 +55,14 @@ elixir(function(mix) {
             'f/script.js',
             //'front.js'
         ], 'public/js/homepage.js')
-        .scripts([
+        .scripts([//front javascript files
             './public/js/app.js',
             'front.js'
         ], 'public/js/front.js')
         .scripts([//backend javascript files
             './public/js/app.js',
+            'lrz.all.bundle.js',
+            'image-picker.js',
             'admin.js',
             //'./node_modules/raphael/raphael.js',
             //'./node_modules/morris.js/morris.js',

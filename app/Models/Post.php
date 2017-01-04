@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use App\Support\Translateable;
+//use App\Support\Translateable;
 use Dimsav\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
@@ -16,7 +16,7 @@ class Post extends Model
     public $translationModel = PostTranlations::class;
 
     public $translatedAttributes = ['title', 'content', 'author', 'digest'];
-    protected $fillable = ['published'];
+    protected $fillable = ['published', 'cover_id'];
 
 
     /**

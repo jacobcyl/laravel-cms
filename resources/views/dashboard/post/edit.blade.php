@@ -33,13 +33,17 @@
         </div>
         <div class="col-xs-12 col-md-4 col-lg-4">
             <div class="panel panel-default">
+                <input type="hidden" name="cover_id" value="{{ $post->cover?$post->cover->id:'' }}">
                 <div class="panel-heading">文章封面图片</div>
                 <div class="panel-body">
-                    <div class="scale w-5-3-h post-cover with-image">
-                        <div class="fill-box"><img class="preview-image" {{ $post->cover?('src='.url($post->cover->path)):'' }} /></div>
-                        <div class="fill-box box-del"><i class="fa fa-w fa-trash btn-remove-file"></i></div>
-                        <div class="fill-box box-add"><i class="fa fa-w fa-folder-open"></i></div>
-                        <input class="fill-box" type="file" name="image" accept="image/*">
+                    <div class="scale w-5-3-h" style="" data-uploaded="0">
+                        {{--<input type="file" id="upload-field" value="上传封面图片">--}}
+                        <div class="fill-box picker upload-box @if(!$post->cover) upload-flag @endif">
+                            @if($post->cover)
+                                <img class="media-object object-fit contain" src="{{ $post->cover->url }}">
+                            @endif
+                        </div>
+                        <div class="delete-cover" @if($post->cover) style="display: block" @endif>删除</div>
                     </div>
                 </div>
             </div>
@@ -163,7 +167,7 @@
 
             $('.form-group-translation').hide().has('[data-language="zh"]').show();
 
-            $('input[name="image"]').on('change', function(e){
+            /*$('input[name="image"]').on('change', function(e){
                 if (this.files && this.files[0]) {
                     var reader = new FileReader();
 
@@ -178,7 +182,27 @@
             $('.btn-remove-file').on('click', function(){
                 $('input[name="image"]').val('');
                 $('.post-cover').removeClass('with-image').addClass('without-image');
+            });*/
+
+            //上传封面图片
+            $('.picker').imagepicker({
+                url: '{{ route('dashboard.media-list') }}',
+                callback: function(obj, id, src){
+                    $(obj).removeClass('upload-flag');
+                    $(obj).html('<img class="media-object object-fit contain" src="'+src[0]+'">');
+                    $('input[name="cover_id"]').val(id[0]);
+                    coverDelete.show();
+                }
             });
+
+            //删除封面图片
+            var coverDelete = $('.delete-cover');
+            coverDelete.on('click', function (e) {
+                $('input[name="cover_id"]').val('');
+                $('.picker').empty().removeClass('upload-flag').addClass('upload-flag');
+                $(this).hide();
+            });
+
 
             $('input[type=checkbox]').on('click', function(){
                 var level = $(this).data('level');

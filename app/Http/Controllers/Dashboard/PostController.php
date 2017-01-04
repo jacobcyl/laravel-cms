@@ -52,7 +52,6 @@ class PostController extends BaseController
         
         if($request->has('category')){
             $categories = $request->get('category');
-            
         }
         
         return redirect(route('dashboard.post-list'));
@@ -60,7 +59,6 @@ class PostController extends BaseController
 
     public function delete($id){
         $post = $this->post->delete($id);
-
         return back();
     }
 
@@ -69,5 +67,11 @@ class PostController extends BaseController
         $categories = $this->category->withDepth()->where('cate_type', 'post')->get()->toFlatTree();
 
         return view('dashboard.post.edit', compact('post', 'categories'));
+    }
+
+    public function update(Request $request, $id){
+        $this->post->updateRich($request->all(), $id);
+
+        return redirect(route('dashboard.post-list'));
     }
 }
