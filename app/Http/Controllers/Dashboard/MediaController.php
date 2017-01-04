@@ -42,7 +42,7 @@ class MediaController extends BaseController
      * @return \Illuminate\Http\JsonResponse
      */
     public function upload(Request $request, $type = 'image', $cate = 'assets'){
-        $file = FileUpload::handle($request->file('file'), 'uploads/post');
+        $file = FileUpload::handle($request->file('file'), 'uploads/posts');
 
         //if($file && Request::ajax())
         return response()->json($file);
