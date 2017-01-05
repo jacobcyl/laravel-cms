@@ -6,7 +6,7 @@ use App\Repositories\Criteria\Post\LatestAssets;
 use App\Repositories\MediaRepository as Media;
 use Illuminate\Http\Request;
 use App\Facades\FileUpload;
-use Log;
+use Illuminate\Support\Facades\Log;
 
 class MediaController extends BaseController
 {
