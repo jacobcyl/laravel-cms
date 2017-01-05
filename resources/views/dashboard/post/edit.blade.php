@@ -156,6 +156,15 @@
                     }
                     return item;
                 });
+                
+                // 上传图片
+                editor.config.uploadImgFileName = 'file'
+                editor.config.uploadImgUrl = '/dashboard/media/upload/image/assets';
+                editor.config.uploadParams = {
+                    _token: $('meta[name="csrf-token"]').attr('content'),
+                    from: 'editor'
+                };
+                
                 editor.create();
             });
 
