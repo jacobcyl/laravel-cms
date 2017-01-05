@@ -78,8 +78,22 @@
     </div>
 </nav>
 <div class="row" style="margin: 5rem 0">
-    <div class="col-md-6 col-md-offset-3">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="row" >
         @foreach($posts as $post)
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-item">
+                <div class="post-area" style="overflow: hidden;">
+                    <div style="background: #aaa;">
+                        <a href="{{ route('news-show', ['id' => $post->id]) }}" class="scale w-5-3-h">
+                            <img class="scale-box" style="object-fit: cover" src="{{ url( $post->cover?$post->cover->path:'/img/placehold.png' ) }}"  />
+                        </a>
+                    </div>
+                    <h2 style="padding: 0 20px;">
+                        <a href="{{ route('news-show', ['id' => $post->id]) }>{{ $post->title }}</a>
+                    </h2>
+                </div>
+            </div>
+            {{--
             <div class="media" style="margin-bottom: 1rem;">
                 <a class="media-left" href="{{ route('news-show', ['id' => $post->id]) }}">
                     <img src="{{ url( $post->cover?$post->cover->path:'/img/placehold.png' ) }}" style="width: 50px; height: 50px; object-fit: cover;">
@@ -88,7 +102,10 @@
                     <h4 class="media-heading">{{ $post->title }}</h4>
                 </div>
             </div>
+            --}}
         @endforeach
+        </div>
+        {{ $posts->links() }}
     </div>
 </div>
 <footer>
@@ -98,6 +115,28 @@
         </div>
     </div>
 </footer>
+<style>
+    .img-item h2 a{
+        display: inline-block;
+        overflow: hidden;
+        box-sizing: border-box;
+        width: 100%;
+        height: 50px;
+        color: #000;
+        vertical-align: top;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: normal;
+        font-size: 0.20rem;
+        line-height: 50px;
+        text-decoration: none
+    }
+    .post-area:hover {
+        -webkit-box-shadow: 0px 0px 15px #ccc;
+        -moz-box-shadow: 0px 0px 15px #ccc;
+        box-shadow: 0px 0px 15px #ccc;
+    }
+</style>
 <script src="{{ elixir('js/homepage.js') }}"></script>
 
 </body>
