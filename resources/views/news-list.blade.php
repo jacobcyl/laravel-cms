@@ -89,8 +89,13 @@
                         </a>
                     </div>
                     <h2 style="padding: 0 20px; margin:0">
-                        <a href="{{ route('news-show', ['id' => $post->id]) }}">{{ $post->title }}</a>
+                        <a title="{{ $post->title }}" href="{{ route('news-show', ['id' => $post->id]) }}">{{ $post->title }}</a>
                     </h2>
+                    <div class="info">
+                        <div class="post-date">{{ $post->created_at }}</div>
+                    </div>
+                    <div class="category">
+                    </div>
                 </div>
             </div>            
         @endforeach
@@ -142,6 +147,21 @@
         right: 0;
         width: 100%;
         height: 100%;
+    }
+    .post-area .info {
+        position: relative;
+        padding: 0 20px;
+        /* height: 60px; */
+        overflow: hidden;
+    }
+    .post-area .info .post-date{
+        float: right;
+        overflow: hidden;
+        margin-left: 10px;
+        color: #a3a3a3;
+        text-align: left;
+        white-space: nowrap;
+        font-size: 14px;
     }
 </style>
 <script src="{{ elixir('js/homepage.js') }}"></script>
