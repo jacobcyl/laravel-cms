@@ -89,7 +89,7 @@
                         </a>
                     </div>
                     <h2 style="padding: 0 20px;">
-                        <a href="{{ route('news-show', ['id' => $post->id]) }>{{ $post->title }}</a>
+                        <a href="{{ route('news-show', ['id' => $post->id]) }}>{{ $post->title }}</a>
                     </h2>
                 </div>
             </div>
