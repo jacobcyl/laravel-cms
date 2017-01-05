@@ -126,6 +126,23 @@
         -moz-box-shadow: 0px 0px 15px #ccc;
         box-shadow: 0px 0px 15px #ccc;
     }
+    .scale {
+        height: 0;
+        position: relative;
+    }
+
+    .w-5-3-h {
+        padding-bottom: 60%;
+    }
+    .scale .scale-box {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
 </style>
 <script src="{{ elixir('js/homepage.js') }}"></script>
 
