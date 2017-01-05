@@ -26,7 +26,7 @@ class MediaController extends BaseController
     /**
      * get media list
      */
-    public function list(Request $request){
+    public function getList(Request $request){
         $this->media->pushCriteria(new LatestAssets());
         $medias = $this->media->paginate(12);
 
