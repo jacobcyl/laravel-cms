@@ -56,7 +56,7 @@ Route::group(['middleware'=>['web','auth'], 'prefix' => LaravelLocalization::set
     });
     
     Route::group(['prefix' => '/media'], function(){
-        Route::get('/list', 'MediaController@list')->name('media-list');
+        Route::get('/list', 'MediaController@getList')->name('media-list');
         Route::post('/upload/{type}/{cate}', 'MediaController@upload')->name('media-upload');
     });
 });
