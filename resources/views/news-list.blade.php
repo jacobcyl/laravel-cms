@@ -126,6 +126,9 @@
         line-height: 50px;
         text-decoration: none
     }
+    .post-area{
+        margin-top: 20px;
+    }
     .post-area:hover {
         -webkit-box-shadow: 0px 0px 15px #ccc;
         -moz-box-shadow: 0px 0px 15px #ccc;
