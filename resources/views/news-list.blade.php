@@ -88,7 +88,7 @@
                             <img class="scale-box" style="object-fit: cover" src="{{ url( $post->cover?$post->cover->path:'/img/placehold.png' ) }}"  />
                         </a>
                     </div>
-                    <h2 style="padding: 0 20px;">
+                    <h2 style="padding: 0 20px; margin:0">
                         <a href="{{ route('news-show', ['id' => $post->id]) }}">{{ $post->title }}</a>
                     </h2>
                 </div>
@@ -117,7 +117,7 @@
         text-overflow: ellipsis;
         white-space: nowrap;
         font-weight: normal;
-        font-size: 0.20rem;
+        font-size: 1.5rem;
         line-height: 50px;
         text-decoration: none
     }
