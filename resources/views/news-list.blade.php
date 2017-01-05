@@ -77,7 +77,7 @@
 
     </div>
 </nav>
-<div class="row post-list" style="margin: 5rem 0">
+<div class="row post-list">
     <div class="col-md-10 col-md-offset-1">
         <div class="row" >
         @foreach($posts as $post)
@@ -111,8 +111,8 @@
     </div>
 </footer>
 <style>
-    .stuckMenu .post-list{
-        margin-top: 80px;
+    .isStuck~.post-list{
+        margin-top: 80px !important;
     }
     .img-item h2 a{
         display: inline-block;
