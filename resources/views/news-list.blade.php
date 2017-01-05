@@ -89,20 +89,10 @@
                         </a>
                     </div>
                     <h2 style="padding: 0 20px;">
-                        <a href="{{ route('news-show', ['id' => $post->id]) }}>{{ $post->title }}</a>
+                        <a href="{{ route('news-show', ['id' => $post->id]) }}">{{ $post->title }}</a>
                     </h2>
                 </div>
-            </div>
-            {{--
-            <div class="media" style="margin-bottom: 1rem;">
-                <a class="media-left" href="{{ route('news-show', ['id' => $post->id]) }}">
-                    <img src="{{ url( $post->cover?$post->cover->path:'/img/placehold.png' ) }}" style="width: 50px; height: 50px; object-fit: cover;">
-                </a>
-                <div class="media-body">
-                    <h4 class="media-heading">{{ $post->title }}</h4>
-                </div>
-            </div>
-            --}}
+            </div>            
         @endforeach
         </div>
         {{ $posts->links() }}
