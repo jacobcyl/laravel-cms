@@ -47,9 +47,9 @@ class MediaController extends BaseController
         if($request->ajax()){
             if($request->get('from') == 'editor'){
                 if($file){
-                    return asset($file->path)
+                    return asset($file->path);
                 }else{
-                    return "error|上传图片失败"
+                    return "error|上传图片失败";
                 }
             }else{
                 if($file){
