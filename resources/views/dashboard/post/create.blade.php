@@ -151,6 +151,14 @@
                     }
                     return item;
                 });
+                
+                // 上传图片
+                editor.config.uploadImgFileName = 'file'
+                editor.config.uploadImgUrl = '/dashboard/media/upload/image/assets';
+                editor.config.uploadParams = {
+                    from: 'editor'
+                };
+    
                 editor.create();
             });
 
