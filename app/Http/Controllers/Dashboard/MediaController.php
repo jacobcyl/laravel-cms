@@ -42,20 +42,18 @@ class MediaController extends BaseController
      * @return \Illuminate\Http\JsonResponse
      */
     public function upload(Request $request, $type = 'image', $cate = 'assets'){
+        Log::debug($request->all());
         $file = FileUpload::handle($request->file('file'), 'uploads/posts');
 
-        if($request->ajax()){
-            if($request->get('from') == 'editor'){
-                if($file){
-                    return asset($file->path);
-                }else{
-                    return "error|上传图片失败";
-                }
+        if($request->get('from', '') == 'editor'){
+            if($file){
+                return $file->url;
             }else{
-                if($file){
-                    return response()->json($file);
-                }
+                return "error|上传图片失败";
             }
+        }
+        if($request->ajax() && $file){
+            return response()->json($file);
         }
         return 'failed';
     }
