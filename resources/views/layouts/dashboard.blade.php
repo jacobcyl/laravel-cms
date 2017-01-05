@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>SB Admin - Bootstrap Admin Template</title>
+    <title>Plurjan</title>
 
     <link href="{{ elixir('css/admin.css') }}" rel="stylesheet">
 
