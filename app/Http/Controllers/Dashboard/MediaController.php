@@ -44,8 +44,15 @@ class MediaController extends BaseController
     public function upload(Request $request, $type = 'image', $cate = 'assets'){
         $file = FileUpload::handle($request->file('file'), 'uploads/posts');
 
-        //if($file && Request::ajax())
-        return response()->json($file);
+        if($request->ajax()){
+            if($request->get('from') == 'editor'){
+                if($file) return asset($file->path)
+                else return "error|上传图片失败"
+            }else{
+                if($file) return response()->json($file);
+            }
+        }
+        return 'failed';
     }
     
 }
