@@ -64,6 +64,9 @@ class PostController extends BaseController
 
     public function edit($id){
         $post = $this->post->with(['cover'])->find($id);
+        if(!$post)
+            abort(404);
+        
         $categories = $this->category->withDepth()->where('cate_type', 'post')->get()->toFlatTree();
 
         return view('dashboard.post.edit', compact('post', 'categories'));
