@@ -88,7 +88,7 @@
                             <img class="scale-box" style="object-fit: cover" src="{{ url( $post->cover?$post->cover->path:'/img/placehold.png' ) }}"  />
                         </a>
                     </div>
-                    <h2 style="padding: 0 20px; margin:0">
+                    <h2 style="padding: 0 20px; margin:0;font-size: 1rem;">
                         <a title="{{ $post->title }}" href="{{ route('news-show', ['id' => $post->id]) }}">{{ $post->title }}</a>
                     </h2>
                     <div class="info">
