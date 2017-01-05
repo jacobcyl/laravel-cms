@@ -83,8 +83,8 @@
         @foreach($posts as $post)
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 img-item">
                 <div class="post-area" style="overflow: hidden;">
-                    <div style="background: #aaa;">
-                        <a href="{{ route('news-show', ['id' => $post->id]) }}" class="scale w-5-3-h">
+                    <div  class="scale w-5-3-h" style="background: #aaa;">
+                        <a href="{{ route('news-show', ['id' => $post->id]) }}">
                             <img class="scale-box" style="object-fit: cover" src="{{ url( $post->cover?$post->cover->path:'/img/placehold.png' ) }}"  />
                         </a>
                     </div>
