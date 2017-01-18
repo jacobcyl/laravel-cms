@@ -666,15 +666,16 @@
                 <div class="footer-banner">
                     <h3 class="footer-title">@lang('page.Technical support')</h3>
                     <ul>
-                        <li>@lang('page.Shanghai Institute of Ceramics, Chinese Academy of Sciences')</li>
-                        <li>@lang('page.High Performance Ceramics and ultrastructure of the State Key Laboratory')</li>
-                        <li>@lang('page.Structural ceramics and composite materials research center')</li>
+                        <!-- <li>@lang('page.Shanghai Institute of Ceramics, Chinese Academy of Sciences')</li> -->
+                        <!-- <li>@lang('page.High Performance Ceramics and ultrastructure of the State Key Laboratory')</li> -->
+                        <!-- <li>@lang('page.Structural ceramics and composite materials research center')</li> -->
                         <li>@lang('page.Shanghai PlurJian aviation co-production base')</li>
-                        <li>@lang('page.Foshan CAS Shanghai Institute of Silicate Ceramic Development Center')</li>
+                        <li>@lang('page.Guangzhou PlurJian aviation co-production base')</li>
+                        <!-- <li>@lang('page.Foshan CAS Shanghai Institute of Silicate Ceramic Development Center')</li> -->
                         <li>@lang('page.School of Energy and Power Engineering, Xi`an Jiaotong University')</li>
                         <li>@lang('page.Institute of Advanced Manufacturing Technology, Hefei Institute of Material Science, Chinese Academy of Sciences')</li>
                         <li>@lang('page.Central Iron & Steel Research Institute')</li>
-                        <li>@lang('page.Shanghai Institute of Ceramics, Chinese Academy of Sciences Advanced ceramic manufacturing technology development platform')</li>
+                        <!-- <li>@lang('page.Shanghai Institute of Ceramics, Chinese Academy of Sciences Advanced ceramic manufacturing technology development platform')</li> -->
                     </ul>
                 </div>
             </div>
