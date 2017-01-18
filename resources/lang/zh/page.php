@@ -65,6 +65,7 @@ return [
     'High Performance Ceramics and ultrastructure of the State Key Laboratory' => '高性能陶瓷和超微结构国家重点实验室',
     'Structural ceramics and composite materials research center' => '结构陶瓷和复合材料研究中心',
     'Shanghai PlurJian aviation co-production base' => '璞剑航空上海合作生产基地',
+    'Guangzhou PlurJian aviation co-production base' => '璞剑航空广州合作生产基地',
     'Foshan CAS Shanghai Institute of Silicate Ceramic Development Center' => '佛山中科院上海硅酸盐研究所陶瓷开发中心',
     'School of Energy and Power Engineering, Xi`an Jiaotong University' => '西安交通大学能源与动力工程学院',
     'Institute of Advanced Manufacturing Technology, Hefei Institute of Material Science, Chinese Academy of Sciences' => '中科院合肥物质科学研究院先进制造技术研究所',
