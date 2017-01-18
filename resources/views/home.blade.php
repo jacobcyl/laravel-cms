@@ -452,8 +452,8 @@
                 <p class="lead" style="margin-top:0">@lang('page.team deac')</p>
             </div>
 
-            <div class="col-sm-6 block wow bounceIn">
-                <!-- <div class="row">
+            <!-- <div class="col-sm-6 block wow bounceIn">
+                <div class="row">
                     <div class="col-md-3">
                         <img class="sm-item-img lazy" data-original="img/role1.png" alt="Micro-grooved thrust bearing">
                     </div>
@@ -465,7 +465,7 @@
                             @lang('page.role_1_desc')
                         </p>
                     </div>
-                </div> -->
+                </div> 
             </div>
             <div class="col-sm-6 block wow bounceIn">
                 <div class="row">
@@ -481,7 +481,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div class="row tworow">
