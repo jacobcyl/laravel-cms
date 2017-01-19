@@ -311,23 +311,6 @@
                     </div>
                 </a>
 
-                <a href="img/item25.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item25.png" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item26.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item26.png" alt="Owl Image">
-                    </div>
-                </a>
-                <a href="img/item27.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item27.png" alt="Owl Image">
-                    </div>
-                </a>
-
                 <a href="img/item40.png" class="image-link">
                     <div class="item">
                         <img  class="img-responsive img-rounded owl-lazy" data-src="img/item40.png" alt="Owl Image">

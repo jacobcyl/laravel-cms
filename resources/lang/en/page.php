@@ -97,7 +97,7 @@ return [
     'role_5_desc' => 'Tsinghua University mechanical engineering graduate, serving graduate students. Shanghai Pu Jian Aviation Technology Co., Ltd. mechanical engineer',
 
     'role_6_name' => 'Luo Lifeng',
-    'role_6_desc' => '-Chief engineer, Shanghai Institute of Ceramics, Chinese Academy of Sciences advanced ceramic manufacturing technology development platform; <br>-Designer of key technology in a small micro-gas turbine; <br>-Designer &inventor of self-sealing micro-grooved full dynamic pressure gas bearing system, impeller-like self-sealing micro grooved and elastic foil full dynamic pressure gas bearing system.',
+    'role_6_desc' => '-Chief engineer, Shanghai PlurJian Aviation Technology Co., Ltd.<br>-Designer of key technology in a small micro-gas turbine;<br>-Designer &inventor of self-sealing micro-grooved full dynamic pressure gas bearing system, impeller-like self-sealing micro grooved and elastic foil full dynamic pressure gas bearing system.',
 
     'role_7_name' => 'Lai Tianwei',
     'role_7_desc' => 'Master Instructor & Ph.D.,  School of Energy and Power Engineering,  Xi\'an Jiaotong University',
