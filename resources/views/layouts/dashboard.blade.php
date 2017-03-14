@@ -200,6 +200,33 @@
                 <li>
                     <a href="{{ url('dashboard/category') }}"><i class="fa fa-fw fa-folder-open-o"></i> 文章分类</a>
                 </li>
+                <li>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#album">
+                        <i class="fa fa-fw fa-picture-o"></i>
+                        相册管理
+                        <i class="fa fa-fw fa-caret-down"></i>
+                    </a>
+                    <ul id="album" class="collapse">
+                        <li>
+                            <a href="{{ url('dashboard/album') }}">相册列表</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('dashboard/album/create') }}">创建相册</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#options">
+                        <i class="fa fa-fw fa-cog"></i>
+                        网站设置
+                        <i class="fa fa-fw fa-caret-down"></i>
+                    </a>
+                    <ul id="options" class="collapse">
+                        <li>
+                            <a href="{{ url('dashboard/options/page') }}">页面显示设置</a>
+                        </li>
+                    </ul>
+                </li>
                 {{--<li>
                     <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
                 </li>
@@ -235,6 +262,15 @@
 
         <div class="container-fluid">
 
+            @if(count($errors->all()))
+                @foreach($errors->all('<li class="pad-y-5">:message</li>') as $message)
+                    <div class="alert alert-danger" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        {!! $message !!}
+                    </div>
+                @endforeach
+            @endif
+
             @yield('content')
 
         </div>
@@ -246,6 +282,15 @@
 </div>
 <!-- /#wrapper -->
 <script src="{{ elixir('js/admin.js') }}"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        window.setTimeout(function() {
+            $(".alert").fadeTo(500, 0).slideUp(500, function(){
+                $(this).remove();
+            });
+        }, 4000);
+    });
+</script>
 @yield('page_js')
 </body>
 

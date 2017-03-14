@@ -26,7 +26,7 @@ Route::group(['prefix'=>LaravelLocalization::setLocale()], function(){
     Route::get('/news/{id}', 'PostController@show')->name('news-show');
 });
 
-Route::group(['middleware'=>['web','auth'], 'prefix' => LaravelLocalization::setLocale().'/dashboard', 'namespace' => 'Dashboard', 'as' => 'dashboard.'], function (){
+Route::group(['middleware'=>['auth'], 'prefix' => LaravelLocalization::setLocale().'/dashboard', 'namespace' => 'Dashboard', 'as' => 'dashboard.'], function (){
     Route::get('/', [
         'as'   => 'index',
         'uses' => 'DashboardController@showDashboard',
@@ -59,4 +59,21 @@ Route::group(['middleware'=>['web','auth'], 'prefix' => LaravelLocalization::set
         Route::get('/list', 'MediaController@getList')->name('media-list');
         Route::post('/upload/{type}/{cate}', 'MediaController@upload')->name('media-upload');
     });
+
+    Route::group(['prefix' => '/album'], function(){
+        Route::get('/', 'AlbumController@index')->name('album-list');
+        Route::get('/show/{album_id}', 'AlbumController@show')->name('show-album');
+        Route::get('/create', 'AlbumController@create')->name('create-album');
+        Route::post('/store', 'AlbumController@store')->name('store-album');
+        Route::post('/{album_id}/add', 'AlbumController@addPhoto')->name('add-photo');
+        Route::get('/edit/{album_id}', 'AlbumController@edit')->name('edit-album');
+        Route::delete('/del/{album_id}', 'AlbumController@delAlbum')->name('delete-album');
+        Route::delete('/del-pic/{id}', 'AlbumController@delPhoto')->name('delete-photo');
+    });
+
+    Route::group(['prefix' => '/options'], function(){
+        Route::get('/page', 'OptionController@page')->name('page-option');
+        Route::post('/store', 'OptionController@store')->name('set-option');
+    });
+
 });

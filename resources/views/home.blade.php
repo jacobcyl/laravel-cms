@@ -292,101 +292,13 @@
         </div>
         <div class="row wow bounceInUp" >
             <div id="owl-demo" class="owl-carousel owl-theme">
-
-                <a href="img/item2.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item2.png" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item4.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item4.png" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item11.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item11.png" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item40.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item40.png" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item21.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item21.png" alt="Owl Image">
-                    </div>
-                </a>
-
-
-                <a href="img/item38.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item38.png" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item40.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item40.png" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item41.jpg" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item41.jpg" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item42.jpg" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item42.jpg" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item43.jpg" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item43.jpg" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item44.jpg" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item44.jpg" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item45.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item45.png" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item46.png" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item46.png" alt="Owl Image">
-                    </div>
-                </a>
-
-                <a href="img/item47.jpg" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item47.jpg" alt="Owl Image">
-                    </div>
-                </a>
-                <a href="img/item48.jpg" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item48.jpg" alt="Owl Image">
-                    </div>
-                </a>
-                <a href="img/item49.jpg" class="image-link">
-                    <div class="item">
-                        <img  class="img-responsive img-rounded owl-lazy" data-src="img/item49.jpg" alt="Owl Image">
-                    </div>
-                </a>
+                @foreach($album->photos as $photo)
+                    <a href="{{ asset($photo->url) }}" class="image-link">
+                        <div class="item">
+                            <img  class="img-responsive img-rounded owl-lazy" data-src="{{ asset($photo->url) }}" alt="{{ $photo->pivot->description }}">
+                        </div>
+                    </a>
+                @endforeach
             </div>
         </div>
     </div>
