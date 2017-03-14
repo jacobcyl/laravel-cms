@@ -17,11 +17,15 @@
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">首页展示相册</label>
                     <div class="col-sm-10">
-                        <select name="home-gallery-option" id="home-gallery-option" class="form-control changeable" data-key="home-gallery" data-cate="home">
-                            @foreach($albums as $album)
-                                <option @if($albumOption['option_value'] == $album->id) selected @endif value="{{ $album->id }}">{{ $album->name }}</option>
-                            @endforeach
-                        </select>
+                        @if($albums->count())
+                            <select name="home-gallery-option" id="home-gallery-option" class="form-control changeable" data-key="home-gallery" data-cate="home">
+                                @foreach($albums as $album)
+                                    <option @if($albumOption['option_value'] == $album->id) selected @endif value="{{ $album->id }}">{{ $album->name }}</option>
+                                @endforeach
+                            </select>
+                        @else
+                            <a class="btn btn-default" href="{{ route('dashboard.create-album') }}" role="button">您还没相册,创建一个相册吧</a>
+                        @endif
                     </div>
                 </div>
             </form>

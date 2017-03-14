@@ -33,7 +33,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $options = $this->option->findWhere(['option_cate', '=', 'home']);
+        $options = $this->option->findWhere(['option_cate'=>'home']);
         $albumOption = $options->where('option-name', 'home-gallery')->first();
         if($albumOption) $album = $this->album->find($albumOption['option_value']);
         else $album = $this->album->first();

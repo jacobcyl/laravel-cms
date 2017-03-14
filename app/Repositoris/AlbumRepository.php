@@ -22,4 +22,7 @@ class AlbumRepository extends Repository
         return Album::class;
     }
 
+    public function first(){
+        return $this->model->first();
+    }
 }

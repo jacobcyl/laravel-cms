@@ -25,8 +25,4 @@ class OptionRepository extends Repository
     public function updateOrCreate(array $searchData, array $saveData = []) {
         return $this->model->updateOrCreate($searchData, $saveData);
     }
-
-    public function first(){
-        return $this->model->first();
-    }
 }

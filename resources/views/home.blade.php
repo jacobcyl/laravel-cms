@@ -281,6 +281,7 @@
 
 </div>
 
+@if($album)
 <!-- Screenshot -->
 <div id="Gallery" class="content-section-b">
     <div class="container">
@@ -302,10 +303,8 @@
             </div>
         </div>
     </div>
-
-
 </div>
-
+@endif
 {{--
 <div  class="content-section-c ">
     <div class="container">
