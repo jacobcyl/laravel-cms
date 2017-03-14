@@ -83,6 +83,14 @@ class AlbumController extends BaseController
 
         return back()->withMessage('添加图片成功');
     }
+
+    public function delAlbum($album_id){
+        $album = $this->album->find($album_id);
+
+        $album->delete();
+
+        return back();
+    }
     
     public function delPhoto($album_id, $id){
         $media = Media::findOrFail($id);

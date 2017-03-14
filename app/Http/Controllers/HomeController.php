@@ -35,8 +35,13 @@ class HomeController extends Controller
     {
         $options = $this->option->findWhere(['option_cate'=>'home']);
         $albumOption = $options->where('option-name', 'home-gallery')->first();
-        if($albumOption) $album = $this->album->find($albumOption['option_value']);
-        else $album = $this->album->first();
+        if($albumOption){
+            $album = $this->album->find($albumOption['option_value']);
+            !album && $album = $this->album->first();
+        } else {
+            $album = $this->album->first();
+        }
+
 
         return view('home', compact('options', 'album'));
     }
