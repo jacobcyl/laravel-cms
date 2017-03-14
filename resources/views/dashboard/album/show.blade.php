@@ -40,13 +40,16 @@
         <div class="col-lg-9 col-md-9">
             @foreach($album->photos as $photo)
                 <div class="col-xs-6 col-md-3 img-item" data-id="" data-url="">
-                    <div class="thumbnail img-item-bd" title="" data-id="1" data-src="{{ $photo->thumb }}">
+                    <div class="thumbnail img-item-bd" style="position: relative;" title="" data-id="1" data-src="{{ $photo->thumb }}">
                         <div class="scale w-5-3-h">
                             <img class="scale-box" src="{{ $photo->thumb }}" alt="{{ $photo->origin_name }}" style="object-fit: cover">
                         </div>
                         <div class="caption item-label">
                             <span class="lbl-content">{{ $photo->pivot->description }}</span>
                         </div>
+                        <a href="{{ route('dashboard.delete-photo', ['album_id'=>$album->id,'id'=>$photo->id]) }}" onclick="return confirm('是否删除')" class="delete-photo" style="">
+                            <i class="fa fa-fw fa-trash"></i>
+                        </a>
                     </div>
                 </div>
             @endforeach
@@ -107,6 +110,17 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+
+        .thumbnail:hover .delete-photo{
+            display: block;
+        }
+        .delete-photo{
+            font-size: 18px;
+            display: none;
+            background: rgba(165, 166, 166, 0.63);
+            position: absolute; right: 0; padding: 9px; left:-2px; bottom: 0;
+            text-align: center;
         }
     </style>
 @endsection

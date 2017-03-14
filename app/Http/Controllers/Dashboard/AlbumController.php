@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Dashboard;
 
+use App\Models\Media;
 use App\Repositories\AlbumRepository as Album;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
@@ -81,5 +82,15 @@ class AlbumController extends BaseController
         $album->photos()->attach($request->get('photo_id'), ['description' => $request->get('description')]);
 
         return back()->withMessage('添加图片成功');
+    }
+    
+    public function delPhoto($album_id, $id){
+        $media = Media::findOrFail($id);
+        
+        $album = $this->album->find($album_id);
+
+        $album->photos()->detach($id);
+
+        return back();
     }
 }

@@ -67,8 +67,8 @@ Route::group(['middleware'=>['auth'], 'prefix' => LaravelLocalization::setLocale
         Route::post('/store', 'AlbumController@store')->name('store-album');
         Route::post('/{album_id}/add', 'AlbumController@addPhoto')->name('add-photo');
         Route::get('/edit/{album_id}', 'AlbumController@edit')->name('edit-album');
-        Route::delete('/del/{album_id}', 'AlbumController@delAlbum')->name('delete-album');
-        Route::delete('/del-pic/{id}', 'AlbumController@delPhoto')->name('delete-photo');
+        Route::get('/del/{album_id}', 'AlbumController@delAlbum')->name('delete-album');
+        Route::get('/del-photo/album/{album_id}/photo/{id}', 'AlbumController@delPhoto')->name('delete-photo');
     });
 
     Route::group(['prefix' => '/options'], function(){
