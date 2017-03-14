@@ -36,7 +36,7 @@
             @foreach($albums as $album)
                 <tr ng-repeat="model in displayedModels">
                     <td><a href="{{ route('dashboard.delete-album', ['id'=> $album->id]) }}" onclick="return confirm('是否删除')"><i class="fa fa-w fa-close"></i></a></td>
-                    <td><a href="{{ route('dashboard.edit-album', ['id'=> $album->id]) }}"><i class="fa fa-w fa-edit"></i></a></td>
+                    <td><a href="{{ route('dashboard.show-album', ['id'=> $album->id]) }}"><i class="fa fa-w fa-edit"></i></a></td>
                     <td>{{ $album->status }}</td>
                     <td>{!! $album->cover?'<img src="'.url($album->cover->path).'" height=40 />':'' !!}</td>
                     <td>{{ $album->created_at }}</td>
