@@ -57,3 +57,13 @@
         });
     </script>
 @endsection
+
+@section('page_css')
+    <style>
+        .status{ width: 10%}
+        .name{ width:10%}
+        .email{width:10%}
+        .message{width: 50%}
+        .created_at{width:20%}
+    </style>
+@endsection
