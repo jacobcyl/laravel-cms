@@ -58,8 +58,8 @@
 <!-- FullScreen -->
 <div class="intro-header">
     <div class="col-xs-12 text-center abcen1">
-        <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">@lang('page.slogan')</h1>
-        <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">@lang('page.ShangHai PlurJan Aviation Technology Co.,Ltd.')</h3>
+        <h1 class="h1_home wow fadeIn" style="color:#e0c53f;text-shadow: 1px 1px 2px black" data-wow-delay="0.4s">@lang('page.slogan')</h1>
+        <h3 class="h3_home wow fadeIn" style="color:#f1ca08;text-shadow: 1px 1px 2px black" data-wow-delay="0.6s">@lang('page.ShangHai PlurJan Aviation Technology Co.,Ltd.')</h3>
         <ul class="list-inline intro-social-buttons">
             <li><a href="#" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
             </li>

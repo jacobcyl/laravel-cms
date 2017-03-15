@@ -15,6 +15,12 @@
         <div class="col-lg-8 col-md-8">
             <form class="form-horizontal">
                 <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">首页背景图</label>
+                    <div class="col-sm-10">
+
+                    </div>
+                </div>
+                <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">首页展示相册</label>
                     <div class="col-sm-10">
                         @if($albums->count())
