@@ -421,6 +421,12 @@ NO MORE TABLES!! ;)
 	}
 }
 
+.refresh-captcha{
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+	background-color: #e1e6e8 !important;
+}
+
 
 
 

@@ -48,6 +48,9 @@ return [
 
     'Enter Name' => 'Enter Name',
     'Enter Email' => 'Enter Email',
+    'Enter Captcha' => 'Enter Captcha',
+    'Click To Refresh' => 'Click To Refresh',
+    'Submit' => 'Submit',
 
     'A special thanks to Death.' => 'A special thanks to Death.',
 

@@ -50,17 +50,18 @@ class HomeController extends Controller
         $rules = [
             'name'  => 'required',
             'email' => 'required|email',
-            'message' => 'required|min:3'
+            'message' => 'required|min:3',
+            'captcha' => 'required|captcha'
         ];
 
         $validator = Validator::make($request->all(), $rules);
 
         if($validator->fails()){
-            return back()->withErrors($validator)->withInput()->withMessage('Validation Error');
+            return response()->json(['errors'=>$validator->getMessageBag()->toArray()], 422);
         }
 
         Message::create($request->all());
 
-        return back()->withMessage('Add successfully');
+        return response()->json(['error'=>false, 'message'=>'submit successfully']);
     }
 }

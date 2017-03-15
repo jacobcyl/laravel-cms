@@ -26,6 +26,10 @@ Route::group(['prefix'=>LaravelLocalization::setLocale()], function(){
     Route::get('/news/{id}', 'PostController@show')->name('news-show');
 });
 
+Route::get('/get_captcha/{config?}', function (\Mews\Captcha\Captcha $captcha, $config = 'flat') {
+    return $captcha->src($config);
+});
+
 Route::group(['middleware'=>['auth'], 'prefix' => LaravelLocalization::setLocale().'/dashboard', 'namespace' => 'Dashboard', 'as' => 'dashboard.'], function (){
     Route::get('/', [
         'as'   => 'index',

@@ -28,6 +28,7 @@ elixir(function(mix) {
             'f/magnific-popup.css',
             'f/general.css',
             'f/owl.theme.default.css',
+            'jquery.toast.min.css'
             //'front.css'
         ], 'public/css/homepage.css')
         .styles([
@@ -53,6 +54,7 @@ elixir(function(mix) {
             'f/stickUp.min.js',
             'f/lazyload.js',
             'f/script.js',
+            'jquery.toast.min.js'
             //'front.js'
         ], 'public/js/homepage.js')
         .scripts([//front javascript files

@@ -489,7 +489,7 @@
                 <p class="lead" style="margin-top:0">@lang('page.A special thanks to Death.')</p>
             </div>
 
-            <form role="form" action="/contact" method="post" >
+            <form id="contact-form" role="form" action="/contact" method="post" >
                 {{ csrf_field() }}
                 <div class="col-md-6">
                     <div class="form-group">
@@ -516,7 +516,16 @@
                         </div>
                     </div>
 
-                    <input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="captcha" name="captcha" placeholder="@lang('page.Enter Captcha')" required  >
+                            <div data-refresh-config="flat" title="@lang('page.Click To Refresh')" class="input-group-addon refresh-captcha">
+                                {!! captcha_img('flat') !!}
+                            </div>
+                            <input type="submit" name="submit" id="submit" value="@lang('page.Submit')" class="btn wow tada btn-embossed btn-primary pull-right">
+                        </div>
+                    </div>
+
                 </div>
             </form>
 

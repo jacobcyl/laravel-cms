@@ -169,6 +169,8 @@ return [
         Krucas\Notification\NotificationServiceProvider::class,
 
         //Bkwld\Croppa\ServiceProvider::class
+
+        Mews\Captcha\CaptchaServiceProvider::class,
     ],
 
     /*
@@ -218,7 +220,8 @@ return [
         'TranslatableBootForm' => Propaganistas\LaravelTranslatableBootForms\Facades\TranslatableBootForm::class,
         'FileUpload' => App\Facades\FileUpload::class,
         'Notification' => Krucas\Notification\Facades\Notification::class,
-        //'Croppa' => Bkwld\Croppa\Facade::class
+        //'Croppa' => Bkwld\Croppa\Facade::class,
+        'Captcha' => Mews\Captcha\Facades\Captcha::class,
     ],
 
 ];

@@ -48,6 +48,9 @@ return [
 
     'Enter Name' => '请输入您的姓名',
     'Enter Email' => '请输入您的邮箱',
+    'Enter Captcha' => '请输入验证码',
+    'Click To Refresh' => '点击刷新验证码',
+    'Submit' => '提交',
 
     'A special thanks to Death.' => '非常感谢您的留言',
     'Chrysanthemum Area, Jiading District, Shanghai, China' => '中国·上海·嘉定·菊园新区',
