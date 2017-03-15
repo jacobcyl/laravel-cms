@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Dashboard;
 
 use App\Repositories\AlbumRepository;
+use App\Repositories\Criteria\LatestOrder;
 use App\Repositories\MessageRepository;
 use App\Repositories\OptionRepository as Option;
 use Illuminate\Http\Request;
@@ -30,7 +31,7 @@ class MessageController extends BaseController
      * get media list
      */
     public function index(Request $request){
-        //$this->album->pushCriteria(new LatestAssets());
+        $this->message->pushCriteria(new LatestOrder());
         $messages = $this->message->paginate(30);
         return view('dashboard.message.index', compact('messages'));
     }

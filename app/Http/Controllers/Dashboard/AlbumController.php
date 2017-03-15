@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Dashboard;
 
 use App\Models\Media;
 use App\Repositories\AlbumRepository as Album;
+use App\Repositories\Criteria\LatestOrder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
@@ -28,7 +29,7 @@ class AlbumController extends BaseController
      * get media list
      */
     public function index(Request $request){
-        //$this->album->pushCriteria(new LatestAssets());
+        $this->album->pushCriteria(new LatestOrder());
         $albums = $this->album->paginate(30);
 
         return view('dashboard.album.index', compact('albums'));
