@@ -1066,7 +1066,8 @@ color: #ECEBEB;
 			padding-top: 50px;
 			padding-bottom: 50px;
 			color: #f8f8f8;
-		    background-image: none; 
+		    /*background-image: none;*/
+			background: url(/img/intro/home_bg_m.jpg) no-repeat center center;
 			background-size: cover;
 			text-align: center;
 			background-color: #34495e;
@@ -1084,7 +1085,7 @@ color: #ECEBEB;
 		.button_down {display:none}
 		
 		.h1_home {
-    			font-size: 45px;
+    			font-size: 24px;
 		}
 		
 	}
