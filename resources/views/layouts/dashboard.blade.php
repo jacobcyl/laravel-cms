@@ -216,6 +216,18 @@
                     </ul>
                 </li>
                 <li>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#message">
+                        <i class="fa fa-fw fa-mail-forward"></i>
+                        留言管理
+                        <i class="fa fa-fw fa-caret-down"></i>
+                    </a>
+                    <ul id="message" class="collapse">
+                        <li>
+                            <a href="{{ route('dashboard.message-list') }}">信箱</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
                     <a href="javascript:;" data-toggle="collapse" data-target="#options">
                         <i class="fa fa-fw fa-cog"></i>
                         网站设置

@@ -71,6 +71,12 @@ Route::group(['middleware'=>['auth'], 'prefix' => LaravelLocalization::setLocale
         Route::get('/del-photo/album/{album_id}/photo/{id}', 'AlbumController@delPhoto')->name('delete-photo');
     });
 
+    Route::group(['prefix' => '/message'], function(){
+        Route::get('/', 'MessageController@index')->name('message-list');
+        Route::get('/read/{id}', 'MessageController@read')->name('read-message');
+        Route::get('/del/{id}', 'MessageController@del')->name('delete-message');
+    });
+
     Route::group(['prefix' => '/options'], function(){
         Route::get('/page', 'OptionController@page')->name('page-option');
         Route::post('/store', 'OptionController@store')->name('set-option');
