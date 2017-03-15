@@ -12,9 +12,18 @@
 <!-- /.row -->
 
 <div class="row">
+    <div class="col-md-4">
+        <span>选择封面</span>
+        <div class="scale w-5-3-h form-group" style="" data-uploaded="0">
+            {{--<input type="file" id="upload-field" value="上传封面图片">--}}
+            <div class="fill-box picker upload-box upload-flag"></div>
+            <div class="delete-cover">删除</div>
+        </div>
+    </div>
     <div class="col-md-8">
         <form action="{{ route('dashboard.store-album') }}" method="post">
             {{ csrf_field() }}
+            <input type="hidden" name="cover_id">
             <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
                 <label for="name">相册名</label>
                 <input type="text" class="form-control" id="name" name="name" placeholder="输入相册名称" value="{{ old('name') }}">
@@ -39,7 +48,6 @@
 @section('page_css')
     <link rel="stylesheet" type="text/css" href="/css/wangEditor/wangEditor.min.css">
     <style>
-
         .content{
             height:400px !important;
         }
