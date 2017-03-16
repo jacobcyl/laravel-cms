@@ -73,13 +73,17 @@ margin: auto;
 }
 
 .h1_home{
+	color:#e0c53f;
 	font-size: 50px;
 	font-family: arvo;
 	font-weight: 300;
 	letter-spacing: 6px;
 }
 
-.h3_home{font-weight: 300;}
+.h3_home{
+	color:#f1ca08;
+	font-weight: 300;
+}
 
 /*own carousel */
 
