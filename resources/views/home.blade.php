@@ -352,11 +352,11 @@
                         <div class="col-md-3">
                             <img class="sm-item-img lazy" style="height: 150px; object-fit: cover;" data-original="{{ $staff->avatar->path }}" alt="Micro-grooved thrust bearing">
                         </div>
-                        <div class="col-md-9" style="max-height:150px; overflow-y: scroll; overflow-x: hidden">
+                        <div class="col-md-9">
                             <h3 style="margin-top: 15px;">
                                 {{ $staff->title }}
                             </h3>
-                            <p>
+                            <p style="max-height:100px; overflow-y: scroll; overflow-x: hidden">
                                 {!! $staff->description !!}
                             </p>
                         </div>
