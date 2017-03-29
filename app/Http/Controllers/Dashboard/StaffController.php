@@ -59,7 +59,9 @@ class StaffController extends BaseController
         }
 
         $data = $request->all();
-        $data['description'] = str_replace(chr(13).chr(10), "<br />", $data['description']);
+        foreach ($data as $lang => $item){
+            isset($data[$lang]['description']) && $data[$lang]['description'] = str_replace(chr(13).chr(10), "<br />", $data[$lang]['description']);
+        }
 
         $staff = $this->staff->create($data);
         
