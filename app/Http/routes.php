@@ -86,4 +86,17 @@ Route::group(['middleware'=>['auth'], 'prefix' => LaravelLocalization::setLocale
         Route::post('/store', 'OptionController@store')->name('set-option');
     });
 
+
+    Route::group(['prefix'=>'/staff'], function(){
+        Route::get('/', 'StaffController@index')->name('staff-list');
+        Route::get('/create', 'StaffController@create')->name('create-staff');
+        Route::post('/store', 'StaffController@store')->name('store-staff');
+        Route::put('/update/{id}', 'StaffController@update')->name('update-staff');
+
+        Route::get('/delete/{id}', 'StaffController@delete')->name('delete-staff');
+        Route::get('/edit/{id}', 'StaffController@edit')->name('edit-staff');
+
+        Route::get('/move/{id}/{direct}', 'StaffController@move')->name('move-staff');
+    });
+
 });

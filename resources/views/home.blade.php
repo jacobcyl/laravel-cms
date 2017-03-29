@@ -336,8 +336,37 @@
 </div>
 --}}
 
-<!-- Credits -->
+<!-- Team -->
 <div id="Team" class="content-section-a team">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+                <h2>@lang('page.Team')</h2>
+                <p class="lead" style="margin-top:0">@lang('page.team deac')</p>
+            </div>
+        </div>
+        <div class="row">
+            @foreach($staffs as $staff)
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 block wow bounceIn staff-item">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="sm-item-img lazy" style="height: 150px; object-fit: cover;" data-original="{{ $staff->avatar->path }}" alt="Micro-grooved thrust bearing">
+                        </div>
+                        <div class="col-md-9" style="max-height:150px; overflow-y: scroll; overflow-x: hidden">
+                            <h3 style="margin-top: 15px;">
+                                {{ $staff->title }}
+                            </h3>
+                            <p>
+                                {!! $staff->description !!}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</div>
+{{--<div id="Team" class="content-section-a team">
     <div class="container">
         <div class="row">
 
@@ -477,7 +506,7 @@
             </div>            
         </div>
     </div>
-</div>
+</div>--}}
 
 <!-- Contact -->
 <div id="contact" class="content-section-a">

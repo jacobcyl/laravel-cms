@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use App\Models\Message;
 use App\Repositories\AlbumRepository;
+use App\Repositories\Criteria\OrderBy;
 use App\Repositories\OptionRepository;
+use App\Repositories\StaffRepository;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -14,16 +16,18 @@ class HomeController extends Controller
 
     protected $option;
     protected $album;
+    protected $staff;
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct(OptionRepository $option, AlbumRepository $album)
+    public function __construct(OptionRepository $option, AlbumRepository $album, StaffRepository $staff)
     {
         //$this->middleware('auth');
         $this->option = $option;
         $this->album = $album;
+        $this->staff = $staff;
     }
 
     /**
@@ -42,8 +46,10 @@ class HomeController extends Controller
             $album = $this->album->first();
         }
 
+        $this->staff->pushCriteria(new OrderBy(['order'=>'desc']));
+        $staffs = $this->staff->with(['avatar'])->all();
 
-        return view('home', compact('options', 'album'));
+        return view('home', compact('options', 'album', 'staffs'));
     }
 
     public function postContact(Request $request){

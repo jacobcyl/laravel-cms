@@ -112,6 +112,8 @@ return [
     'attributes' => [
         'postTitle' => '文章标题',
         'postContent' => '文章内容',
+        'staffTitle' => '名字',
+        'staffDescription' => '描述',
     ],
 
 ];

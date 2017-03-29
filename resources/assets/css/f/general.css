@@ -347,8 +347,12 @@ color: #ECEBEB;
 	max-height: 150px;
 	margin: 0 auto;
 	display: block;
+	max-width: 100%;
 }
 
+.staff-item{
+	margin-top: 20px;
+}
 
 /* Style for form modal */
 .content-style-form {

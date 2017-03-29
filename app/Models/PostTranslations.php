@@ -5,7 +5,7 @@ namespace App\Models;
 use App\Support\TranslateAuthor;
 use Illuminate\Database\Eloquent\Model;
 
-class PostTranlations extends Model
+class PostTranslations extends Model
 {
     use TranslateAuthor;
 

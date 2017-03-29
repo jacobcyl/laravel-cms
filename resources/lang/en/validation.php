@@ -112,6 +112,8 @@ return [
     'attributes' => [
         'postTitle' => 'Article Title',
         'postContent' => 'Article Content',
+        'staffTitle' => 'Name',
+        'staffDescription' => 'Description',
     ],
 
 ];

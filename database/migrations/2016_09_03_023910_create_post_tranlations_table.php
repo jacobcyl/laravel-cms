@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePostTranlationsTable extends Migration
+class CreatePostTranslationsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,7 +12,7 @@ class CreatePostTranlationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('post_tranlations', function (Blueprint $table) {
+        Schema::create('post_translations', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('post_id')->unsigned()->index()->comment('文章对应ID');
             $table->string('locale')->index()->comment('语言种类');
@@ -36,6 +36,6 @@ class CreatePostTranlationsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('post_tranlations');
+        Schema::drop('post_translations');
     }
 }

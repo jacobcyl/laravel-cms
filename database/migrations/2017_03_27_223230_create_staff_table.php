@@ -14,7 +14,9 @@ class CreateStaffTable extends Migration
     {
         Schema::create('staff', function (Blueprint $table) {
             $table->increments('id');
-            //$table->integer('order')//see https://segmentfault.com/a/1190000003817036
+            $table->integer('avatar_id')->comment('avatar');
+            $table->enum('status', ['publish', 'hidden'])->default('publish')->comment('status');
+            $table->integer('order')->comment('order');//see https://segmentfault.com/a/1190000003817036
             $table->timestamps();
         });
     }

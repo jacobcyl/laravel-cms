@@ -216,6 +216,21 @@
                     </ul>
                 </li>
                 <li>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#staff">
+                        <i class="fa fa-fw fa-male"></i>
+                        队员管理
+                        <i class="fa fa-fw fa-caret-down"></i>
+                    </a>
+                    <ul id="staff" class="collapse">
+                        <li>
+                            <a href="{{ route('dashboard.staff-list') }}"><i class="fa fa-fw fa-users"></i>队员列表</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('dashboard.create-staff') }}"><i class="fa fa-fw fa-user-plus"></i>添加成员</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
                     <a href="javascript:;" data-toggle="collapse" data-target="#message">
                         <i class="fa fa-fw fa-mail-forward"></i>
                         留言管理

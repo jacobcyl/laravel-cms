@@ -13,7 +13,7 @@ class Post extends Model
     //use Translateable;
 
 
-    public $translationModel = PostTranlations::class;
+    public $translationModel = PostTranslations::class;
 
     public $translatedAttributes = ['title', 'content', 'author', 'digest'];
     protected $fillable = ['published', 'cover_id'];
