@@ -19,7 +19,7 @@
                     <th class="delete"></th>
                     <th class="edit"></th>
                     <th st-sort="image" class="image st-sort">头像</th>
-                    <th st-sort="title" class="title st-sort">标题</th>
+                    <th st-sort="title" class="title st-sort" style="width:10%">标题</th>
                     <th st-sort="date" st-sort-default="reverse" class="date st-sort">描述</th>
                     <th st-sort="status" class="status st-sort">状态</th>
                     <th st-sort="action" class="action st-sort" style="width:10%">操作</th>
