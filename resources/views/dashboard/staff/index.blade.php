@@ -22,7 +22,7 @@
                     <th st-sort="title" class="title st-sort">标题</th>
                     <th st-sort="date" st-sort-default="reverse" class="date st-sort">描述</th>
                     <th st-sort="status" class="status st-sort">状态</th>
-                    <th st-sort="action" class="action st-sort">操作</th>
+                    <th st-sort="action" class="action st-sort" style="width:10%">操作</th>
                 </tr>
                 </thead>
 
@@ -33,7 +33,7 @@
                             <td><a href="{{ route('dashboard.edit-staff', ['id'=> $staff->id]) }}"><i class="fa fa-w fa-edit"></i></a></td>
                             <td>{!! $staff->avatar?'<img src="'.url($staff->avatar->path).'" height=40 />':'' !!}</td>
                             <td>{{ $staff->title }}</td>
-                            <td>{!! $staff->description !!}</td>
+                            <td>{!! str_replace(chr(13).chr(10), "<br />", $staff->description) !!}</td>
                             <td>{{ $staff->status }}</td>
                             <td>
                                 @if($key !== 0)

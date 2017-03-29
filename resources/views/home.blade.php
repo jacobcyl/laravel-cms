@@ -357,7 +357,7 @@
                                 {{ $staff->title }}
                             </h3>
                             <p style="max-height:100px; overflow-y: scroll; overflow-x: hidden">
-                                {!! $staff->description !!}
+                                {!! str_replace(chr(13).chr(10), "<br />", $staff->description) !!}
                             </p>
                         </div>
                     </div>

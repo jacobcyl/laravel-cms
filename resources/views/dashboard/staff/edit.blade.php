@@ -28,7 +28,7 @@
         <div class="col-xs-12 col-md-8 col-lg-8">
             {!! TranslatableBootForm::text(trans('validation.attributes.staffTitle'), 'title')
             ->placeholder('输入名字') !!}
-            {!! TranslatableBootForm::textarea(trans('validation.attributes.staffDescription'), 'transDescription')
+            {!! TranslatableBootForm::textarea(trans('validation.attributes.staffDescription'), 'description')
             ->addClass('content') !!}
         </div>
         <div class="col-xs-12 col-md-4 col-lg-4">
