@@ -30,7 +30,7 @@ class Kernel extends HttpKernel
             \Krucas\Notification\Middleware\NotificationMiddleware::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
-            \PragmaRX\Tracker\Vendor\Laravel\Middlewares\Tracker::class,
+            //\PragmaRX\Tracker\Vendor\Laravel\Middlewares\Tracker::class,
         ],
 
         'api' => [
