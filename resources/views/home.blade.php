@@ -356,7 +356,7 @@
                             <h3 style="margin-top: 15px;">
                                 {{ $staff->title }}
                             </h3>
-                            <p style="max-height:100px; overflow-y: scroll; overflow-x: hidden">
+                            <p style="max-height:100px; overflow-y: scroll; overflow-x: hidden; padding-right: 10px;">
                                 {!! str_replace(chr(13).chr(10), "<br />", $staff->description) !!}
                             </p>
                         </div>
@@ -366,149 +366,7 @@
         </div>
     </div>
 </div>
-{{--<div id="Team" class="content-section-a team">
-    <div class="container">
-        <div class="row">
 
-            <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-                <h2>@lang('page.Team')</h2>
-                <p class="lead" style="margin-top:0">@lang('page.team deac')</p>
-            </div>
-
-            <!-- <div class="col-sm-6 block wow bounceIn">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="sm-item-img lazy" data-original="img/role1.png" alt="Micro-grooved thrust bearing">
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            @lang('page.role_1_name')
-                        </h3>
-                        <p>
-                            @lang('page.role_1_desc')
-                        </p>
-                    </div>
-                </div> 
-            </div>
-            <div class="col-sm-6 block wow bounceIn">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="sm-item-img lazy" data-original="img/role2.png" alt="Micro-grooved thrust bearing">
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            @lang('page.role_2_name')
-                        </h3>
-                        <p>
-                            @lang('page.role_2_desc')
-                        </p>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-
-        <div class="row tworow">
-            <div class="col-sm-6  block wow bounceIn">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="sm-item-img lazy" data-original="img/role3.png" alt="Micro-grooved thrust bearing">
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            @lang('page.role_3_name')
-                        </h3>
-                        <p>
-                            @lang('page.role_3_desc')
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 block wow bounceIn">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="sm-item-img lazy" data-original="img/role4.png" alt="Micro-grooved thrust bearing">
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            @lang('page.role_4_name')
-                        </h3>
-                        <p>
-                            @lang('page.role_4_desc')
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row tworow">
-            <div class="col-sm-6 block wow bounceIn">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="sm-item-img lazy" data-original="img/role8.png" alt="Micro-grooved thrust bearing">
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            @lang('page.role_8_name')
-                        </h3>
-                        <p>
-                            @lang('page.role_8_desc')
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 block wow bounceIn">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="sm-item-img lazy" data-original="img/role6.png" alt="Micro-grooved thrust bearing">
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            @lang('page.role_6_name')
-                        </h3>
-                        <p>
-                            @lang('page.role_6_desc')
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row tworow">
-            <div class="col-sm-6  block wow bounceIn">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="sm-item-img lazy" data-original="img/role7.png" alt="Micro-grooved thrust bearing">
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            @lang('page.role_7_name')
-                        </h3>
-                        <p>
-                            @lang('page.role_7_desc')
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6  block wow bounceIn">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="sm-item-img lazy" data-original="img/role5.jpg" alt="Micro-grooved thrust bearing">
-                    </div>
-                    <div class="col-md-9">
-                        <h3>
-                            @lang('page.role_5_name')
-                        </h3>
-                        <p>
-                            @lang('page.role_5_desc')
-                        </p>
-                    </div>
-                </div>
-            </div>            
-        </div>
-    </div>
-</div>--}}
-
-<!-- Contact -->
 <div id="contact" class="content-section-a">
     <div class="container">
         <div class="row">

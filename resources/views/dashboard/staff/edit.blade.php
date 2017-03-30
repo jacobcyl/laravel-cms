@@ -46,6 +46,17 @@
                         <div class="delete-cover" @if($staff->avatar) style="display: block" @endif>删除</div>
                     </div>
                 </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">状态设置</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <select name="status" class="form-control">
+                            <option @if($staff->status == 'publish') selected @endif value="publish">公开</option>
+                            <option @if($staff->status == 'hidden') selected @endif value="hidden">隐藏</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="panel-footer">
                     <button type="submit" class="btn btn-primary">发布</button>
                 </div>

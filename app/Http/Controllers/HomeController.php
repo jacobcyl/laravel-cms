@@ -47,7 +47,7 @@ class HomeController extends Controller
         }
 
         $this->staff->pushCriteria(new OrderBy(['order'=>'desc']));
-        $staffs = $this->staff->with(['avatar'])->all();
+        $staffs = $this->staff->with(['avatar'])->findWhere(['status' => 'publish']);
 
         return view('home', compact('options', 'album', 'staffs'));
     }

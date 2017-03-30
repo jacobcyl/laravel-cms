@@ -14,6 +14,12 @@ return [
     'Contact Us' => 'Contact Us',
     'News' => 'News',
 
+    'View Details' => 'View Detail',
+    'New Message' => 'New Message',
+    'Article Count' => 'Article Count',
+    'Staff Count' => 'Staff Count',
+    'Album Count' => 'Album Count',
+
     'company_overview' => 'About PlurJan',
     'company_overview_content'  => 'Shanghai PlurJian Aviation Technology Co., Ltd. has been committed to the full dynamic pressure gas bearing system technology research and design, product development and manufacturing work, and in the Xi\'an Jiaotong University, Beijing Iron and Steel Research Institute, Chinese Academy of Sciences top technical support in many fields, Hefei Institute of physical Science Research Institute and other advanced manufacturing technology research establishments under the globally unique innovations, like the self-sealing micro channel impeller full dynamic pressure gas bearing system, like a self-sealing and impeller micro channel elastic foil full hybrid dynamic pressure gas bearing system, become the only domestic, the world\'s leading full-dynamic pressure gas bearing system technology and application research and manufacturing company.',
 

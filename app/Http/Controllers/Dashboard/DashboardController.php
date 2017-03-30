@@ -10,10 +10,30 @@ namespace App\Http\Controllers\Dashboard;
 
 
 use App\Http\Controllers\Controller;
+use App\Repositories\AlbumRepository;
+use App\Repositories\MessageRepository;
+use App\Repositories\PostRepository;
+use App\Repositories\StaffRepository;
 
 class DashboardController extends Controller
 {
+    protected $message;
+    protected $staff;
+    protected $post;
+    protected $album;
+    
+    public function __construct(MessageRepository $message, StaffRepository $staff, PostRepository $post, AlbumRepository $album){
+        $this->message = $message;
+        $this->staff = $staff;
+        $this->post = $post;
+        $this->album = $album;
+    }
+
     public function showDashboard(){
-        return view('dashboard.home.index');
+        $msgCount = $this->message->findWhere(['status' => 'unread'])->count();
+        $postCount = $this->post->all()->count();
+        $staffCount = $this->staff->findWhere(['status' => 'publish'])->count();
+        $albumCount = $this->album->all()->count();
+        return view('dashboard.home.index', compact('msgCount', 'postCount', 'staffCount', 'albumCount'));
     }
 }
