@@ -171,6 +171,7 @@ return [
         //Bkwld\Croppa\ServiceProvider::class
 
         Mews\Captcha\CaptchaServiceProvider::class,
+        PragmaRX\Tracker\Vendor\Laravel\ServiceProvider::class,
     ],
 
     /*
@@ -222,6 +223,7 @@ return [
         'Notification' => Krucas\Notification\Facades\Notification::class,
         //'Croppa' => Bkwld\Croppa\Facade::class,
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
+        'Tracker' => PragmaRX\Tracker\Vendor\Laravel\Facade::class,
     ],
 
 ];

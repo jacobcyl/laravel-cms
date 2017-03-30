@@ -100,3 +100,4 @@ Route::group(['middleware'=>['auth'], 'prefix' => LaravelLocalization::setLocale
     });
 
 });
+

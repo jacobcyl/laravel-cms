@@ -14,6 +14,8 @@ use App\Repositories\AlbumRepository;
 use App\Repositories\MessageRepository;
 use App\Repositories\PostRepository;
 use App\Repositories\StaffRepository;
+use Illuminate\Support\Facades\Log;
+use Tracker;
 
 class DashboardController extends Controller
 {
@@ -34,6 +36,8 @@ class DashboardController extends Controller
         $postCount = $this->post->all()->count();
         $staffCount = $this->staff->findWhere(['status' => 'publish'])->count();
         $albumCount = $this->album->all()->count();
+        $users = Tracker::onlineUsers();
+        Log::debug($users->count().' users');
         return view('dashboard.home.index', compact('msgCount', 'postCount', 'staffCount', 'albumCount'));
     }
 }
