@@ -36,8 +36,8 @@ class DashboardController extends Controller
         $postCount = $this->post->all()->count();
         $staffCount = $this->staff->findWhere(['status' => 'publish'])->count();
         $albumCount = $this->album->all()->count();
-        $users = Tracker::onlineUsers();
-        Log::debug($users->count().' users');
+        //$users = Tracker::onlineUsers();
+        //Log::debug($users->count().' users');
         return view('dashboard.home.index', compact('msgCount', 'postCount', 'staffCount', 'albumCount'));
     }
 }
