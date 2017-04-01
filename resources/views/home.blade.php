@@ -198,7 +198,7 @@
                 <div id="owl-demo-0" class="owl-carousel owl-theme">
                     <a href="img/image2.jpg" class="image-link">
                         <div class="item">
-                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/image2.jpeg"  alt="">
+                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/image2.jpg"  alt="">
                         </div>
                     </a>
                 </div>
