@@ -209,8 +209,8 @@
                 <p class="lead">
                     @lang('page.Prospects_desc_one')
                 </p>
-                <div class="table-responsive">
-                    <table class="table" style="font-size: 14px;">
+                <div class="table-responsive ">
+                    <table class="table table-bordered" style="font-size: 14px;">
                         <thead>
                             <tr class="active">
                                 <th style="width: 20%">@lang('page.Product Name')</th>
