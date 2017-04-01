@@ -375,7 +375,7 @@
             </div>
         </div>
         <div class="row">
-            @foreach($staffs as $staff)
+            @foreach($staffs as $key => $staff)
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 block wow bounceIn staff-item">
                     <div class="row">
                         <div class="col-md-3">
@@ -391,6 +391,7 @@
                         </div>
                     </div>
                 </div>
+                @if($key%2 == 1 )<div class="clearfix visible-xs-block"></div>@endif
             @endforeach
         </div>
     </div>

@@ -1068,10 +1068,13 @@ color: #ECEBEB;
 
 }
 
-@media only screen and (min-width: 992px){
+/*@media only screen and (min-width: 768px) and (max-width: 992px){
+	.staff-item {height: 285px;}
 	.staff-item p{max-height:90px; overflow-y: scroll; overflow-x: hidden; padding-right: 10px;}
-
 }
+@media only screen and (max-width: 992px){
+	.staff-item {height: 160px}
+}*/
 
 
 /* All Mobile Sizes (devices and browser) */
