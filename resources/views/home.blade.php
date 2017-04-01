@@ -196,7 +196,7 @@
 
             <div class="col-md-6 col-sm-6 col-sm-push-6 wow fadeInRightBig">
                 <div id="owl-demo-0" class="owl-carousel owl-theme">
-                    <a href="img/image2.jpeg" class="image-link">
+                    <a href="img/image2.jpg" class="image-link">
                         <div class="item">
                             <img  class="img-responsive img-rounded owl-lazy" data-src="img/image2.jpeg"  alt="">
                         </div>
