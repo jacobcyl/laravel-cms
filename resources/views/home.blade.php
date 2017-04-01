@@ -385,7 +385,7 @@
                             <h3 style="margin-top: 15px;">
                                 {{ $staff->title }}
                             </h3>
-                            <p style="max-height:90px; overflow-y: scroll; overflow-x: hidden; padding-right: 10px;">
+                            <p style="">
                                 {!! str_replace(chr(13).chr(10), "<br />", $staff->description) !!}
                             </p>
                         </div>

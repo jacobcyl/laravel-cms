@@ -1058,14 +1058,19 @@ color: #ECEBEB;
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	
-		h1, .h1 {
-			font-size: 50px;
-		}
-		
-		h3, .h3 {
-			font-size: 20px;
-		}
-		
+	h1, .h1 {
+		font-size: 50px;
+	}
+
+	h3, .h3 {
+		font-size: 20px;
+	}
+
+}
+
+@media only screen and (min-width: 992px){
+	.staff-item p{max-height:90px; overflow-y: scroll; overflow-x: hidden; padding-right: 10px;}
+
 }
 
 
@@ -1202,7 +1207,7 @@ color: #ECEBEB;
 
 	ul.banner-social-buttons > li:last-child {
 		margin-bottom: 0;
-	}	
+	}
 }
 
 footer {
