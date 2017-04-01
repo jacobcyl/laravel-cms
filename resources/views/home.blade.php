@@ -376,7 +376,7 @@
         </div>
         <div class="row">
             @foreach($staffs as $staff)
-                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 block wow bounceIn staff-item" style="height: 160px">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 block wow bounceIn staff-item">
                     <div class="row">
                         <div class="col-md-3">
                             <img class="sm-item-img lazy" style="height: 160px; object-fit: cover;" data-original="{{ $staff->avatar->path }}" alt="Micro-grooved thrust bearing">
