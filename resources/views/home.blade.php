@@ -196,14 +196,9 @@
 
             <div class="col-md-6 col-sm-6 col-sm-push-6 wow fadeInRightBig">
                 <div id="owl-demo-0" class="owl-carousel owl-theme">
-                    <a href="img/item21.png" class="image-link">
+                    <a href="img/image2.jpeg" class="image-link">
                         <div class="item">
-                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item21.png" alt="">
-                        </div>
-                    </a>
-                    <a href="img/item8.png" class="image-link">
-                        <div class="item">
-                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item8.png"  alt="">
+                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/image2.jpeg"  alt="">
                         </div>
                     </a>
                 </div>
@@ -213,7 +208,41 @@
                 <div class="sub-title lead3">@lang('page.Prospects_title_one')</div>
                 <p class="lead">
                     @lang('page.Prospects_desc_one')
-                </p>               
+                </p>
+                <div class="table-responsive">
+                    <table class="table" style="font-size: 14px;">
+                        <thead>
+                            <tr class="active">
+                                <th style="width: 20%">@lang('page.Product Name')</th>
+                                <th colspan="8">@lang('page.Model')</th>
+                            </tr>
+                        </thead>
+                        <tbody style="font-size: 12px;">
+                            <tr>
+                                <td>@lang('page.Micro-grooved thrust bearing')</td>
+                                <td>WZ-30</td>
+                                <td>WZ-40</td>
+                                <td>WZ-50</td>
+                                <td>WZ-60</td>
+                                <td>WZ-70</td>
+                                <td>WZ-80</td>
+                                <td>WZ-80</td>
+                                <td>WZ-100</td>
+                            </tr>
+                            <tr>
+                                <td>@lang('page.Micro-grooved thrust bearing')</td>
+                                <td>WJ-06</td>
+                                <td>WJ-12</td>
+                                <td>WJ-18</td>
+                                <td>WJ-24</td>
+                                <td>WJ-30</td>
+                                <td>WJ-36</td>
+                                <td>WJ-42</td>
+                                <td>WJ-48</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>

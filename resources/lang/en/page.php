@@ -20,6 +20,12 @@ return [
     'Staff Count' => 'Staff Count',
     'Album Count' => 'Album Count',
 
+    'Micro-grooved thrust bearing' => 'Micro-grooved thrust bearing',
+    'Micro-grooved journal bearing' => 'Micro-grooved journal bearing',
+    
+    'Model' => 'Model',
+    'Product Name' => 'Product Name',
+
     'company_overview' => 'About PlurJan',
     'company_overview_content'  => 'Shanghai PlurJian Aviation Technology Co., Ltd. has been committed to the full dynamic pressure gas bearing system technology research and design, product development and manufacturing work, and in the Xi\'an Jiaotong University, Beijing Iron and Steel Research Institute, Chinese Academy of Sciences top technical support in many fields, Hefei Institute of physical Science Research Institute and other advanced manufacturing technology research establishments under the globally unique innovations, like the self-sealing micro channel impeller full dynamic pressure gas bearing system, like a self-sealing and impeller micro channel elastic foil full hybrid dynamic pressure gas bearing system, become the only domestic, the world\'s leading full-dynamic pressure gas bearing system technology and application research and manufacturing company.',
 
@@ -90,28 +96,5 @@ return [
 <p>Superior performance and perfect, completely independent intellectual property rights of design and development and manufacturing technology in fully dynamic pressure gas bearing system. </p>
 <p>Five core foundation technology invention patent applications, 16 core foundation of applied technology invention patent applications, 19 PCT international patent applications, 22 utility model patents, nine Taiwan invention patent applications, a total of 71. Of which two are invention patents, six utility model patents have been authorized.</p>',
 
-    'role_1_name' => 'Dong Shaoming',
-    'role_1_desc' => 'Director, Center for Structural Ceramics and Composites, Shanghai Institute of Ceramics, Chinese Academy of Sciences; Senior Researcher, State Key Laboratory of High Performance Ceramics and Microstructure, Ph.D.',
-
-    'role_2_name' => 'Tao Shunyan',
-    'role_2_desc' => 'Director, Key Laboratory of Special Inorganic Coatings, Shanghai Institute of Ceramics, Chinese Academy of Sciences (Researcher, Ph.D.)',
-
-    'role_3_name' => 'Wang Rongchuan',
-    'role_3_desc' => 'Institute director & Professor level senior engineer of Hefei Institute of Material Science, Chinese Academy of Sciences Institute of Advanced Manufacturing Technology',
-
-    'role_4_name' => 'Hou Yu',
-    'role_4_desc' => 'Vice dean & Ph.D.,  School of Energy and Power Engineering,  Xi\'an Jiaotong University',
-
-    'role_5_name' => 'Guan Gungun',
-    'role_5_desc' => 'Tsinghua University mechanical engineering graduate, serving graduate students. Shanghai Pu Jian Aviation Technology Co., Ltd. mechanical engineer',
-
-    'role_6_name' => 'Luo Lifeng',
-    'role_6_desc' => '-Chief engineer, Shanghai PlurJian Aviation Technology Co., Ltd.<br>-Designer of key technology in a small micro-gas turbine;<br>-Designer &inventor of self-sealing micro-grooved full dynamic pressure gas bearing system, impeller-like self-sealing micro grooved and elastic foil full dynamic pressure gas bearing system.',
-
-    'role_7_name' => 'Lai Tianwei',
-    'role_7_desc' => 'Master Instructor & Ph.D.,  School of Energy and Power Engineering,  Xi\'an Jiaotong University',
-
-    'role_8_name' => 'Zhang Wenwei',
-    'role_8_desc' => 'Shanghai PlurJian Aviation Technology Co., Ltd. Flexible manufacturing technology experts, the total manufacturing process division',
-
+   
 ];
