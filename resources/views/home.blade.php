@@ -391,7 +391,7 @@
                         </div>
                     </div>
                 </div>
-                @if($key%2 == 1 )<div class="clearfix visible-xs-block"></div>@endif
+                @if($key%2 == 1 )<div class="clearfix visible-*-block"></div>@endif
             @endforeach
         </div>
     </div>
