@@ -20,9 +20,6 @@ return [
     'Staff Count' => '专家数量',
     'Album Count' => '相册数量',
 
-    'Micro-grooved thrust bearing' => '微沟槽式止推轴承',
-    'Micro-grooved journal bearing' => '微沟槽式径向轴承',
-
     'Model' => '型号',
     'Product Name' => '产品名',
 

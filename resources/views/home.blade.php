@@ -255,14 +255,9 @@
         <div class="row">
             <div class="col-sm-6 wow fadeInLeftBig">
                 <div id="owl-demo-1" class="owl-carousel owl-theme">
-                    <a href="img/item6.png" class="image-link">
+                    <a href="img/image5.jpg" class="image-link">
                         <div class="item">
-                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item6.png" alt="">
-                        </div>
-                    </a>
-                    <a href="img/item7.png" class="image-link">
-                        <div class="item">
-                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item7.png"  alt="">
+                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/image5.jpg"  alt="">
                         </div>
                     </a>
                 </div>
@@ -274,6 +269,41 @@
                 <p class="lead">
                     @lang('page.Prospects_desc_two')
                 </p>
+                <div class="table-responsive ">
+                    <table class="table table-bordered" style="font-size: 14px;">
+                        <thead>
+                        <tr class="active">
+                            <th style="width: 20%">@lang('page.Product Name')</th>
+                            <th colspan="8">@lang('page.Model')</th>
+                        </tr>
+                        </thead>
+                        <tbody style="font-size: 12px;">
+                        <tr>
+                            <td>@lang('page.Hybrid micro-grooved foil thrust bearing')</td>
+
+                            <td>HZ-30</td>
+                            <td>HZ-40</td>
+                            <td>HZ-50</td>
+                            <td>HZ-60</td>
+                            <td>HZ-70</td>
+                            <td>HZ-80</td>
+                            <td>HZ-90</td>
+                            <td>HZ-100</td>
+                        </tr>
+                        <tr>
+                            <td>@lang('page.Hybrid micro-grooved foil journal bearing')</td>
+                            <td>HJ-06</td>
+                            <td>HJ-12</td>
+                            <td>HJ-18</td>
+                            <td>HJ-24</td>
+                            <td>HJ-30</td>
+                            <td>HJ-36</td>
+                            <td>HJ-42</td>
+                            <td>HJ-48</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -284,9 +314,9 @@
         <div class="row">
             <div class="col-md-6 col-sm-6 col-sm-push-6 wow fadeInLeftBig">
                 <div id="owl-demo-2" class="owl-carousel owl-theme">
-                    <a href="img/item9.png" class="image-link">
+                    <a href="img/item6.png" class="image-link">
                         <div class="item">
-                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item9.png" alt="">
+                            <img  class="img-responsive img-rounded owl-lazy" data-src="img/item6.png" alt="">
                         </div>
                     </a>
                     <a href="img/item50.jpg" class="image-link">

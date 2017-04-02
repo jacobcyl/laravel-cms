@@ -20,9 +20,6 @@ return [
     'Staff Count' => 'Staff Count',
     'Album Count' => 'Album Count',
 
-    'Micro-grooved thrust bearing' => 'Micro-grooved thrust bearing',
-    'Micro-grooved journal bearing' => 'Micro-grooved journal bearing',
-    
     'Model' => 'Model',
     'Product Name' => 'Product Name',
 
