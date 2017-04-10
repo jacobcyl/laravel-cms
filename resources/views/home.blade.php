@@ -85,7 +85,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#home">@lang('page.PlurJan')</a>
+            <a class="navbar-brand" href="#home" style="padding: 0; margin: 5px 0; line-height: 50px">
+                <img src="/img/logo.png" style="width: 45px; height: 45px; float: left">
+                <span style="line-height: 50px;">@lang('page.PlurJan')</span>
+            </a>
         </div>
 
         <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
