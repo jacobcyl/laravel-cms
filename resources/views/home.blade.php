@@ -87,7 +87,7 @@
             </button>
             <a class="navbar-brand" href="#home" style="padding: 0; margin: 5px 0; line-height: 50px">
                 <img src="/img/logo.png" style="width: 45px; height: 45px; float: left">
-                <span style="line-height: 50px;">@lang('page.PlurJan')</span>
+                <span style="line-height: 50px; margin-left:20px">@lang('page.PlurJan')</span>
             </a>
         </div>
 
