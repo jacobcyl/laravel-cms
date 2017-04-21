@@ -490,15 +490,15 @@
                         @lang('page.Email_Company'): plurjan&#64;plur<!-- >@. -->jan&#46;com
                     </p>  
                     <p>  
-                        <strong>@lang('page.Business Or Cooperation Contact Email By Region'):</strong><br>
-                        @lang('page.Email_China'): cn&#64;plur<!-- >@. -->jan&#46;com<br>
-                        @lang('page.Email_Europe'): eu&#64;plur<!-- >@. -->jan&#46;com<br>
-                        @lang('page.Email_Eurasian'): ea&#64;plur<!-- >@. -->jan&#46;com<br>
-                        @lang('page.Email_North_America'): na&#64;plur<!-- >@. -->jan&#46;com<br>
-                        @lang('page.Email_South_America'): sa&#64;plur<!-- >@. -->jan&#46;com<br>
-                        @lang('page.Email_Asia'): asia&#64;plur<!-- >@. -->jan&#46;com<br>
-                        @lang('page.Email_Africa'): africa&#64;plur<!-- >@. -->jan&#46;com<br>
-                        @lang('page.Email_Oceania'): oceania&#64;plur<!-- >@. -->jan&#46;com
+                        <strong style="color:#928908">@lang('page.Business Or Cooperation Contact Email By Region'):</strong><br>
+                        @lang('page.Email_China'): <span style="color:#928908">cn&#64;plur<!-- >@. -->jan&#46;com</span><br>
+                        @lang('page.Email_Europe'): <span style="color:#928908">eu&#64;plur<!-- >@. -->jan&#46;com</span><br>
+                        @lang('page.Email_Eurasian'): <span style="color:#928908">ea&#64;plur<!-- >@. -->jan&#46;com</span><br>
+                        @lang('page.Email_North_America'): <span style="color:#928908">na&#64;plur<!-- >@. -->jan&#46;com</span><br>
+                        @lang('page.Email_South_America'): <span style="color:#928908">sa&#64;plur<!-- >@. -->jan&#46;com</span><br>
+                        @lang('page.Email_Asia'): <span style="color:#928908">asia&#64;plur<!-- >@. -->jan&#46;com</span><br>
+                        @lang('page.Email_Africa'): <span style="color:#928908">africa&#64;plur<!-- >@. -->jan&#46;com</span><br>
+                        @lang('page.Email_Oceania'): <span style="color:#928908">oceania&#64;plur<!-- >@. -->jan&#46;com</span>
                     </p>
                 </address>
 
