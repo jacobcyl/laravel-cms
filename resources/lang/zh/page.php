@@ -65,7 +65,17 @@ return [
     'Chrysanthemum Area, Jiading District, Shanghai, China' => '中国·上海·嘉定·菊园新区',
     'Phone' => '移动电话',
     'Tel' => '固定电话',
-    'Email' => '邮箱',
+    'Email_Company' => '公司邮箱',
+    'Business Or Cooperation Contact Email By Region' => '全球各地区联系邮箱',
+    'Email_China' => '中国地区',
+    'Email_Europe' => '欧洲地区',
+    'Email_Eurasian' => '欧亚地区',
+    'Email_North_America' => '北美洲地区',
+    'Email_South_America' => '南美洲地区',
+    'Email_Asia' => '亚洲地区',
+    'Email_Africa' => '非洲地区',
+    'Email_Oceania' => '大洋洲地区',
+
 
     'Office Location' => '联系方式',
     

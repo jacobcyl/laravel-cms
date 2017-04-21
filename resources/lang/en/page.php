@@ -66,7 +66,16 @@ return [
     'Chrysanthemum Area, Jiading District, Shanghai, China' => 'Chrysanthemum Area, Jiading District, Shanghai, China',
     'Phone' => 'Phone',
     'Tel' => 'Tel',
-    'Email' => 'Email',
+    'Email_Company' => 'Company Email',
+    'Business Or Cooperation Contact Email By Region' => 'Business Or Cooperation Contact Email By Region',
+    'Email_China' => 'China',
+    'Email_Europe' => 'Europe',
+    'Email_Eurasian' => 'Eurasian',
+    'Email_North_America' => 'North America',
+    'Email_South_America' => 'South America',
+    'Email_Asia' => 'Asia',
+    'Email_Africa' => 'Africa',
+    'Email_Oceania' => 'Oceania',
     
     'Office Location' => 'Office Location',
 

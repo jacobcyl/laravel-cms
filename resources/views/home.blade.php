@@ -486,9 +486,19 @@
                     <p class="lead"><a target="_blank" href="https://goo.gl/maps/hSLwsWHR4cw">
                         @lang('page.ShangHai PlurJan Aviation Technology Co.,Ltd.')<br>
                         @lang('page.Chrysanthemum Area, Jiading District, Shanghai, China') </a><br>
-                        @lang('page.Phone'): (+86)13916082128[普通话] &nbsp;&nbsp;or&nbsp;&nbsp;  (+86)13002934332[For English]<br>
-                        @lang('page.Tel'): (+86)021-55512352<br>
-                        @lang('page.Email'): plurjan&#64;gm<!-- >@. -->ail&#46;com</p>
+                        @lang('page.Email_Company'): plurjan&#64;plur<!-- >@. -->jan&#46;com
+                    </p>  
+                    <p>  
+                        <strong>@lang('page.Business Or Cooperation Contact Email By Region'):</strong>
+                        @lang('page.Email_China'): cn@&#64;plur<!-- >@. -->jan&#46;com
+                        @lang('page.Email_Europe'): eu@&#64;plur<!-- >@. -->jan&#46;com
+                        @lang('page.Email_Eurasian'): ea@&#64;plur<!-- >@. -->jan&#46;com
+                        @lang('page.Email_North_America'): na@&#64;plur<!-- >@. -->jan&#46;com
+                        @lang('page.Email_South_America'): sa@&#64;plur<!-- >@. -->jan&#46;com
+                        @lang('page.Email_Asia'): asia@&#64;plur<!-- >@. -->jan&#46;com
+                        @lang('page.Email_Africa'): africa@&#64;plur<!-- >@. -->jan&#46;com
+                        @lang('page.Email_Oceania'): oceania@&#64;plur<!-- >@. -->jan&#46;com
+                    </p>
                 </address>
 
                 <h3>@lang('page.Social')</h3>
