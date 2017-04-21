@@ -66,7 +66,7 @@ return [
     'Phone' => '移动电话',
     'Tel' => '固定电话',
     'Email_Company' => '公司邮箱',
-    'Business Or Cooperation Contact Email By Region' => '全球各地区联系邮箱',
+    'Business Or Cooperation Contact Email By Region' => '全球业务邮箱',
     'Email_China' => '中国地区',
     'Email_Europe' => '欧洲地区',
     'Email_Eurasian' => '欧亚地区',
