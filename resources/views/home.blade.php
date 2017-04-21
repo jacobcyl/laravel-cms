@@ -482,15 +482,15 @@
             <hr class="featurette-divider hidden-lg">
             <div class="col-md-5 col-md-push-1 address">
                 <address>
-                    <h3>@lang('page.Office Location')</h3>
+                    <h3 style="color:#1abc9c">@lang('page.Office Location')</h3>
                     <p class="lead"><a target="_blank" href="https://goo.gl/maps/hSLwsWHR4cw">
                         @lang('page.ShangHai PlurJan Aviation Technology Co.,Ltd.')<br>
                         @lang('page.Chrysanthemum Area, Jiading District, Shanghai, China') </a><br>
-                        @lang('page.Tel'): (+86)021-55512352<br>
-                        @lang('page.Email_Company'): plurjan&#64;plur<!-- >@. -->jan&#46;com
+                        @lang('page.Tel'): <span style="color:#928908">(+86)021-55512352</span><br>
+                        @lang('page.Email_Company'): <span style="color:#928908">plurjan&#64;plur<!-- >@. -->jan&#46;com</span>
                     </p>  
                     <p>  
-                        <strong style="color:#928908">@lang('page.Business Or Cooperation Contact Email By Region'):</strong><br>
+                        <strong style="color:#1abc9c">@lang('page.Business Or Cooperation Contact Email By Region'):</strong><br>
                         @lang('page.Email_China'): <span style="color:#928908">cn&#64;plur<!-- >@. -->jan&#46;com</span><br>
                         @lang('page.Email_Europe'): <span style="color:#928908">eu&#64;plur<!-- >@. -->jan&#46;com</span><br>
                         @lang('page.Email_Eurasian'): <span style="color:#928908">ea&#64;plur<!-- >@. -->jan&#46;com</span><br>
