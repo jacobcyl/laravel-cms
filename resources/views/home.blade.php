@@ -489,14 +489,14 @@
                         @lang('page.Email_Company'): plurjan&#64;plur<!-- >@. -->jan&#46;com
                     </p>  
                     <p>  
-                        <strong>@lang('page.Business Or Cooperation Contact Email By Region'):</strong>
-                        @lang('page.Email_China'): cn@&#64;plur<!-- >@. -->jan&#46;com
-                        @lang('page.Email_Europe'): eu@&#64;plur<!-- >@. -->jan&#46;com
-                        @lang('page.Email_Eurasian'): ea@&#64;plur<!-- >@. -->jan&#46;com
-                        @lang('page.Email_North_America'): na@&#64;plur<!-- >@. -->jan&#46;com
-                        @lang('page.Email_South_America'): sa@&#64;plur<!-- >@. -->jan&#46;com
-                        @lang('page.Email_Asia'): asia@&#64;plur<!-- >@. -->jan&#46;com
-                        @lang('page.Email_Africa'): africa@&#64;plur<!-- >@. -->jan&#46;com
+                        <strong>@lang('page.Business Or Cooperation Contact Email By Region'):</strong><br>
+                        @lang('page.Email_China'): cn@&#64;plur<!-- >@. -->jan&#46;com<br>
+                        @lang('page.Email_Europe'): eu@&#64;plur<!-- >@. -->jan&#46;com<br>
+                        @lang('page.Email_Eurasian'): ea@&#64;plur<!-- >@. -->jan&#46;com<br>
+                        @lang('page.Email_North_America'): na@&#64;plur<!-- >@. -->jan&#46;com<br>
+                        @lang('page.Email_South_America'): sa@&#64;plur<!-- >@. -->jan&#46;com<br>
+                        @lang('page.Email_Asia'): asia@&#64;plur<!-- >@. -->jan&#46;com<br>
+                        @lang('page.Email_Africa'): africa@&#64;plur<!-- >@. -->jan&#46;com<br>
                         @lang('page.Email_Oceania'): oceania@&#64;plur<!-- >@. -->jan&#46;com
                     </p>
                 </address>
