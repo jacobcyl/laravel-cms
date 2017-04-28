@@ -233,7 +233,7 @@
                                 <td>WZ-100</td>
                             </tr>
                             <tr>
-                                <td>@lang('page.Micro-grooved thrust bearing')</td>
+                                <td>@lang('page.Micro-grooved journal bearing')</td>
                                 <td>WJ-06</td>
                                 <td>WJ-12</td>
                                 <td>WJ-18</td>
