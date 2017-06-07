@@ -93,6 +93,7 @@ return [
     'Institute of Advanced Manufacturing Technology, Hefei Institute of Material Science, Chinese Academy of Sciences' => '中科院合肥物质科学研究院先进制造技术研究所',
     'Central Iron & Steel Research Institute' => '北京钢铁研究总院',
     'Shanghai Institute of Ceramics, Chinese Academy of Sciences Advanced ceramic manufacturing technology development platform' => '中科院上海硅酸盐研究所先进陶瓷制造技术开发平台',
+    'Department of Electrical Engineering, TsingHua University' => '清华大学机电系',
 
     'Know More' => '了解更多',
 
