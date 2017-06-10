@@ -63,7 +63,7 @@
         <ul class="list-inline intro-social-buttons">
             <li><a href="#" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
             </li>
-            <li id="contact_btn" ><a href="#contact" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">@lang('page.contact_us')</span></a>
+            <li id="contact_btn" ><a href="#contact" class="btn btn-success btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">@lang('page.contact_us')</span></a>
             </li>
         </ul>
     </div>
