@@ -101,7 +101,7 @@ return [
 <p>Research, development and manufacture of the whole dynamic key technology products and fundamental application products.</p>
 <p>Research and development of core infrastructure TECHNICAL FIELD miniature high-speed blowers, turbochargers, high-speed motor, turbojet engines, turbines and turbine generators and other components, assemblies. </p>
 <p>Superior performance and perfect, completely independent intellectual property rights of design and development and manufacturing technology in fully dynamic pressure gas bearing system. </p>
-<p>Five core foundation technology invention patent applications, 16 core foundation of applied technology invention patent applications, 19 PCT international patent applications, 22 utility model patents, nine Taiwan invention patent applications, a total of 71. Of which two are invention patents, six utility model patents have been authorized.</p>',
+<p>We own several globally unique innovations <br> 98 core innovations including 7 invention patents, 21 application invention patents, 19 PCT international patents, 22 utility model patents , 20 appearance patent applications and 9 Taiwan invention patents.</p>',
 
    
 ];
