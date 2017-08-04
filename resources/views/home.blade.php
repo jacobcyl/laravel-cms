@@ -489,6 +489,7 @@
                         @lang('page.Tel'): <span style="color:#928908">(+86)021-55512352</span><br>
                         @lang('page.Email_Company'): <span style="color:#928908">plurjan&#64;plur<!-- >@. -->jan&#46;com</span>
                     </p>  
+                    {{--
                     <p>  
                         <strong style="color:#1abc9c">@lang('page.Business Or Cooperation Contact Email By Region'):</strong><br>
                         @lang('page.Email_China'): <span style="color:#928908">cn&#64;plur<!-- >@. -->jan&#46;com</span><br>
@@ -500,8 +501,10 @@
                         @lang('page.Email_Africa'): <span style="color:#928908">africa&#64;plur<!-- >@. -->jan&#46;com</span><br>
                         @lang('page.Email_Oceania'): <span style="color:#928908">oceania&#64;plur<!-- >@. -->jan&#46;com</span>
                     </p>
+                    --}}
                 </address>
 
+                {--
                 <h3>@lang('page.Social')</h3>
                 <li class="social">
                     <a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
@@ -509,6 +512,7 @@
                     <a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
                     <a href="#"><i class="fa fa-flickr fa-size"> </i> </a>
                 </li>
+                --}
             </div>
         </div>
     </div>
