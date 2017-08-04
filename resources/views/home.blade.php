@@ -504,7 +504,7 @@
                     --}}
                 </address>
 
-                {--
+                {{--
                 <h3>@lang('page.Social')</h3>
                 <li class="social">
                     <a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
@@ -512,7 +512,7 @@
                     <a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
                     <a href="#"><i class="fa fa-flickr fa-size"> </i> </a>
                 </li>
-                --}
+                --}}
             </div>
         </div>
     </div>
