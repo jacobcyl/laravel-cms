@@ -40,10 +40,10 @@ class CategoryRepository extends Repository
         Log::debug($input);
         $node = $this->create($input);
 
-        if($parent > 0){
-            $parentNode = $this->find($parent);
-            $parentNode->appendNode($node);
-        }
+        // if($parent > 0){
+        //     $parentNode = $this->find($parent);
+        //     $parentNode->appendNode($node);
+        // }
         
         return $node;
     }
