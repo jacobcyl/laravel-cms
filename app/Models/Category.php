@@ -11,5 +11,5 @@ class Category extends Model
 
     public $timestamps = false;
 
-    protected $fillable = ['name', 'cate_type'];
+    protected $fillable = ['name', 'cate_type', 'parent_id'];
 }
