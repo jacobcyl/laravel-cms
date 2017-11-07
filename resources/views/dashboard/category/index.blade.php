@@ -126,7 +126,7 @@
                    url: "{{ route('dashboard.store-category') }}",
                    data: {
                        cate_type: 'post',
-                       parent: parent,
+                       parent_id: parent,
                        name: name
                    },
                    success: function(data){
