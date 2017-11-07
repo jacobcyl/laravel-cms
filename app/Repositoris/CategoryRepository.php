@@ -2,6 +2,7 @@
 namespace App\Repositories;
 use App\Models\Category;
 use Bosnadev\Repositories\Eloquent\Repository;
+use Log;
 
 /**
  * Created by PhpStorm.
@@ -36,6 +37,7 @@ class CategoryRepository extends Repository
      * @return Category $node
      */
     public function createNode($parent, array $input){
+        Log::debug($input);
         $node = $this->create($input);
 
         if($parent > 0){
