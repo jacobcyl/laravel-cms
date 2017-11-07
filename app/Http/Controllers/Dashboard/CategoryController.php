@@ -35,7 +35,7 @@ class CategoryController extends BaseController
         ]);
 
         $validator->sometimes('parent_id', 'numeric|exists:categories,id', function($input){
-            return $input->parent > 0;
+            return $input->parent_id > 0;
         });
 
         if($validator->fails()){
