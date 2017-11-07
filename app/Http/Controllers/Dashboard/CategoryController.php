@@ -30,11 +30,11 @@ class CategoryController extends BaseController
     public function store(Request $request){
         $validator = Validator::make($request->all(), [
             'name' => 'required',
-            'parent' => 'required|numeric',
+            'parent_id' => 'required|numeric',
             'cate_type' => 'required'
         ]);
 
-        $validator->sometimes('parent', 'numeric|exists:categories,id', function($input){
+        $validator->sometimes('parent_id', 'numeric|exists:categories,id', function($input){
             return $input->parent > 0;
         });
 
@@ -42,7 +42,7 @@ class CategoryController extends BaseController
             return response()->json(['error'=>true, 'message'=>'表单验证错误']);
         }
 
-        $parent = $request->get('parent');
+        $parent = $request->get('parent_id');
         $node = $this->category->createNode($parent, $request->all());
 
         return $request->ajax()?response()->json($node):back();
