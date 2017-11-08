@@ -134,7 +134,13 @@
             </div>--}}
             <div class="col-md-12 wrap_title">
                 <h3>@lang('page.company_overview')</h3>
-                <p class="lead" style="margin-top:0">@lang('page.company_overview_content')</p>
+                <p class="lead" style="margin-top:0">
+                    @if($about)
+                        {!! $about->content !!}
+                    @else
+                        @lang('page.company_overview_content')
+                    @endif
+                </p>
             </div>
         </div>
 
