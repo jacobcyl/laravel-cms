@@ -37,13 +37,12 @@ class CategoryRepository extends Repository
      * @return Category $node
      */
     public function createNode($parent, array $input){
-        Log::debug($input);
         $node = $this->create($input);
 
-        // if($parent > 0){
-        //     $parentNode = $this->find($parent);
-        //     $parentNode->appendNode($node);
-        // }
+        if($parent > 0){
+            $parentNode = $this->find($parent);
+            $parentNode->appendNode($node);
+        }
         
         return $node;
     }
